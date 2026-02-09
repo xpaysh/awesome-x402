@@ -439,6 +439,7 @@ Projects building with or extending x402.
 - [BuffetPay](https://buffetpay.com) - Smart x402 payments with guardrails.
 - [Cal.com](https://cal.com) - Automated scheduling with payments.
 - [AIAgentStore.ai](https://aiagentstore.ai/developer) - Insights for founders with x402 payments.
+- [x402-agent](https://x402-agent.waif.workers.dev) - AI-powered API services gated by USDC micropayments on Base. Endpoints: structured data extraction ($0.01), smart contract security audit ($0.10), text summarization ($0.005). Built with Cloudflare Workers + Claude.
 
 ### DeFi & Finance
 
