@@ -434,6 +434,7 @@ Projects building with or extending x402.
 
 ### Tools & Services
 
+- [dTelecom STT](https://x402stt.dtelecom.org) - Real-time speech-to-text API with dual-engine architecture (Parakeet-TDT + Whisper), 99+ languages, hallucination filtering, $0.005/min. Built on dTelecom DePIN. [Python SDK](https://github.com/dTelecom/stt-client-python) | [TypeScript SDK](https://github.com/dTelecom/stt-client-ts)
 - [Apexti Toolbelt](https://apexti.io) - 1,500+ Web3 APIs via x402 MCP servers.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - [BuffetPay](https://buffetpay.com) - Smart x402 payments with guardrails.
