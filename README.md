@@ -434,6 +434,7 @@ Projects building with or extending x402.
 
 ### Tools & Services
 
+- [x402 API Network](https://x402.fatihai.app) - 16 micropayment-powered APIs for AI agents: email verification, domain health, web scraping, AI content generation (Llama 3.3 70B), DNS, WHOIS, SSL check, and more. Includes MCP server, Bazaar discovery, and .well-known/x402 manifest. ([GitHub](https://github.com/fatihdagustu20-hub/x402-api-network))
 - [Apexti Toolbelt](https://apexti.io) - 1,500+ Web3 APIs via x402 MCP servers.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - [BuffetPay](https://buffetpay.com) - Smart x402 payments with guardrails.
