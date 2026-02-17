@@ -90,6 +90,13 @@ Get started with x402 in minutes.
 
 Official and community implementations of the x402 protocol.
 
+### Go
+
+- [coinbase/x402](https://github.com/coinbase/x402/tree/main/go) ⭐ **Official** - Complete Go implementation.
+  - Core protocol types and utilities
+  - Payment verification and settlement logic
+  - Multi-chain support (Base, Base Sepolia, Ethereum, Solana)
+
 ### TypeScript/JavaScript
 
 - [x402-typescript](https://github.com/coinbase/x402/tree/main/typescript) ⭐ **Official** - Complete TypeScript implementation.
