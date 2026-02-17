@@ -453,6 +453,7 @@ Projects building with or extending x402.
 - [AIAgentStore.ai](https://aiagentstore.ai/developer) - Insights for founders with x402 payments.
 - [Einstein AI](https://emc2ai.io) - AI blockchain intelligence with 23 x402 endpoints. Whale tracking, smart money, launchpad monitoring, security audits.
 - [OpSpawn Screenshot API](https://github.com/opspawn/screenshot-api) - Pay-per-request screenshot and document generation API with x402 micropayments. $0.01/screenshot, $0.005/markdown conversion. USDC on Base.
+- [Moltalyzer](https://moltalyzer.xyz) - Three AI intelligence feeds for agents: hourly Moltbook community digests, daily GitHub trending repos, and daily Polymarket insider detection via x402 micropayments on Base.
 
 ### DeFi & Finance
 
