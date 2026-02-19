@@ -453,6 +453,7 @@ Projects building with or extending x402.
 - [AIAgentStore.ai](https://aiagentstore.ai/developer) - Insights for founders with x402 payments.
 - [Einstein AI](https://emc2ai.io) - AI blockchain intelligence with 23 x402 endpoints. Whale tracking, smart money, launchpad monitoring, security audits.
 - [OpSpawn Screenshot API](https://github.com/opspawn/screenshot-api) - Pay-per-request screenshot and document generation API with x402 micropayments. $0.01/screenshot, $0.005/markdown conversion. USDC on Base.
+- [httpay.xyz](https://httpay.xyz) - ~100 micro-API endpoints paywalled via x402 on Base. Fun, tools, analysis, games, predictions. $0.10-$1.00 USDC per call.
 
 ### DeFi & Finance
 
