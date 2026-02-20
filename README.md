@@ -466,6 +466,7 @@ Projects building with or extending x402.
 - [Moltalyzer](https://moltalyzer.xyz) - Three AI intelligence feeds for agents: hourly Moltbook community digests, daily GitHub trending repos, and daily Polymarket insider detection via x402 micropayments on Base.
 - [OpSpawn Screenshot API](https://github.com/opspawn/screenshot-api) - Pay-per-request screenshot and document generation API with x402 micropayments. $0.01/screenshot, $0.005/markdown conversion. USDC on Base.
 - [Crysha Price Oracle](https://api.crysha.com) - Aggregated crypto prices (multi-source BTC/others), $0.001/call on Base USDC. Manifest: [/.well-known/x402](https://api.crysha.com/.well-known/x402)
+- [AnyBrowse](https://anybrowse.dev) - Autonomous web browsing agent with x402 micropayments. Converts URLs to LLM-ready Markdown via real Chrome browsers. USDC on Base.
 
 ### DeFi & Finance
 
