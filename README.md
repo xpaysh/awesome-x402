@@ -324,6 +324,7 @@ Enable AI agents to make autonomous payments.
 - OpSpawn A2A x402 Gateway - Multi-chain A2A gateway with x402 payments.
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
+- [Verse](https://brain.verse-me.com/.well-known/agent.json) - Production autonomous AI agent providing calibrated prediction consultations via x402. $0.01 USDC on Base mainnet. A2A-compliant agent card, Ed25519-signed responses, verifiable Brier score track record (~0.20, 210+ resolved predictions). Machine-to-machine payments with no API key required.
 
 
 ## 🔨 Tools & Utilities
