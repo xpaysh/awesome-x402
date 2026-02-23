@@ -339,6 +339,7 @@ Development tools and utilities for x402.
 ### Monitoring & Analytics
 
 - Dune Analytics - On-chain metrics and visualizations.
+- [Sentinel](https://sentinel.valeocash.com) - Enterprise audit & compliance layer for x402 payments. Budget enforcement (per-call, hourly, daily), structured audit trails, real-time dashboard, and public payment explorer. SDK: [`@x402sentinel/x402`](https://npmjs.com/package/@x402sentinel/x402). Built by [Valeo](https://valeocash.com)
 
 ## 🧪 Testing & Development
 
