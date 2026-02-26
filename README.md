@@ -238,6 +238,7 @@ Full working examples and templates.
 - [Scout MCP](https://scout.hugen.tokyo) - Multi-source intelligence API for AI agents. Search across Hacker News, GitHub, npm, PyPI, Product Hunt, X/Twitter, and x402 Bazaar in one call. 10 endpoints from $0.001 USDC on Base. [Source](https://github.com/bartonguestier1725-collab/scout-mcp)
 - [Mailcheck API](https://mailcheck.hugen.tokyo) - Email validation for AI agents. Syntax, MX records, disposable domain detection, free provider check, role-based address detection, and typo suggestion. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-mailcheck-api)
 - [MoonMaker API](https://api.moonmaker.cc) - AI-native crypto data API with x402 pay-per-call. 11 endpoints: signals, market context, DeFi regime, institutions, ETF flows, DeFi yields, DEX alpha. $0.02–$0.10/call USDC on Base. No signup. [llms.txt](https://api.moonmaker.cc/llms.txt)
+- [x402 AI API — zeroreader](https://api.zeroreader.com) - 29 Cloudflare Workers AI models (LLM, Embeddings, Image Generation, Audio, Translation) via x402 micropayments. $0.001–$0.015 per request, USDC on Base. Supports streaming, batch processing, OpenAI-compatible format. [llms.txt](https://api.zeroreader.com/llms.txt) | [OpenAPI](https://api.zeroreader.com/openapi.json)
 - REST API with Auth Pricing - SIWE + dynamic pricing.
 
 ### Client Examples
