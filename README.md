@@ -309,6 +309,7 @@ Enable AI agents to make autonomous payments.
 - [MaximumSats MCP](https://github.com/joelklabo/maximumsats-mcp) - Lightning-native MCP tools with L402 micropayments and Nostr Web-of-Trust scoring APIs.
 - [Apollo Intelligence MCP Server](https://www.npmjs.com/package/@apollo_ai/mcp-proxy) - 26-tool MCP server covering intelligence feeds, crypto, OSINT, DeFi, proxy, and search. `npx @apollo_ai/mcp-proxy`. ([GitHub](https://github.com/bnmbnmai/mcp-proxy))
 - [Pylon MCP Server](https://www.npmjs.com/package/@pylonapi/mcp) - 20-tool MCP server for utility APIs: web extraction, search, translation, code execution, image generation, email, and more. `npx @pylonapi/mcp`. ([GitHub](https://github.com/pylon-apis/pylon-mcp))
+- [x402 Service Discovery](https://x402-discovery-api.onrender.com) - Quality-scored service discovery for AI agents. Find x402-payable APIs by keyword, capability, or category with uptime/latency signals. MCP server with 4 tools. $0.005 USDC/query on Base. [Demo](https://rplryan.github.io/ouroboros/demo.html) | [GitHub](https://github.com/rplryan/x402-discovery-mcp) | `pip install x402discovery`
 - [Scout MCP](https://scout.hugen.tokyo) - 10-tool MCP server for multi-source intelligence: HN, GitHub, npm, PyPI, Product Hunt, X/Twitter, x402 Bazaar search, and composite reports. $0.001–$0.25 USDC on Base. ([Source](https://github.com/bartonguestier1725-collab/scout-mcp))
 
 ### Agent Frameworks
@@ -464,6 +465,7 @@ Projects building with or extending x402.
 - [x402 API Network](https://x402.fatihai.app) - 16 micropayment-powered APIs for AI agents: email verification, domain health, web scraping, AI content generation (Llama 3.3 70B), DNS, WHOIS, SSL check, and more. Includes MCP server, Bazaar discovery, and .well-known/x402 manifest. ([GitHub](https://github.com/fatihdagustu20-hub/x402-api-network))
 - [dTelecom STT](https://x402stt.dtelecom.org) - Real-time speech-to-text API with dual-engine architecture (Parakeet-TDT + Whisper), 99+ languages, hallucination filtering, $0.005/min. Built on dTelecom DePIN. [Python SDK](https://github.com/dTelecom/stt-client-python) | [TypeScript SDK](https://github.com/dTelecom/stt-client-ts)
 - [BlockRun](https://blockrun.ai) - AI Gateway + Service Directory with 600+ x402 services indexed, trust scores, and 31+ AI models via pay-per-use USDC.
+- [x402 Service Discovery API](https://x402-discovery-api.onrender.com) - Runtime discovery layer for the x402 ecosystem. Quality signals (uptime, latency, health scores) on 16+ indexed services. MCP server (4 tools), 6 framework SDKs (LangChain, AutoGen, CrewAI, LlamaIndex, AgentKit, raw Python). $0.005/query USDC on Base, free catalog browse. [Demo](https://rplryan.github.io/ouroboros/demo.html) | [GitHub](https://github.com/rplryan/x402-discovery-mcp)
 - Apexti Toolbelt - 1,500+ Web3 APIs via x402 MCP servers.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - BuffetPay - Smart x402 payments with guardrails.
@@ -679,3 +681,4 @@ Looking for more awesome lists?
   <a href="https://discord.gg/x402">Discord</a> •
   <a href="https://twitter.com/x402org">Twitter</a>
 </p>
+
