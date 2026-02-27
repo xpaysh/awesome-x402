@@ -482,6 +482,7 @@ Projects building with or extending x402.
 - [MoonMaker API](https://api.moonmaker.cc) - AI-native crypto intelligence API. Real-time signals, market regime, institutional flows, DeFi yields & DEX alpha — pay per call via x402 USDC on Base. Built for AI agents.
 - [Bloomfilter](https://bloomfilter.xyz) - x402-powered domain registration API for AI agents. Register ICANN domains and manage DNS, paying with USDC on Base
 - [OpSpawn Bazaar](https://a2a.opspawn.com) - Suite of seven AI-powered x402 microservices including screenshot capture, sentiment analysis, summarization, translation, fact-checking, and entity extraction on Base network.
+- [SIBYL](https://sibylcap.com) - Autonomous crypto intelligence agent on Base. Three x402 endpoints: token scoring ($0.05), rug/honeypot detection ($0.02), and builder shipping velocity vs. market cap analysis ($0.10). ERC-8004 registered (Agent #20880). USDC on Base. Discovery: [Agent Card](https://sibylcap.com/8004.json) | [Domain Verification](https://sibylcap.com/.well-known/agent-registration.json)
 
 ### DeFi & Finance
 
