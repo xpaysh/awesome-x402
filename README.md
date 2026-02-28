@@ -164,6 +164,9 @@ Client libraries for making x402 payments.
 **HTTP Clients**
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
 
+**AI Agent SDKs**
+- [PayBot SDK](https://github.com/RBKunnela/paybot-sdk) - TypeScript SDK for integrating x402 payments into AI agents and bots. Supports automatic 402 detection, wallet management, and USDC payments on Base. ([npm](https://www.npmjs.com/package/paybot-sdk))
+
 **Wallet Integration**
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
 - [ethers.js](https://docs.ethers.org/) - Alternative Ethereum library.
@@ -238,6 +241,7 @@ Full working examples and templates.
 - [Scout MCP](https://scout.hugen.tokyo) - Multi-source intelligence API for AI agents. Search across Hacker News, GitHub, npm, PyPI, Product Hunt, X/Twitter, and x402 Bazaar in one call. 10 endpoints from $0.001 USDC on Base. [Source](https://github.com/bartonguestier1725-collab/scout-mcp)
 - [Mailcheck API](https://mailcheck.hugen.tokyo) - Email validation for AI agents. Syntax, MX records, disposable domain detection, free provider check, role-based address detection, and typo suggestion. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-mailcheck-api)
 - [MoonMaker API](https://api.moonmaker.cc) - AI-native crypto data API with x402 pay-per-call. 11 endpoints: signals, market context, DeFi regime, institutions, ETF flows, DeFi yields, DEX alpha. $0.02–$0.10/call USDC on Base. No signup. [llms.txt](https://api.moonmaker.cc/llms.txt)
+- [x402 AI API — zeroreader](https://api.zeroreader.com) - 29 Cloudflare Workers AI models (LLM, Embeddings, Image Generation, Audio, Translation) via x402 micropayments. $0.001–$0.015 per request, USDC on Base. Supports streaming, batch processing, OpenAI-compatible format. [llms.txt](https://api.zeroreader.com/llms.txt) | [OpenAPI](https://api.zeroreader.com/openapi.json)
 - REST API with Auth Pricing - SIWE + dynamic pricing.
 
 ### Client Examples
@@ -310,6 +314,9 @@ Enable AI agents to make autonomous payments.
 - [Apollo Intelligence MCP Server](https://www.npmjs.com/package/@apollo_ai/mcp-proxy) - 26-tool MCP server covering intelligence feeds, crypto, OSINT, DeFi, proxy, and search. `npx @apollo_ai/mcp-proxy`. ([GitHub](https://github.com/bnmbnmai/mcp-proxy))
 - [Pylon MCP Server](https://www.npmjs.com/package/@pylonapi/mcp) - 20-tool MCP server for utility APIs: web extraction, search, translation, code execution, image generation, email, and more. `npx @pylonapi/mcp`. ([GitHub](https://github.com/pylon-apis/pylon-mcp))
 - [Scout MCP](https://scout.hugen.tokyo) - 10-tool MCP server for multi-source intelligence: HN, GitHub, npm, PyPI, Product Hunt, X/Twitter, x402 Bazaar search, and composite reports. $0.001–$0.25 USDC on Base. ([Source](https://github.com/bartonguestier1725-collab/scout-mcp))
+- [Intelligence Aeternum](https://github.com/codex-curator/intelligence-aeternum-mcp) - First monetized MCP server marketplace. 2M+ museum artworks with x402 USDC micropayments on Base L2. 16 MCP tools for search, enrichment, and delivery. [Live](https://data-portal-172867820131.us-west1.run.app/mcp)
+- [x402 Service Discovery MCP](https://github.com/rplryan/x402-discovery-mcp) - MCP server enabling agents to discover x402-payable APIs at runtime with quality signals (uptime, latency, health scores). 4 tools: discover, browse, health check, register. Live demo at https://rplryan.github.io/ouroboros/demo.html
+- [PayBot MCP](https://github.com/RBKunnela/paybot-mcp) - MCP server enabling Claude and AI agents to make autonomous x402 payments. Supports wallet management, transaction history, and configurable spending limits. ([npm](https://www.npmjs.com/package/paybot-mcp))
 
 ### Agent Frameworks
 
@@ -339,6 +346,9 @@ Development tools and utilities for x402.
 ### Monitoring & Analytics
 
 - Dune Analytics - On-chain metrics and visualizations.
+- [Sentinel](https://sentinel.valeocash.com) - Enterprise audit & compliance layer for x402 payments. Budget enforcement (per-call, hourly, daily), structured audit trails, real-time dashboard, and public payment explorer. SDK: [`@x402sentinel/x402`](https://npmjs.com/package/@x402sentinel/x402). Built by [Valeo](https://valeocash.com)
+
+- * [ScoutScore](https://scoutscore.ai) - Trust scoring infrastructure for x402 services. Monitors 1,700+ services with continuous health checks and fidelity probes using a 4-pillar model (Contract Clarity, Availability, Response Fidelity, Identity & Safety). [API Docs](https://scoutscore.ai/docs) · [npm SDK](https://www.npmjs.com/package/@scoutscore/sdk) · [MCP Server](https://www.npmjs.com/package/@scoutscore/mcp-server)
 
 ## 🧪 Testing & Development
 
@@ -464,6 +474,7 @@ Projects building with or extending x402.
 - [x402 API Network](https://x402.fatihai.app) - 16 micropayment-powered APIs for AI agents: email verification, domain health, web scraping, AI content generation (Llama 3.3 70B), DNS, WHOIS, SSL check, and more. Includes MCP server, Bazaar discovery, and .well-known/x402 manifest. ([GitHub](https://github.com/fatihdagustu20-hub/x402-api-network))
 - [dTelecom STT](https://x402stt.dtelecom.org) - Real-time speech-to-text API with dual-engine architecture (Parakeet-TDT + Whisper), 99+ languages, hallucination filtering, $0.005/min. Built on dTelecom DePIN. [Python SDK](https://github.com/dTelecom/stt-client-python) | [TypeScript SDK](https://github.com/dTelecom/stt-client-ts)
 - [BlockRun](https://blockrun.ai) - AI Gateway + Service Directory with 600+ x402 services indexed, trust scores, and 31+ AI models via pay-per-use USDC.
+- [x402 Service Discovery API](https://x402-discovery-api.onrender.com) - Filtered directory with trust signals for x402 services. Quality-scored catalog with uptime tracking, latency metrics, and health status. Available via PyPI (`pip install x402discovery`), LangChain, CrewAI, AutoGen, LlamaIndex, and AgentKit integrations.
 - Apexti Toolbelt - 1,500+ Web3 APIs via x402 MCP servers.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - BuffetPay - Smart x402 payments with guardrails.
@@ -482,6 +493,8 @@ Projects building with or extending x402.
 - [MoonMaker API](https://api.moonmaker.cc) - AI-native crypto intelligence API. Real-time signals, market regime, institutional flows, DeFi yields & DEX alpha — pay per call via x402 USDC on Base. Built for AI agents.
 - [Bloomfilter](https://bloomfilter.xyz) - x402-powered domain registration API for AI agents. Register ICANN domains and manage DNS, paying with USDC on Base
 - [OpSpawn Bazaar](https://a2a.opspawn.com) - Suite of seven AI-powered x402 microservices including screenshot capture, sentiment analysis, summarization, translation, fact-checking, and entity extraction on Base network.
+- [Token Intelligence API](https://github.com/TKtokyo/token-intel-api) - EVM token security analysis with deterministic risk scoring and natural language summaries via x402 micropayments. Aggregates GoPlus contract, holder, and liquidity data in one request. $0.005 USDC on Base. Cloudflare Workers + Hono. [Live](https://token-intel-api.tatsu77.workers.dev)
+- [DJD AgentScore](https://github.com/djd-agent-score/djd-agent-score) – On-chain reputation scoring API for AI agent wallets. Returns a 0–100 trust score across 5 dimensions (identity, behavior, reliability, viability, capability) from x402 settlement history on Base. Free tier, no signup.
 - [SIBYL](https://sibylcap.com) - Autonomous crypto intelligence agent on Base. Three x402 endpoints: token scoring ($0.05), rug/honeypot detection ($0.02), and builder shipping velocity vs. market cap analysis ($0.10). ERC-8004 registered (Agent #20880). USDC on Base. Discovery: [Agent Card](https://sibylcap.com/8004.json) | [Domain Verification](https://sibylcap.com/.well-known/agent-registration.json)
 
 ### DeFi & Finance
