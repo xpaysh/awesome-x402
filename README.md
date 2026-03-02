@@ -334,6 +334,8 @@ Enable AI agents to make autonomous payments.
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 
+- [Human Pages](https://humanpages.ai) - The open directory AI agents use to hire humans for real-world tasks. Supports x402 pay-per-use for profile views ($0.05) and job offers ($0.25) in USDC on Base. Also available as an MCP server with 31 tools.
+
 
 ## 🔨 Tools & Utilities
 
