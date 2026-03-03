@@ -496,6 +496,7 @@ Projects building with or extending x402.
 - [Token Intelligence API](https://github.com/TKtokyo/token-intel-api) - EVM token security analysis with deterministic risk scoring and natural language summaries via x402 micropayments. Aggregates GoPlus contract, holder, and liquidity data in one request. $0.005 USDC on Base. Cloudflare Workers + Hono. [Live](https://token-intel-api.tatsu77.workers.dev)
 - [DJD AgentScore](https://github.com/djd-agent-score/djd-agent-score) – On-chain reputation scoring API for AI agent wallets. Returns a 0–100 trust score across 5 dimensions (identity, behavior, reliability, viability, capability) from x402 settlement history on Base. Free tier, no signup.
 - [SIBYL](https://sibylcap.com) - Autonomous crypto intelligence agent on Base. Three x402 endpoints: token scoring ($0.05), rug/honeypot detection ($0.02), and builder shipping velocity vs. market cap analysis ($0.10). ERC-8004 registered (Agent #20880). USDC on Base. Discovery: [Agent Card](https://sibylcap.com/8004.json) | [Domain Verification](https://sibylcap.com/.well-known/agent-registration.json)
+- [Agora402](https://agora402.fly.dev) - Composite trust scoring for AI agent wallets on Base. Aggregates 4 sources (escrow history, ERC-8004 identity, Moltbook social, Base chain activity) into a 0–100 trust score with confidence levels. $0.001 USDC on Base. MCP server: `npx agora402`. ([GitHub](https://github.com/michu5696/agora402))
 
 ### DeFi & Finance
 
