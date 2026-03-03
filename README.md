@@ -317,6 +317,7 @@ Enable AI agents to make autonomous payments.
 - [Intelligence Aeternum](https://github.com/codex-curator/intelligence-aeternum-mcp) - First monetized MCP server marketplace. 2M+ museum artworks with x402 USDC micropayments on Base L2. 16 MCP tools for search, enrichment, and delivery. [Live](https://data-portal-172867820131.us-west1.run.app/mcp)
 - [x402 Service Discovery MCP](https://github.com/rplryan/x402-discovery-mcp) - MCP server enabling agents to discover x402-payable APIs at runtime with quality signals (uptime, latency, health scores). 4 tools: discover, browse, health check, register. Live demo at https://rplryan.github.io/ouroboros/demo.html
 - [PayBot MCP](https://github.com/RBKunnela/paybot-mcp) - MCP server enabling Claude and AI agents to make autonomous x402 payments. Supports wallet management, transaction history, and configurable spending limits. ([npm](https://www.npmjs.com/package/paybot-mcp))
+- [AiPayGent MCP](https://aipaygent.xyz) - 79-tool MCP server exposing 200+ Claude-powered API endpoints (web intelligence, scraping, research, social) via x402 micropayments on Base. `npx aipaygent`. ([npm](https://www.npmjs.com/package/aipaygent)) ([GitHub](https://github.com/djautomd-lab/aipaygent))
 
 ### Agent Frameworks
 
@@ -473,6 +474,7 @@ Projects building with or extending x402.
 - [CrossFin](https://crossfin.dev) — x402 Agent Services Gateway with 15 paid Korean market data APIs (Kimchi Premium, KOSPI, Bithumb, Upbit, Coinone, FX, headlines, trading signals). First financial data APIs in the x402 ecosystem. MCP server included.
 - [x402 API Network](https://x402.fatihai.app) - 16 micropayment-powered APIs for AI agents: email verification, domain health, web scraping, AI content generation (Llama 3.3 70B), DNS, WHOIS, SSL check, and more. Includes MCP server, Bazaar discovery, and .well-known/x402 manifest. ([GitHub](https://github.com/fatihdagustu20-hub/x402-api-network))
 - [dTelecom STT](https://x402stt.dtelecom.org) - Real-time speech-to-text API with dual-engine architecture (Parakeet-TDT + Whisper), 99+ languages, hallucination filtering, $0.005/min. Built on dTelecom DePIN. [Python SDK](https://github.com/dTelecom/stt-client-python) | [TypeScript SDK](https://github.com/dTelecom/stt-client-ts)
+- [AiPayGent](https://aipaygent.xyz) - AI agent API marketplace with 200+ Claude-powered endpoints (web scraping, search, research, social intelligence) monetized via x402 on Base. 79-tool MCP server, LangChain/LlamaIndex SDKs, and fiat fallback via Stripe. ([GitHub](https://github.com/djautomd-lab/aipaygent))
 - [BlockRun](https://blockrun.ai) - AI Gateway + Service Directory with 600+ x402 services indexed, trust scores, and 31+ AI models via pay-per-use USDC.
 - [x402 Service Discovery API](https://x402-discovery-api.onrender.com) - Filtered directory with trust signals for x402 services. Quality-scored catalog with uptime tracking, latency metrics, and health status. Available via PyPI (`pip install x402discovery`), LangChain, CrewAI, AutoGen, LlamaIndex, and AgentKit integrations.
 - Apexti Toolbelt - 1,500+ Web3 APIs via x402 MCP servers.
