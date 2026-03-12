@@ -562,6 +562,7 @@ Live metrics and on-chain analytics for the x402 ecosystem.
 
 - [Dune Analytics x402](https://dune.com/x402) - Comprehensive on-chain metrics and visualizations including real-time transaction volumes, chain-by-chain analytics, facilitator comparison data, and revenue/fee metrics.
 - [x402scan Explorer](https://x402scan.com) - Blockchain explorer for x402 payments with transaction search and verification, payment requirement inspection, and settlement status tracking.
+- [Valoria](https://x402.valoria.net) - x402 market intelligence with 90K+ services indexed and $46M+ tracked volume. Revenue rankings, service analysis, opportunity discovery, and pricing recommendations — all pay-per-call via x402.
 - [CoinGecko x402 Category](https://coingecko.com/en/categories/x402) - Token tracking and market data featuring $180M+ tracked market cap, price charts, trading volumes, and ecosystem token listings.
 
 ### Growth Metrics
