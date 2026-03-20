@@ -357,6 +357,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [PayCrow](https://github.com/michu5696/paycrow) - Escrow protection for autonomous agent payments. Trust scoring from 4 on-chain sources + USDC escrow with dispute resolution on Base. 10 MCP tools including safe_pay (trust-informed smart escrow) and trust_gate (go/no-go decision before payment). ([npm](https://www.npmjs.com/package/paycrow))
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) - MCP server for searching food/product/vehicle recalls. Accepts x402 payments, no account required, $0.025 USDC on Base per request. [Examples](https://github.com/Recall-Kitchen/rk-mcp/tree/master/examples/go)
 - [Human Pages](https://humanpages.ai) - The open directory AI agents use to hire humans for real-world tasks. Supports x402 pay-per-use for profile views ($0.05) and job offers ($0.25) in USDC on Base. Also available as an [MCP server](https://github.com/human-pages-ai/humanpages) with 31 tools.
+- [Know Your Human (Convrgent)](https://convrgent.ai/kyh) - Personality intelligence API for AI agents. 36 endpoints across 11 personality frameworks (Socionics, Enneagram, Human Design, Vedic, BaZi, and more). Deterministic heuristic engines, no LLM dependency. $0.10–$25 USDC on Base & Solana. Also available via [A2A](https://convrgent.ai/.well-known/agent.json) and [x402 Discovery](https://convrgent.ai/.well-known/x402).
 
 ### Agent Frameworks
 
