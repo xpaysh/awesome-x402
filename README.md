@@ -263,6 +263,7 @@ Full working examples and templates.
 - REST API with Auth Pricing - SIWE + dynamic pricing.
 - [PortsideLabs Places API](https://portsidelabs-x402-places-536698811508.us-west1.run.app) - Google Places API v1 proxy with x402 pay-per-request access. Exposes place detail lookup and full-text search via USDC micropayments on Base mainnet and Solana mainnet. $0.001 USDC per call.
 - [PortsideLabs KoinChappie](https://portsidelabs-x402-koinchappie-536698811508.us-west1.run.app) - Crypto signals API with x402 pay-per-request. Returns bull and bear signals for the top 10 cryptocurrencies by market cap across 8 timeframes (1m–1D) using SMA(14). Single-coin lookup supports any CryptoCompare symbol. USDC micropayments on Base mainnet and Solana mainnet. $0.001 USDC per call. 
+- [SwarmX](https://x402-swarms-production.up.railway.app) - Multi-agent AI orchestration with native x402 payments. 47 endpoints across 10 categories: contract audits ($0.03–$0.25), token diligence ($1), DeFi risk rating ($2), adversarial fact-checking ($0.25), code audits, SEO content, research reports, compliance checks, investment DD ($5), and trading data ($0.001). 15+ swarm architectures. Gemini + OpenAI dual LLM. TypeScript/ElizaOS plugin. Free tier (5 calls/day). ([GitHub](https://github.com/ItachiDevv/eliza-x402-swarms)) | ([Catalog](https://x402-swarms-production.up.railway.app/x402/catalog))
 
 ### Client Examples
 
@@ -563,6 +564,7 @@ Projects building with or extending x402.
 - [AgenticTotem Web Extractor](https://agentictotem.com/docs/web-extractor) - Send URLs + a JSON Schema. Get clean, structured data back. Powered by AI, paid per use — no keys, no accounts. ([MCP](https://agentictotem.com/mcp))
 
 - [Compintel](https://compintel.co) - AI-to-AI service platform with 4 x402-native APIs on Base (USDC). $0.01/request. [Polymarket API](https://polymarket.compintel.co) (live prediction market data with real-time probabilities), [Revenue Tracker](https://revenue-tracker.compintel.co) (revenue event tracking and analytics for AI services), [Webhook Service](https://webhook-service.compintel.co) (reliable webhook forwarding with retry logic), [Premium Analytics](https://premium-analytics.compintel.co) (event tracking, metrics, error monitoring, and latency analytics). Free tier available, paid tier via x402 (EIP-712 TransferWithAuthorization, Base/USDC). Machine-readable catalog: [catalog.json](https://compintel.co/catalog.json)
+- [SwarmX](https://github.com/ItachiDevv/eliza-x402-swarms) - Multi-agent orchestration platform with x402 micropayments. 47 endpoints, 39 MCP tools, 15+ swarm architectures (research pipelines, analysis panels, code review, debate). Gemini/OpenAI dual LLM. TypeScript. Also available as ElizaOS v2 plugin. ([Live API](https://x402-swarms-production.up.railway.app)) | ([Catalog](https://x402-swarms-production.up.railway.app/x402/catalog))
 
 ### Charity & Social Impact
 
