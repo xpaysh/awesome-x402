@@ -772,3 +772,8 @@ Looking for more awesome lists?
 </p>
 
 - Agentic Signal — paid BTC/ETH DCA signal API (x402 USDC on Base) + signed responses + proof/backtests. Docs: https://signal.agenticsignal.dev/docs
+
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/xpaysh-awesome-x402).
+
