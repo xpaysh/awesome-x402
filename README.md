@@ -576,6 +576,7 @@ Projects building with or extending x402.
 - [Signet](https://signet.sebayaki.com) - Onchain spotlight ads on Base — AI agents pay USDC via x402 to post ads. First mainnet x402 transaction on Base. [CLI](https://github.com/h1-hunt/signet-client)
 - **[x402-api](https://x402-api.fly.dev)** — Pay-per-call DeFi & crypto data API. 8 endpoints: price feeds, whale tracking, gas tracker, DEX quotes, token scanner, yield scanner, funding rates, wallet profiler. USDC micropayments on Base. ERC-8004 Agent #18763.
 - [DeFi Intelligence API](https://defi.hugen.tokyo) — Unified DeFi security, bridging, and analytics API for AI agents. 26 endpoints across three backends: GoPlus Security (token/address/NFT security, rugpull detection, phishing, tx simulation), LI.FI (cross-chain bridge quotes, routes, gas prices), and DeFi Llama (protocol TVL, fees, token prices, stablecoin data, DEX volumes). $0.005–$0.01 USDC on Base. Discovery: [/.well-known/x402](https://defi.hugen.tokyo/.well-known/x402)
+- [x402services](https://github.com/x402services/api) — DeFi data APIs for AI agents on Base. 8 endpoints: gas oracle, token price oracle, wallet analyzer, token security scanner, ENS resolution (forward + reverse), DEX trade simulation, and contract event history. $0.001–$0.01 USDC per call on Base (eip155:8453). Bazaar discovery enabled.
 
 ### Developer Tools
 
