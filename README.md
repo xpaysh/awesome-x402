@@ -181,6 +181,9 @@ Server-side integrations for accepting x402 payments.
 
 ### Node.js/TypeScript
 
+**Express / Hono**
+- [@moltrust/x402](https://www.npmjs.com/package/@moltrust/x402) - Trust score middleware for x402 endpoints. One line: `app.use(requireScore({ minScore: 60 }))`. Extracts paying wallet from X-Payment header, looks up MolTrust trust score, blocks agents below threshold with 403 + registration link. Zero dependencies. ([npm](https://www.npmjs.com/package/@moltrust/x402)) ([GitHub](https://github.com/MoltyCel/moltrust-x402))
+
 **Next.js**
 - [x402-next](https://www.npmjs.com/package/x402-next) - App Router middleware.
 - [Next.js route protection](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) - Complete app example.
