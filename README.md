@@ -550,6 +550,11 @@ Connect with the x402 community.
 
 ## 🌟 Ecosystem Projects
 
+### DeFi & Trading
+
+- [PoolPulse](https://poolpulse.poolpulse.workers.dev) - Pre-computed DEX execution signals (CLMM slippage, liquidity, MEV scores) for autonomous DeFi agents on Base. 30 Uniswap V3 + Aerodrome pools. Credit-based pricing: $0.001/T1, $0.02/T2, $0.25/T3. [OpenAPI](https://poolpulse.poolpulse.workers.dev/openapi.json) | [agent.json](https://poolpulse.poolpulse.workers.dev/.well-known/agent.json)
+
+
 Projects building with or extending x402.
 
 ### Infrastructure
