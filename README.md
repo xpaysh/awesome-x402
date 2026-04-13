@@ -289,6 +289,8 @@ Full working examples and templates.
 - [x402engine](https://x402engine.app) - Pay-per-call API gateway with 74 endpoints: 44 LLMs, image/video generation, crypto data, web search, code execution, TTS, travel, and IPFS. Multi-chain: USDC on Base, USDm on MegaETH, USDC on Solana. Discovery: [/.well-known/x402.json](https://x402engine.app/.well-known/x402.json) | [/.well-known/agent.json](https://x402engine.app/.well-known/agent.json). ([GitHub](https://github.com/agentc22/x402-engine)) | ([MCP](https://www.npmjs.com/package/x402engine-mcp))
 - [Trading Intelligence API](https://api.signalfuse.co) — Directional crypto trading signals fusing social sentiment, macro regime, and market structure. $0.001–$0.050 USDC per call on Base. 25 free credits per wallet. [Landing](https://signalfuse.co)
 
+- [Br0ski777 API Factory](https://www.x402scan.com/recipient/0x6E8B64638b24C6D625b045dD353120d850064E2E) - The largest x402 API catalog with 100 production APIs for AI agents across B2B enrichment, crypto/DeFi (7 Hyperliquid APIs), prediction markets, SEO, NLP, and utilities. Highlights: trust-score, twitter-scraper, email-verification, company-enrichment, prediction-markets, event-resolver. $0.001–$0.02 USDC per call on Base. No API keys required. ([GitHub](https://github.com/Br0ski777))
+
 ### Client Examples
 
 - [Axios Client](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) - Automatic payment handling.
