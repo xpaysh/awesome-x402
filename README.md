@@ -158,6 +158,7 @@ Real companies using x402 in production with proven scale and transaction volume
 
 ### Data & Social APIs
 
+- [agentsvc.io](https://agentsvc.io) - 20 utility tools for AI agents via x402 USDC micropayments on Base. Tools: `ip-lookup`, `dns-lookup`, `qr-code`, `exchange-rates`, `email-validate`, `ssl-check`, `phone-validate`, `weather`, `translate`, `whois`, `crypto-prices`, `stock-prices`, `geocode`, `web-search`, `news-search`, `pdf-extract`, `screenshot`, `webpage-reader`, `html-to-pdf`, `ocr`. $0.001–$0.008 USDC per call. No API keys, no signup. Auto-discovery: [/.well-known/agent-services.json](https://agentsvc.io/.well-known/agent-services.json) | [Catalog](https://agentsvc.io/api/v1/services) | [OpenAPI](https://agentsvc.io/api/openapi.json) | [MCP Server](https://agentsvc.io/mcp-server.mjs) | ([GitHub](https://github.com/jakobautomation/agentsvc-mcp))
 - [Xquik](https://xquik.com) - Real-time X (Twitter) data API with 7 MPP/x402 pay-per-use endpoints — tweet lookup, tweet search, user lookup, follower check, article extraction, media download, and trends. No accounts or subscriptions required. ([GitHub](https://github.com/Xquik-dev/tweetclaw)) ([npm](https://www.npmjs.com/package/@xquik/tweetclaw)) ([MCP Server](https://xquik.com/mcp))
 
 ### Enterprise Adoption
@@ -350,6 +351,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - [MAXIA](https://maxiaworld.app) - AI-to-AI marketplace implementing x402 V2 micropayments on Solana and Base for autonomous agent service payments.
 
 Enable AI agents to make autonomous payments.
+- [agentsvc.io MCP Server](https://agentsvc.io/mcp-server.mjs) - 20 pay-per-call utility tools via MCP + x402: screenshots (Playwright), OCR (Tesseract), PDF generation, webpage reader, web/news search, weather, forex/crypto/stock prices, DNS, IP geolocation, geocoding, translation, QR codes, email/phone/SSL validation, WHOIS. $0.001–$0.008 USDC per call on Base. Download: `curl -O https://agentsvc.io/mcp-server.mjs && npm install viem x402`. ([GitHub](https://github.com/jakobautomation/agentsvc-mcp)) ([Catalog](https://agentsvc.io/api/v1/services))
 - [Strale MCP Server](https://api.strale.io/mcp) - 250+ business data and compliance tools for AI agents via MCP. IBAN validation, VAT format checks, sanctions screening, company lookups, SSL certificate checks, domain reputation, and more. Each capability independently tested with quality scores. x402 USDC micropayments on Base. Also available as REST API.
 
 ### GPU Inference APIs
