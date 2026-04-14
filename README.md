@@ -4,6 +4,8 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/xpaysh/awesome-x402?style=social)](https://github.com/xpaysh/awesome-x402)
 
+
+- [agentsvc.io](https://agentsvc.io) — 20 utility tools via x402 USDC micropayments.
 ## Contents
 
 - [🎯 Quick Start - Become an x402 Champion](#-quick-start---become-an-x402-champion)
