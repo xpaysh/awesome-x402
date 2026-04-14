@@ -4,6 +4,8 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/xpaysh/awesome-x402?style=social)](https://github.com/xpaysh/awesome-x402)
 
+
+- [Example Tool](https://example.com) — Example tool description for awesome-x402.
 ## Contents
 
 - [🎯 Quick Start - Become an x402 Champion](#-quick-start---become-an-x402-champion)
