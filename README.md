@@ -288,6 +288,7 @@ Full working examples and templates.
 - [Product Reputation API](https://github.com/andichen0420/x402-reputation-api) — AI-powered product reputation intelligence from Reddit, HN & YouTube. Pay $0.03-$0.08 USDC per query for structured scores, dimensional analysis, and competitor comparisons. ([Live](https://x402-reputation-api-production.up.railway.app)) ([x402scan](https://www.x402scan.com/server/8ae848b3-ea71-4b2a-8ea1-fa6bec508ca5))
 - [x402engine](https://x402engine.app) - Pay-per-call API gateway with 74 endpoints: 44 LLMs, image/video generation, crypto data, web search, code execution, TTS, travel, and IPFS. Multi-chain: USDC on Base, USDm on MegaETH, USDC on Solana. Discovery: [/.well-known/x402.json](https://x402engine.app/.well-known/x402.json) | [/.well-known/agent.json](https://x402engine.app/.well-known/agent.json). ([GitHub](https://github.com/agentc22/x402-engine)) | ([MCP](https://www.npmjs.com/package/x402engine-mcp))
 - [Trading Intelligence API](https://api.signalfuse.co) — Directional crypto trading signals fusing social sentiment, macro regime, and market structure. $0.001–$0.050 USDC per call on Base. 25 free credits per wallet. [Landing](https://signalfuse.co)
+- [cipher-mcp-registry](https://cipher-mcp-registry.vercel.app) - x402-gated search for the Official Model Context Protocol Registry. Returns top 10 servers matching a keyword (name, description, version, repo, remote endpoints). $0.005 USDC/Base per call.
 
 ### Client Examples
 
