@@ -159,6 +159,7 @@ Real companies using x402 in production with proven scale and transaction volume
 ### Data & Social APIs
 
 - [Xquik](https://xquik.com) - Real-time X (Twitter) data API with 7 MPP/x402 pay-per-use endpoints — tweet lookup, tweet search, user lookup, follower check, article extraction, media download, and trends. No accounts or subscriptions required. ([GitHub](https://github.com/Xquik-dev/tweetclaw)) ([npm](https://www.npmjs.com/package/@xquik/tweetclaw)) ([MCP Server](https://xquik.com/mcp))
+- [Fly Labs Agentic Market](https://flylabs.fun/agents) - YouTube transcripts for AI agents. `POST /api/agents/transcribe` with a URL or videoId, pay $0.03 USDC on Base, get a stable v1.0 JSON payload: verbatim transcript, language, word count, time-indexed paragraphs, creator chapters, canonical metadata. Verbatim captions when available, Whisper fallback otherwise. No LLM rewrites. Transparent cache (`cache.hit`, `cachedAt`, `ageSec`). ([OpenAPI 3.1](https://flylabs.fun/api/agents/openapi.json)) ([Manifest](https://flylabs.fun/api/agents))
 
 ### Enterprise Adoption
 
