@@ -934,3 +934,5 @@ The missing real-world layer for x402. AI agents use AgentPay to find, book and 
 |  | Product search — online + local stores |
 |  | All chain info — ETH, Base, Polygon, ARB, OP, AVAX, BNB, SOL |
 
+
+- [x402-solana-data](https://x402-solana-data.onrender.com) - Real-time Solana trading data API. 6 endpoints for AI agents: trending tokens, token analysis, momentum, rug check, whales, snipe targets. USDC on Solana mainnet.
