@@ -383,6 +383,7 @@ Enable AI agents to make autonomous payments.
 ### Agent Verification & Security
 
 - [Achilles EP AgentIAM](https://achillesalpha.onrender.com/quickstart) — 5 AI agent verification endpoints (NoLeak, MemGuard, RiskOracle, SecureExec, FlowCore) on Base Mainnet. $0.01-$0.02 USDC per call via x402.
+- [Vaultfire](https://theloopbreaker.com) — On-chain trust infrastructure for AI agents. ERC-8004 identity, reputation, partnership/accountability bonds, ZK trust attestations, and VNS name service across 134 verified contracts on Base, Avalanche, Arbitrum, and Polygon. Pay-per-call x402 trust verification ($0.01-$0.05 USDC) on Base mainnet. Discovery via [x402.json](https://theloopbreaker.com/.well-known/x402.json) and [agent-card.json](https://theloopbreaker.com/.well-known/agent-card.json). ([GitHub](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init)) | ([SKILL.md](https://theloopbreaker.com/SKILL.md))
 
 ### GPU Inference APIs
 
