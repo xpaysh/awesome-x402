@@ -252,6 +252,7 @@ Server-side integrations for accepting x402 payments.
 - [FastAPI example](https://github.com/coinbase/x402/tree/main/examples/python) - Complete implementation.
 
 **Client Libraries**
+- [Bindu](https://github.com/GetBindu/Bindu) — Python agent server framework with native X402 payment middleware. Wrap any agent function with `bindufy()` to expose it as an x402-protected API endpoint.
 - [x402 Payment Harness](https://github.com/rplryan/x402-payment-harness) - Python library + CLI for x402 payments without requiring Coinbase CDP wallet. Works with any Ethereum EOA. Full HTTP 402 -> EIP-712 sign -> X-PAYMENT header flow. `pip install x402-payment-harness`. ([PyPI](https://pypi.org/project/x402-payment-harness/))
 - [MoltsPay Python](https://github.com/Yaqing2023/moltspay-python) - Python SDK for x402 agent payments. LangChain compatible. Auto-creates wallets, discovers services, pays via x402. Multi-chain: Base, Polygon, Solana, BNB. ([PyPI](https://pypi.org/project/moltspay/))
 
@@ -494,6 +495,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 
 ### Agent Frameworks
 
+- [Bindu](https://github.com/GetBindu/Bindu) — Identity, communication & payments layer for AI agents. Built-in X402 support to gate agent capabilities behind USDC micropayments. Supports DID-based identity, A2A communication, and agent discovery via the Bindu Directory.
 - [ATXP](https://github.com/atxp-dev/atxp) - Agent identity and funding platform. One command — `npx atxp agent register` — gives an agent a USDC wallet on Base, an `@atxp.email` inbox, a phone number, and 100+ paid tools (web search, image/video generation, LLM gateway). x402-compatible; agents can pay x402 endpoints directly from their ATXP balance. $5 free credit, no KYC. ([Docs](https://docs.atxp.ai))
 - [NEAR AI](https://near.ai) - Cross-chain agent settlements.
 - [Phidata Agents](https://github.com/phidatahq/phidata) - Multi-modal agents with x402.
@@ -667,6 +669,7 @@ Projects building with or extending x402.
 
 - [Coinbase Developer Platform](https://coinbase.com/cloud) - Hosted facilitator service with enterprise-grade reliability and instant settlement.
 - Cloudflare x402 - Edge payment processing.
+- [Bindu](https://github.com/GetBindu/Bindu) — Open-source operating layer that turns any AI agent into a production-ready microservice. Natively supports X402 for USDC payments on Base, alongside A2A and AP2 protocols. Framework-agnostic (Agno, CrewAI, LangChain, LlamaIndex). Apache 2.0. ⭐ [![Stars](https://img.shields.io/github/stars/getbindu/Bindu?style=social)]
 - [Hive Civilization](https://thehiveryiq.com) — 52-service x402-wired agent fleet on Base mainnet (treasury 0x15184bf50b3d3f52b60434f8942b7d52f2eb436e, USDC EIP-3009 settlement). Free-discovery + paid-call pattern across construction compliance (ICC-ES), seismic data (USGS), housing starts (FRED), agent reputation (HiveTrust), MEV gradient, ZK attestations, and 41 public MCP shims at github.com/srotzin (all v1.0.0). 51 entries on Anthropic MCP Registry. Public MEV leaderboard ([hive-a2amev](https://hive-a2amev.onrender.com/leaderboard)) and verifiable Spectral receipts. ([GitHub](https://github.com/srotzin)) | ([@hivecivilization/x402-helpers](https://github.com/srotzin/x402-helpers))
 - [Finance District Prism](https://developers.fd.xyz/prism/concepts/x402) - Payment gateway for agentic commerce with x402 support. SDKs for TypeScript, Python, and Java. Two-layer architecture: Prism (orchestration — API, SDKs, middleware) and Spectrum (on-chain stablecoin settlement across Base, Ethereum, Arbitrum, and BSC). ([Docs](https://developers.fd.xyz))
 - [Bermuda](https://www.bermudabay.xyz) - ZK-private HTTP payments for x402. Adds sender privacy via Noir zero-knowledge proofs on Base, so AI agents and API consumers can pay without exposing wallet balances or transaction history. ([GitHub](https://github.com/BermudaBay/sdk))
