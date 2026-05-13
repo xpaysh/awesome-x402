@@ -534,6 +534,7 @@ Development tools and utilities for x402.
 
 - [Foundry](https://getfoundry.sh/) - Smart contract development toolkit.
 - [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - `curl` for x402 paid APIs. Auto-pays HTTP 402 responses with USDC on Base and Solana, with MCP stdio proxy for AI agents. `npx x402-proxy`. ([npm](https://www.npmjs.com/package/x402-proxy))
+- [x402trace](https://github.com/fardinvahdat/x402trace) - Local CLI debugger for x402 payment flows on Base. Catches the canonical reconciliation bug (wallet debited but server thinks payment failed, [coinbase/x402#1062](https://github.com/coinbase/x402/issues/1062)), pre-flights wallets, and explains failed 402s with actionable fixes. `npx x402trace`. ([npm](https://www.npmjs.com/package/x402trace))
 
 ### Monitoring & Analytics
 
