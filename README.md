@@ -530,6 +530,8 @@ AI-powered research and translation services for the Asian market — no other x
 
 Development tools and utilities for x402.
 
+- [GateCheck by LarryBuildsAI](https://x402-resource-scanner.vercel.app) - Preflight checks for paid agent tools: public x402/OpenAPI/MCP metadata checks, unpaid `402` paid-path probes, agent-readiness scoring, launch-pack artifacts, and bounded receipts. Legacy Boundary Guard x402 identity is preserved for existing registry and xpay links. ([MCP](https://x402-resource-scanner.vercel.app/mcp) | [OpenAPI](https://x402-resource-scanner.vercel.app/openapi.json) | [Discovery](https://x402-resource-scanner.vercel.app/.well-known/x402))
+
 ### CLI Tools
 
 - [Foundry](https://getfoundry.sh/) - Smart contract development toolkit.
