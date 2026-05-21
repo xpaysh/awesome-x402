@@ -434,7 +434,7 @@ Enable AI agents to make autonomous payments.
 ### Agent Verification & Security
 
 - [Achilles EP AgentIAM](https://achillesalpha.onrender.com/quickstart) — 5 AI agent verification endpoints (NoLeak, MemGuard, RiskOracle, SecureExec, FlowCore) on Base Mainnet. $0.01-$0.02 USDC per call via x402.
-- [Boundary Guard](https://boundary-guard.vercel.app) - Pre-action checkpoint API for agents. Returns `allow`, `retry`, or `block` plus a deterministic receipt before downstream writes, sends, or other actions. Live docs and x402 inventory are published on the public host. ([GitHub](https://github.com/LarryLemonBot/boundary-guard))
+- [GateCheck by LarryBuildsAI](https://x402-resource-scanner.vercel.app) - Preflight checks for paid agent tools: public x402/OpenAPI/MCP metadata checks, unpaid `402` paid-path probes, agent-readiness scoring, launch-pack artifacts, and bounded receipts. Legacy Boundary Guard receipt identity is preserved for existing registry and xpay links. ([MCP](https://x402-resource-scanner.vercel.app/mcp) | [OpenAPI](https://x402-resource-scanner.vercel.app/openapi.json) | [Discovery](https://x402-resource-scanner.vercel.app/.well-known/x402) | [Glama metadata](https://x402-resource-scanner.vercel.app/.well-known/glama.json))
 - [Agent Passport System (APS)](https://github.com/aeoess/agent-passport-system) - Open-source governance and delegation layer for x402. Provides cryptographic agent identity, scoped delegation with spending caps, rotation-aware DID verification, and signed receipts with per-condition attestation. Apache 2.0.
 
 ### GPU Inference APIs
@@ -529,8 +529,6 @@ AI-powered research and translation services for the Asian market — no other x
 ## 🔨 Tools & Utilities
 
 Development tools and utilities for x402.
-
-- [GateCheck by LarryBuildsAI](https://x402-resource-scanner.vercel.app) - Preflight checks for paid agent tools: public x402/OpenAPI/MCP metadata checks, unpaid `402` paid-path probes, agent-readiness scoring, launch-pack artifacts, and bounded receipts. Legacy Boundary Guard x402 identity is preserved for existing registry and xpay links. ([MCP](https://x402-resource-scanner.vercel.app/mcp) | [OpenAPI](https://x402-resource-scanner.vercel.app/openapi.json) | [Discovery](https://x402-resource-scanner.vercel.app/.well-known/x402))
 
 ### CLI Tools
 
