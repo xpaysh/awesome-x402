@@ -12,7 +12,7 @@
 - [🚀 Quickstart Guides](#-quickstart-guides)
 - [⚙️ Protocol Implementations](#-protocol-implementations)
 - [🏭 Production Implementatdions](#-production-implementations)
-- [🛠️ SDKs & Client Libraries](#-sdks--client-libraries)
+- [🛠️ SDKs & Client Lib<raries](#-sdks--client-libraries)
 - [🔧 Server Frameworks & Middleware](#-server-frameworks--middleware)
 - [🏗️ Facilitators](#-facilitators)
 - [💡 Example Applications](#-example-applications)
@@ -228,7 +228,7 @@ Client libraries for making x402 payments.
 Server-side integrations for accepting x402 payments.
 
 ### Node.js/TypeScript
-
+- [@vdm-nexus/sdk](https://www.npmjs.com/package/@vdm-nexus/sdk) - Ed25519 agent identity + signed-request inference client for the Nexus signed-inference rail. Two runtime deps (tweetnacl, bs58), ESM-only. Companion packages: `@vdm-nexus/x402` (x402 client + `verifyReceipt`), `@vdm-nexus/paywall` (Express/Hono/Next.js middleware), `@vdm-nexus/mcp` (MCP server), `@vdm-nexus/ai-sdk-provider`, `@vdm-nexus/mastra-provider`. MIT.
 **Multi-Framework**
 - [monapi](https://monapi.dev) - One-line API monetization SDK. Wraps x402 setup into a single function call. Express, Next.js, and MCP support. Per-route pricing, Base/Arbitrum/Polygon, gas-free agent payments via EIP-3009. ([npm](https://www.npmjs.com/package/@monapi/sdk)) ([GitHub](https://github.com/DenisTheM/monapi))
 - [autonomagic-marketplace](https://www.npmjs.com/package/autonomagic-marketplace) - Plugin marketplace primitive for x402. Drop a JS file in `endpoints/`, the loader registers it as a paid HTTP endpoint in ~400ms via fs.watch (no restart, no manifest edits). Generates Bazaar-shape 402 challenge with EIP-712 extras, `/.well-known/x402.json` manifest, agent-card, and OpenAPI spec automatically. Zero runtime dependencies. Production-extracted from api.autonomagic.org's 22 paid endpoints. ([npm](https://www.npmjs.com/package/autonomagic-marketplace)) ([GitHub](https://github.com/premsreelathasugeendran/autonomagic-marketplace))
@@ -247,7 +247,7 @@ Server-side integrations for accepting x402 payments.
 - [Azeth Provider](https://github.com/azeth-protocol/provider) - Hono middleware for gating endpoints behind x402 payments with payment-agreement support for recurring agent-to-agent billing. ([npm](https://www.npmjs.com/package/@azeth/provider))
 
 ### Python
-
+- [vdm-nexus](https://pypi.org/project/vdm-nexus/) - Python port of the Nexus SDK + x402 client + `verify_receipt`. `pip install vdm-nexus`. MIT.
 **FastAPI**
 - [FastAPI example](https://github.com/coinbase/x402/tree/main/examples/python) - Complete implementation.
 
@@ -436,6 +436,7 @@ Enable AI agents to make autonomous payments.
 - [Achilles EP AgentIAM](https://achillesalpha.onrender.com/quickstart) — 5 AI agent verification endpoints (NoLeak, MemGuard, RiskOracle, SecureExec, FlowCore) on Base Mainnet. $0.01-$0.02 USDC per call via x402.
 - [Boundary Guard](https://boundary-guard.vercel.app) - Pre-action checkpoint API for agents. Returns `allow`, `retry`, or `block` plus a deterministic receipt before downstream writes, sends, or other actions. Live docs and x402 inventory are published on the public host. ([GitHub](https://github.com/LarryLemonBot/boundary-guard))
 - [Agent Passport System (APS)](https://github.com/aeoess/agent-passport-system) - Open-source governance and delegation layer for x402. Provides cryptographic agent identity, scoped delegation with spending caps, rotation-aware DID verification, and signed receipts with per-condition attestation. Apache 2.0.
+- [Nexus — Signed Inference](https://vdmnexus.com) - OpenAI-compatible `/chat/completions` for autonomous agents, gated by x402 on Solana mainnet and Base. Every paid call returns a v:2 Signed Inference Receipt — Ed25519 over a canonical JSON of the prompt hash, response hash, model, cost, and on-chain settlement tx — verifiable in three lines via `@vdm-nexus/x402` or at verify.vdmnexus.com. $0.01 USDC flat per call. SIR v2 spec, MIT source. ([GitHub](https://github.com/vdmnexus/vdmnexus)) | ([Docs](https://docs.vdmnexus.com)) | ([Spec](https://docs.vdmnexus.com/docs/spec/sir-v2)) | ([Verifier](https://verify.vdmnexus.com)) | ([Playground](https://vdmnexus.com/playground)) | ([npm](https://www.npmjs.com/package/@vdm-nexus/sdk)) | ([PyPI](https://pypi.org/project/vdm-nexus/))
 
 ### GPU Inference APIs
 
