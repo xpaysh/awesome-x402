@@ -11,7 +11,7 @@
 - [📖 Protocol Documentation](#-protocol-documentation)
 - [🚀 Quickstart Guides](#-quickstart-guides)
 - [⚙️ Protocol Implementations](#-protocol-implementations)
-- [🏭 Production Implementatdions](#-production-implementations)
+- [🏭 Production Implementations](#-production-implementations)
 - [🛠️ SDKs & Client Libraries](#-sdks--client-libraries)
 - [🔧 Server Frameworks & Middleware](#-server-frameworks--middleware)
 - [🏗️ Facilitators](#-facilitators)
