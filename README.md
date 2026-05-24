@@ -12,7 +12,7 @@
 - [🚀 Quickstart Guides](#-quickstart-guides)
 - [⚙️ Protocol Implementations](#-protocol-implementations)
 - [🏭 Production Implementatdions](#-production-implementations)
-- [🛠️ SDKs & Client Lib<raries](#-sdks--client-libraries)
+- [🛠️ SDKs & Client Libraries](#-sdks--client-libraries)
 - [🔧 Server Frameworks & Middleware](#-server-frameworks--middleware)
 - [🏗️ Facilitators](#-facilitators)
 - [💡 Example Applications](#-example-applications)
