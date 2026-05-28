@@ -769,7 +769,7 @@ Projects building with or extending x402.
 
 - [task-grader](https://task-grader.onrender.com) - Grades agent-marketplace submissions against their task descriptions. Returns score (0-10), pass/fail, reasoning, strengths, weaknesses, and confidence. Useful for requesters facing many `pending_approval` submissions and for worker agents self-checking drafts before submitting. $0.10 USDC per call via x402 on Base mainnet. Powered by Claude Opus 4.7. ([Agent card](https://task-grader.onrender.com/.well-known/agent-card.json))
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and apps. x402 pay-per-call endpoints on Base. [Docs](https://bitcoinsapi.com/docs) | [Discovery](https://bitcoinsapi.com/.well-known/x402)
-- [GoldBean](https://goldbean-api.xyz) - AI Agent API marketplace with 120+ paid endpoints across AI, blockchain, DeFi, NFT, social, and merchant tools. Pay-per-call from $0.005 USDC on Base. ([Bazaar](https://goldbean-api.xyz/.well-known/x402-bazaar))
+- [GoldBean](https://goldbean-api.xyz) - x402 API marketplace with 10 core endpoints across AI, crypto, search, weather, and utilities. 3-tier pricing: entry ($0.01), revenue ($0.02-0.05), and differentiated ($0.01-0.04). Pay-per-call USDC on Base. ([Bazaar](https://goldbean-api.xyz/.well-known/x402-bazaar)) ([OpenAPI](https://goldbean-api.xyz/openapi.json))
 
 ### Charity & Social Impact
 
