@@ -555,6 +555,10 @@ Development tools and utilities for x402.
 
 Tools and resources for testing x402 implementations
 
+### Conformance Verification
+
+- [Crest Verify](https://crestsystems.ai/verify) ⭐ **Community** - Independent conformance verification for x402 endpoints. Free. Live [conformance matrix](https://crestsystems.ai/verify) tracking 9 implementations. CLI (`npx @crestdeploymentsystems/verify <url>`), [GitHub Action](https://github.com/marketplace/actions/crest-verify) for CI, [MCP server](https://www.npmjs.com/package/@crestdeploymentsystems/verify-mcp), REST API, and Shields.io-style badges. Listed in CTEF interop-harness roster. ([GitHub](https://github.com/andysalvo/substrate-attestation)) ([npm](https://www.npmjs.com/package/@crestdeploymentsystems/verify))
+
 ### Testnets
 
 - [Base Sepolia Testnet](https://docs.base.org/docs/network-information) - Primary testnet.
