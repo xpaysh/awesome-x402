@@ -793,6 +793,7 @@ Projects building with or extending x402.
 
 - NEAR AI - Cross-chain agent settlements.
 - [Boosty Labs](https://boosty.io) - AI agents buying real-time insights.
+- [ApexScout Agent Listing Roast](https://apexscout.ai/agent-listing-roast) - $1 x402 route for x402, MCP, and paid API builders to critique listing copy, buyer-agent skip reasons, and stop-or-upgrade guidance.
 
 ## 📊 Ecosystem Market Data
 
