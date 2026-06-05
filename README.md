@@ -1,6 +1,6 @@
 # Awesome X402 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> ⚡ **The Ultimate x402 Resource Hub** - Everythng you need to build internet-native payments using HTTP 402. Perfect for AI agents, APIs, and micropayments. Build paywalls, monetize services, and enable autonomous agent payments with crypto/USDC. Zero fees, 2-second settlement.
+> ⚡ **The Ultimate x402 Resource Hub** - Everything you need to build internet-native payments using HTTP 402. Perfect for AI agents, APIs, and micropayments. Build paywalls, monetize services, and enable autonomous agent payments with crypto/USDC. Zero fees, 2-second settlement.
 
 [![GitHub stars](https://img.shields.io/github/stars/xpaysh/awesome-x402?style=social)](https://github.com/xpaysh/awesome-x402)
 
@@ -11,7 +11,7 @@
 - [📖 Protocol Documentation](#-protocol-documentation)
 - [🚀 Quickstart Guides](#-quickstart-guides)
 - [⚙️ Protocol Implementations](#-protocol-implementations)
-- [🏭 Production Implementatdions](#-production-implementations)
+- [🏭 Production Implementations](#-production-implementations)
 - [🛠️ SDKs & Client Libraries](#-sdks--client-libraries)
 - [🔧 Server Frameworks & Middleware](#-server-frameworks--middleware)
 - [🏗️ Facilitators](#-facilitators)
@@ -32,7 +32,7 @@
 - [🤝 Contributing](#-contributing)
 - [Awesome Lists](#awesome-lists)
 
-The x402 protocol enables instant Blockchain payments over HTTP using the 402 "Payment Required" status code. This is your complete guide to mastering x402 and building the future of agent payments.
+The x402 protocol enables instant blockchain payments over HTTP using the 402 "Payment Required" status code. This is your complete guide to mastering x402 and building the future of agent payments.
 
 🚀 **Start building in 5 minutes** | ⚡ **2-second settlement** | 💰 **USDC on Base**
 
