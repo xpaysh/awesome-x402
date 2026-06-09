@@ -479,6 +479,9 @@ Development tools and utilities for x402.
 ### Security & Analysis
 
 - [Base Token Safety Scanner](https://base-token-scanner.onrender.com) - Free API that analyzes Base chain ERC-20 tokens for rug pull risks, honeypots, ownership issues, and security flags. Returns risk score with detailed flag breakdown. Built for AI agents and DeFi traders. ([GitHub](https://github.com/0xVarius/base-token-scanner)) ([Guide](https://base-token-scanner.onrender.com/guide))
+- [contract-guard](https://eltociear-contract-guard.hf.space) - Pre-interaction EVM contract/token risk check for agents. `POST /check` ($0.005 USDC on Base): upgradeable-proxy (EIP-1967), EIP-7702 delegated-EOA, and ERC20 metadata; plus `check_approval` to flag dangerous/unlimited allowances before signing `approve()`. Base + Ethereum, zero deps. Also a free MCP server in the official MCP Registry. ([GitHub](https://github.com/eltociear/contract-guard-mcp))
+- [skill-audit](https://eltociear-skill-audit.hf.space) - Scan MCP servers / agent skills / plugins for 68 malicious patterns (download-and-execute, credential exfiltration, prompt injection, privilege escalation). `POST /audit` ($0.01) · `/audit/url` ($0.03) USDC on Base. AI-agent supply-chain security. ([GitHub](https://github.com/eltociear/skill-audit-mcp))
+- [secrets-audit](https://eltociear-secrets-audit.hf.space) - Detect leaked secrets & API keys (AWS, GitHub, Stripe, OpenAI, Anthropic, Slack, private keys; 32+ rules) in code/configs/URLs. `POST /audit` ($0.01) · `/audit/url` ($0.03) USDC on Base. ([GitHub](https://github.com/eltociear/secrets-audit-mcp))
 
 
 ## 🧪 Testing & Development
