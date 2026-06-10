@@ -213,11 +213,18 @@ Client libraries for making x402 payments.
 - [ClawPay MCP](https://www.npmjs.com/package/clawpay-mcp) - Non-custodial x402 payment layer for AI agents. Agents sign locally with their own keys — no custodial infrastructure needed. Supports automatic 402 detection and USDC payments on Base. ([npm](https://www.npmjs.com/package/clawpay-mcp))
 - [Azeth SDK](https://github.com/azeth-protocol/sdk) - TypeScript SDK with x402 client (`fetch402`), ERC-4337 smart accounts, on-chain reputation feedback after every x402 call, and ERC-8004 service discovery. USDC on Base. ([npm](https://www.npmjs.com/package/@azeth/sdk))
 - [MoltsPay](https://github.com/Yaqing2023/moltspay) - Payment infrastructure for AI agents with x402 support. CLI, TypeScript SDK, and LangChain/CrewAI integrations. Gasless payments on Base, Polygon, Solana, BNB, Tempo. Spending limits and multi-chain support. ([npm](https://www.npmjs.com/package/moltspay))
+- [Primer SDK](https://docs.primer.systems/sdk/typescript) - CLI for wallet management, OpenClaw agent setup, Chutes/Bittensor proxy scaffolding. Fetch and Axios clients. Multi-network, full ERC-20 support. ([npm](https://npmjs.com/package/@primersystems/x402))
+
+
 
 **Wallet Integration**
 - [Agent Wallet SDK](https://www.npmjs.com/package/agentwallet-sdk) - Non-custodial smart contract wallets for AI agents with on-chain spend limits and operator model. Base L2. ([npm](https://www.npmjs.com/package/agentwallet-sdk))
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
 - [ethers.js](https://docs.ethers.org/) - Alternative Ethereum library.
+
+### Python
+
+- [Primer SDK](https://docs.primer.systems/sdk/python) - CLI for wallet management, OpenClaw agent setup, Chutes/Bittensor proxy scaffolding. Async httpx client. Multi-network, full ERC-20 support. ([PyPI](https://pypi.org/project/primer-x402/))
 
 ### Rust
 
@@ -232,6 +239,7 @@ Server-side integrations for accepting x402 payments.
 **Multi-Framework**
 - [monapi](https://monapi.dev) - One-line API monetization SDK. Wraps x402 setup into a single function call. Express, Next.js, and MCP support. Per-route pricing, Base/Arbitrum/Polygon, gas-free agent payments via EIP-3009. ([npm](https://www.npmjs.com/package/@monapi/sdk)) ([GitHub](https://github.com/DenisTheM/monapi))
 - [autonomagic-marketplace](https://www.npmjs.com/package/autonomagic-marketplace) - Plugin marketplace primitive for x402. Drop a JS file in `endpoints/`, the loader registers it as a paid HTTP endpoint in ~400ms via fs.watch (no restart, no manifest edits). Generates Bazaar-shape 402 challenge with EIP-712 extras, `/.well-known/x402.json` manifest, agent-card, and OpenAPI spec automatically. Zero runtime dependencies. Production-extracted from api.autonomagic.org's 22 paid endpoints. ([npm](https://www.npmjs.com/package/autonomagic-marketplace)) ([GitHub](https://github.com/premsreelathasugeendran/autonomagic-marketplace))
+- [Primer SDK](https://docs.primer.systems/sdk/typescript) - Express, Hono, Next.js. Verify and settle via Primer facilitator or another. Multi-network, and any ERC-20 through the Prism router. ([npm](https://npmjs.com/package/@primersystems/x402))
 
 **Express / Hono**
 - [@moltrust/x402](https://www.npmjs.com/package/@moltrust/x402) - Trust score middleware for x402 endpoints. One line: `app.use(requireScore({ minScore: 60 }))`. Extracts paying wallet from X-Payment header, looks up MolTrust trust score, blocks agents below threshold with 403 + registration link. Zero dependencies. ([npm](https://www.npmjs.com/package/@moltrust/x402)) ([GitHub](https://github.com/MoltyCel/moltrust-x402))
@@ -247,6 +255,9 @@ Server-side integrations for accepting x402 payments.
 - [Azeth Provider](https://github.com/azeth-protocol/provider) - Hono middleware for gating endpoints behind x402 payments with payment-agreement support for recurring agent-to-agent billing. ([npm](https://www.npmjs.com/package/@azeth/provider))
 
 ### Python
+
+**Multi-Framework**
+- [Primer SDK](https://docs.primer.systems/sdk/python) - Flask, FastAPI. Verify and settle via Primer facilitator or another. Multi-network, and any ERC-20 through Prism router. ([PyPI](https://pypi.org/project/primer-x402/))
 
 **FastAPI**
 - [FastAPI example](https://github.com/coinbase/x402/tree/main/examples/python) - Complete implementation.
