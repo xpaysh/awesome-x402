@@ -298,6 +298,7 @@ Full working examples and templates.
 - Next.js App - Complete web application.
 - [Video Paywall](https://www.quicknode.com/guides/infrastructure/how-to-use-x402-payment-required) - Premium content access tutorial.
 - Browser Wallet Template - React + Hono + Session management.
+- [x402 Paid API Starter](https://github.com/go165/x402-paid-api-starter) - Zero-dependency Node.js starter with free preview and 402-style paid routes, `.well-known/x402` discovery, OpenAPI output, tests, Cloudflare Worker example, and Express production integration notes.
 - [x402 Boilerplate — Conflux eSpace](https://github.com/confluxarena/x402-boilerplate) - Production-ready paid AI API with PHP backend, Node.js facilitator, CLI agent, Docker, 87 tests, and multi-wallet demo. EIP-3009 USDT0 settlement. [Live Demo](https://confluxarena.org/x402-demo).
 - [x402 Dynamic Pricing](https://github.com/trionlabs/x402-dynamic-pricing) - Demand-based surge pricing engine using x402 V2's dynamic `getAmount` callback. Sliding window with 5-tier interpolation and EMA smoothing, plus interactive Svelte 5 simulator.
 - [Agent Arena](https://agentarena.site) - On-chain ERC-8004 agent registry with x402-gated search ($0.001 USDC/query) and registration ($0.05 USDC). Agents discover and hire each other autonomously on Base mainnet. No API keys required.
