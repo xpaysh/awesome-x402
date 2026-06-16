@@ -494,6 +494,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 
 ### Agent Frameworks
 
+- [Agentix](https://agentix.suedeai.ai) - AI agent builder with x402 micropayment support. Build, publish, and monetize agents on Base via Coinbase CDP.
 - [ATXP](https://github.com/atxp-dev/atxp) - Agent identity and funding platform. One command — `npx atxp agent register` — gives an agent a USDC wallet on Base, an `@atxp.email` inbox, a phone number, and 100+ paid tools (web search, image/video generation, LLM gateway). x402-compatible; agents can pay x402 endpoints directly from their ATXP balance. $5 free credit, no KYC. ([Docs](https://docs.atxp.ai))
 - [NEAR AI](https://near.ai) - Cross-chain agent settlements.
 - [Phidata Agents](https://github.com/phidatahq/phidata) - Multi-modal agents with x402.
