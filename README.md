@@ -133,6 +133,22 @@ Official and community implementations of the x402 protocol.
 
 Real companies using x402 in production with proven scale and transaction volumes.
 
+
+### ScriptMasterLabs x402 Stack
+
+| Product | URL | Chain | Per-Call |
+|---------|-----|-------|----------|
+| **SqueezeOS MCP** | [squeezeos-api.onrender.com/mcp](https://squeezeos-api.onrender.com/mcp) | XRPL/RLUSD + Base/USDC | x402 gated |
+| **xDEO Earnings Oracle** | [xdeo.timothy-walton45.workers.dev](https://xdeo.timothy-walton45.workers.dev) | Base/USDC | $0.01–$0.75 |
+| **SML x402 Signal API** | [github.com/Timwal78/sml-x402-signal-api](https://github.com/Timwal78/sml-x402-signal-api) | Base/USDC | $0.01–$0.25 |
+| **Ghost Layer Bridge** | [ghost-layer.onrender.com](https://ghost-layer.onrender.com) | XRPL/RLUSD + Base/USDC | 0.10% toll |
+| **proof402-middleware** | [npmjs.com/package/@relayos/mcp-paywall](https://www.npmjs.com/package/@relayos/mcp-paywall) | XRPL/RLUSD | Drop-in MCP |
+| **CRAWLTOLL** | [github.com/Timwal78/crawltoll](https://github.com/Timwal78/crawltoll) | XRPL/RLUSD | Per-crawl |
+| **Aetheris MCP Scraper** | [github.com/Timwal78/aetheris-mcp-render](https://github.com/Timwal78/aetheris-mcp-render) | Base/USDC | Per-scrape |
+| **ZeroQuery Protocol** | [github.com/Timwal78/zeroquery-protocol](https://github.com/Timwal78/zeroquery-protocol) | x402-compatible | Proof-of-Intent |
+
+> Built by [@Timwal78](https://github.com/Timwal78) / ScriptMasterLabs — Service-Disabled Veteran (SDVOSB). Full stack: agent marketplace, signal feeds, web scraping, toll gateway, and open identity protocol — all x402-native.
+
 ### High-Volume Production Deployments
 
 - [Arch Tools](https://archtools.dev) - 58 production API tools for AI agents with x402 payments built in. Web scraping, AI generation, crypto data, OCR, browser automation, MCP compatible. Patent-pending agent auth. 15+ chains supported. ([GitHub](https://github.com/Deesmo/Arch-AI-Tools))
