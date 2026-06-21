@@ -496,7 +496,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [GPU-Bridge](https://gpubridge.xyz) - 30-service GPU inference API with native x402 payments (USDC on Base L2). LLM, image generation, embeddings, STT, TTS, PDF processing — all in one API. Agents pay per call with no human intervention. /usr/bin/bash.00002/embedding, /usr/bin/bash.001/LLM call. ([Docs](https://docs.gpubridge.xyz)) ([GitHub](https://github.com/fjnunezp75/gpu-bridge))
 - [Spraay Compute & Futures](https://github.com/plagtech/spraay-compute) - GPU compute and AI model inference (LLM, image, video, speech-to-text, text-to-speech, embeddings) over x402, plus prepaid compute-futures credits with tier discounts up to 15% — deposit USDC once and draw down per job. USDC on Base + Solana, no API keys. Installable as an OpenClaw/Claude Code skill via npx clawhub install spraay-compute. Part of the Spraay x402 gateway.
 
-- [GEDX402](https://gedx402.com) - Cloudflare Workers AI hub with x402 v2 USDC (Base, Polygon, Arbitrum, World, Solana). Eight modality shards. [Hub](https://gedx402.com) | [agents.json](https://gedx402.com/.well-known/agents.json) | [OpenAPI](https://gedx402.com/openapi.json) | [x402](https://gedx402.com/.well-known/x402) | [MCP](https://github.com/scrolls-cf/ged-x402)
+- [GEDX402](https://gedx402.com) — Cloudflare Workers AI hub with x402 v2 USDC (Base, Polygon, Arbitrum, World, Solana). Winner routes: chat/completions, /search, scrape, browser session, translate. [Hub](https://gedx402.com) | [agents.json](https://gedx402.com/.well-known/agents.json?bundle=winners) | [OpenAPI](https://gedx402.com/openapi.json) | [x402](https://gedx402.com/.well-known/x402) | [MCP setup](https://gedx402.com/docs/mcp-setup)
 
 ### Model Context Protocol (MCP)
 
