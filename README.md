@@ -1029,6 +1029,8 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 
 ## 🔒 Security & Audits
 
+- [Agent Payment Guard](https://github.com/lukekwan/agent-payment-guard) - Open-source x402 payment firewall for autonomous agents on Base. Owner-controlled budgets and mandates, ALLOW/REVIEW/BLOCK decisions, human approval, signed reservations, transaction simulation, post-payment delivery evidence, merchant history, webhooks, MCP, and JavaScript/Python SDKs. ([Live](https://base-agent-preflight.bytoken2023.workers.dev/) | [npm](https://www.npmjs.com/package/agent-payment-guard) | [PyPI](https://pypi.org/project/agent-payment-guard/))
+
 *[KaelAi] (https://kaelai.io) - Wallet trust scoring API for the agentic economy. Scores wallets 0-100 across 10 chains with behavioural analysis. Built for x402 servers to vet incoming and outgoing payment wallets before serving or initiating requests. 
 
 - [stripe-mcps](https://www.npmjs.com/package/stripe-mcps) - Trust verification + AML sanctions screening before Stripe/x402 payments. Agent identity (ECDSA), 75K+ sanctions entries (UK HMT + OFAC SDN), behavioural spend limits. OWASP MCP Security Cheat Sheet aligned. ([GitHub](https://github.com/razashariff/stripe-mcps))
