@@ -592,6 +592,7 @@ AI-powered research and translation services for the Asian market — no other x
 ### Multi-Agent Orchestration
 
 - [SwarmX (swarms-x402)](https://github.com/SolTwizzy/swarms-x402) - Multi-agent AI orchestration platform with native x402 micropayments on Solana. 49 endpoints, 39 MCP tools, dual LLM (Gemini + OpenAI), knowledge/RAG with pgvector. ElizaOS v2 plugin. $0.001–$5/call USDC. ([npm](https://www.npmjs.com/package/swarms-x402)) ([Live](https://swarmx.io))
+- [Magpie](https://x402.magpie.capital) - Agent-native **lending** on Solana — the write-side borrow lifecycle, not just read data. An agent borrows SOL against memecoin collateral, arms an in-vault take-profit / stop-loss on its own loan, and repays — pay-per-call via x402 in **USDC or native SOL** (facilitator-sponsored), fully non-custodial (the agent signs every tx; the service holds no keys). 22 machine-discoverable endpoints. ([Discovery](https://x402.magpie.capital/.well-known/x402.json)) ([SDK](https://www.npmjs.com/package/@magpieloans/magpie-agent)) ([MCP](https://www.npmjs.com/package/@magpieloans/magpie-mcp))
 
 
 ## 🔨 Tools & Utilities
