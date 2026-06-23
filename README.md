@@ -12,7 +12,9 @@
 - [🚀 Quickstart Guides](#-quickstart-guides)
 - [⚙️ Protocol Implementations](#-protocol-implementations)
 - [🏭 Production Implementatdions](#-production-implementations)
+-  [x402 Bazaar](https://402.com.tr) - Pay-per-call API marketplace on Base: token risk/honeypot, prices, gas, wallet intel, tx decode, basename + AI utilities. From $0.001. Base. ([Discovery](https://402.com.tr/.well-known/x402) | [OpenAPI](https://402.com.tr/openapi.json))
 - [🛠️ SDKs & Client Libraries](#-sdks--client-libraries)
+- - [x402-bazaar-mcp](https://www.npmjs.com/package/x402-bazaar-mcp) - MCP server exposing x402 Bazaar's paid Base APIs as agent tools; pays per call in USDC (`npx x402-bazaar-mcp`).
 - [🔧 Server Frameworks & Middleware](#-server-frameworks--middleware)
 - [🏗️ Facilitators](#-facilitators)
 - [💡 Example Applications](#-example-applications)
