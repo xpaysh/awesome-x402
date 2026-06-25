@@ -133,6 +133,8 @@ Official and community implementations of the x402 protocol.
 
 Real companies using x402 in production with proven scale and transaction volumes.
 
+- **J-sey** - Pay-per-call data API on Base: live wallet balance/tx lookups, webpage text scraping, and real-time crypto prices. $0.002/call USDC via x402. Bazaar-listed. (johncross.base.eth)
+
 ### High-Volume Production Deployments
 
 - [Fleet x402 Microservices](https://fleet-x402-audit.fly.dev) - Two agent-payable AI services on Base: SEO Audit ($0.05 USDC) and Competitive Intel Pack ($0.50 USDC). Instant response, zero auth required, machine-readable JSON. ([Discovery](https://fleet-x402-audit.fly.dev/.well-known/x402-listing))
