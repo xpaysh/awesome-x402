@@ -1239,3 +1239,15 @@ curl https://api.autonomagic.org/.well-known/x402.json
 - [NEXUS Agent Services](https://nexus-agent-xa12.onrender.com) - Real-time crypto prices, Reddit intelligence, DeFi data, stock prices, sentiment analysis. $0.001-0.05/call USDC on Base.
 - [- [x402-policy](https://x402-api-seven.vercel.app/docs) - Spending-policy enforcement for AI agents: pay-per-call policy checks, cross-chain trust scores, and EIP-4337 session keys, gated entirely by x402 micropayments ($0.001-0.002 USDC) on Base.
 * [AI Security API](http://203.194.112.129:3000) - Token risk analysis powered by MiniMax AI M2.7. Risk scoring 1-10 with detailed reasons. $0.02 USDC per call on Base mainnet. No signup required.
+
+### [easy-predict](https://easy-predict.com) — Numeric Prediction API
+
+**Category:** Services/Endpoints
+
+Agent-first numeric prediction API. Send a list of numbers, get the next predicted value. No API keys or accounts — pay per call via x402 v2. Exposes `/.well-known/x402`, `/openapi.json`, and `/llm.txt` for machine discovery.
+
+| Endpoint | Price | Description |
+|---|---|---|
+| `POST /timeseries` | $0.01 USDC | Send 3–1000 numbers, receive the next predicted value |
+
+**Network:** Base (eip155:8453) · **Discovery:** [/.well-known/x402](https://easy-predict.com/.well-known/x402) · [OpenAPI](https://easy-predict.com/openapi.json) · [llm.txt](https://easy-predict.com/llm.txt) · [GitHub](https://github.com/WilliamsRizzi/easy-predict)
