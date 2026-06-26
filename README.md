@@ -167,6 +167,7 @@ Real companies using x402 in production with proven scale and transaction volume
 | Radius        | Production  | Community                  | Instant (<1s)   | Micropayments             |
 
 ### Data & Social APIs
+- **[Strumly](https://strumly.suedeai.ai/agents)** — The only music oracle on x402. Canonical chord knowledge, song analysis, chord-progression transcription, and personalized practice plans for AI agents. No other music API exists in the x402 ecosystem. $0.99–$4.99 USDC per call on Base · $9.99 Stripe 24h day pass · 5 free calls/IP/day. ([/.well-known/x402](https://strumly.suedeai.ai/.well-known/x402) | [OpenAPI](https://strumly.suedeai.ai/openapi.json) | [llms.txt](https://strumly.suedeai.ai/llms.txt)) By [Suede Labs AI](https://suedeai.ai).
 - [Pyrimid](https://pyrimid.ai) - Agent commerce protocol for x402-style USDC payments on Base. Includes on-chain vendor/product registry, payment router, affiliate attribution, MCP endpoint, and live catalog API for agent-discoverable paid services. Current mainnet proof: 3 vendors, 8 on-chain products, 4 routed test payments. ([Catalog](https://pyrimid.ai/api/v1/catalog)) ([MCP](https://pyrimid.ai/api/mcp)) ([Skill](https://pyrimid.ai/skill.md))
 - **[Polybot Arb Intelligence](https://github.com/packrvnner/polybot-arb-api)** — Real-time cross-platform prediction market arb data (Polymarket+Kalshi+Myriad). x402 USDC on Base. [Live API](https://governments-ruth-distribution-breaks.trycloudflare.com/free/market-pulse)
 
