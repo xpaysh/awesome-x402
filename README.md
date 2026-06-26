@@ -1239,3 +1239,14 @@ curl https://api.autonomagic.org/.well-known/x402.json
 - [NEXUS Agent Services](https://nexus-agent-xa12.onrender.com) - Real-time crypto prices, Reddit intelligence, DeFi data, stock prices, sentiment analysis. $0.001-0.05/call USDC on Base.
 - [- [x402-policy](https://x402-api-seven.vercel.app/docs) - Spending-policy enforcement for AI agents: pay-per-call policy checks, cross-chain trust scores, and EIP-4337 session keys, gated entirely by x402 micropayments ($0.001-0.002 USDC) on Base.
 * [AI Security API](http://203.194.112.129:3000) - Token risk analysis powered by MiniMax AI M2.7. Risk scoring 1-10 with detailed reasons. $0.02 USDC per call on Base mainnet. No signup required.
+
+## DDG Agent-Payable Services
+
+- [DDG Agent-Payable Services](https://agents.daedalusdevelopmentgroup.com) - AI-agent-native x402/direct-crypto services for checkout conformance, MCP/tool security audits, agent-discovery repair, buyer-agent smoke probes, browser proof artifacts, and repo context packs.
+  - AI discovery: https://agents.daedalusdevelopmentgroup.com/.well-known/ai
+  - OpenAPI: https://agents.daedalusdevelopmentgroup.com/openapi.json
+  - llms.txt: https://agents.daedalusdevelopmentgroup.com/llms.txt
+  - x402scan: https://www.x402scan.com/server/c3540307-0eb2-455d-90b6-a21f7d5a3792
+  - GitHub: https://github.com/daedalusdevelopmentgroup/ddg-agent-payable-services
+  - Rails: x402 (Base, Polygon, Arbitrum, World Chain, Solana USDC), direct_crypto_auto, direct_crypto_manual
+  - Direct crypto families: EVM/stablecoins, BTC, BCH, LTC, DOGE, SOL, TRX, XRP, XLM, ALGO, DOT, ZEC, XMR
