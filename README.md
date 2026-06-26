@@ -15,7 +15,8 @@
 - [🛠️ SDKs & Client Libraries](#-sdks--client-libraries)
 - [🔧 Server Frameworks & Middleware](#-server-frameworks--middleware)
 - [🏗️ Facilitators](#-facilitators)
-- [💡 Example Applications](#-example-applications)
+
+- [AgentsCoin](https://agents-coin.com) - Native x402 facilitator + paid API settling in native AGENT on the AgentsCoin L1; agents pay per-call (callable via its MCP server).- [💡 Example Applications](#-example-applications)
 - [🎨 Use Cases & Patterns](#-use-cases--patterns)
 - [🤖 AI Agent Integration](#-ai-agent-integration)
 - [🔨 Tools & Utilities](#-tools--utilities)
