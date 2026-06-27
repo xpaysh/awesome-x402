@@ -133,8 +133,6 @@ Official and community implementations of the x402 protocol.
 
 Real companies using x402 in production with proven scale and transaction volumes.
 
-- **J-sey** - Pay-per-call data API on Base: live wallet balance/tx lookups, webpage text scraping, and real-time crypto prices. $0.002/call USDC via x402. Bazaar-listed. (johncross.base.eth)
-
 ### High-Volume Production Deployments
 
 - [J-sey Data API](https://johncross-data-api.johncrossugwuegede.workers.dev) - Pay-per-call data API on Base with 18 endpoints for wallet lookups, web scraping, crypto prices, and DeFi yields; $0.002 per call via x402.
