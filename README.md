@@ -308,6 +308,7 @@ Server-side integrations for accepting x402 payments.
 **Hono**
 - Browser wallet example - React + Hono full-stack.
 - [Azeth Provider](https://github.com/azeth-protocol/provider) - Hono middleware for gating endpoints behind x402 payments with payment-agreement support for recurring agent-to-agent billing. ([npm](https://www.npmjs.com/package/@azeth/provider))
+- [x402-starter](https://github.com/leonidahqadmin-cell/x402-starter) - Drop-in Cloudflare Workers + Hono starter that paywalls any route with x402 (USDC on Base), pre-wired with Coinbase Bazaar discoverability and an MCP manifest. Defaults to base-sepolia; flip to mainnet with CDP keys. MIT.
 
 ### Python
 
