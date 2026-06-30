@@ -1239,3 +1239,15 @@ curl https://api.autonomagic.org/.well-known/x402.json
 - [NEXUS Agent Services](https://nexus-agent-xa12.onrender.com) - Real-time crypto prices, Reddit intelligence, DeFi data, stock prices, sentiment analysis. $0.001-0.05/call USDC on Base.
 - [- [x402-policy](https://x402-api-seven.vercel.app/docs) - Spending-policy enforcement for AI agents: pay-per-call policy checks, cross-chain trust scores, and EIP-4337 session keys, gated entirely by x402 micropayments ($0.001-0.002 USDC) on Base.
 * [AI Security API](http://203.194.112.129:3000) - Token risk analysis powered by MiniMax AI M2.7. Risk scoring 1-10 with detailed reasons. $0.02 USDC per call on Base mainnet. No signup required.
+- [Amora Protocol](https://github.com/andeglenderson/amora-protocol) - Cloudflare Workers x402 gateway for C2PA content provenance verification and content-blind notarization on Base Mainnet. Ed25519 JWT authentication, MCP server card discovery, open-source reference implementation. PR Title: Add Amora Protocol — x402 C2PA verification gateway on Cloudflare Workers
+PR Description:
+Add Amora Protocol
+What: Production x402 micropayment gateway built on Cloudflare Workers, implementing dual endpoints for C2PA content provenance verification and content-blind economic notarization on Base Mainnet.
+Why: Amora is the only x402 implementation purpose-built for content authenticity use cases — directly relevant to AI Act Article 50 and California SB 942 compliance workflows. The open-source Worker architecture serves as a reference implementation for x402 gating on Cloudflare's edge runtime, including Ed25519 JWT generation via Web Crypto API for CDP facilitator authentication, and MCP server card discovery at /.well-known/mcp/server-card.json.
+Quality Checklist:
+[x] Resource is actively maintained
+[x] Well-documented with clear usage instructions
+[x] Directly related to x402 protocol
+[x] Link is working and accessible
+[x] Follows contribution format
+Category: Examples / Reference Implementations
