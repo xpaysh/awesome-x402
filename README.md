@@ -287,7 +287,7 @@ Server-side integrations for accepting x402 payments.
 
 ### Gateway / Proxy
 - [swerver](https://x402.swerver.net) - High-performance x402 gateway proxy. Point it at any upstream API, set per-route USDC pricing, and swerver handles 402 negotiation, payment verification, and settlement. Built in Zig (3.4M rps on 64 cores). Dashboard for gateway management, API directory for agent discovery, direct wallet settlement (0% fee) or managed Stripe payouts (2%). Base network, USDC. ([Docs](https://x402.swerver.net/docs)) ([Directory](https://x402.swerver.net/directory))
-
+- [xPaywall](https://github.com/cp0x-org/xpaywall) – Open-source, self-hosted x402 API gateway for machine payments. Add x402 to any existing API without modifying your application. Includes per-route pricing, analytics, request logs, Bazaar discovery, and a standalone reverse proxy. ([Docs&Demo](https://xpaywall.io))
 ### Node.js/TypeScript
 
 **Multi-Framework**
