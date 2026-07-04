@@ -841,7 +841,7 @@ Projects building with or extending x402.
 
 ### Tools & Services
 - [Skim](https://skim402.com) - x402-native clean reader for AI agents. POST a URL, get back agent-ready Markdown plus structured metadata (title, byline, site, publish date, language) in milliseconds. No signup, no API keys, no accounts. $0.002 USDC per call on Base mainnet. Also offers structured extraction via /api/v2/extract. ([Docs](https://skim402.com/docs)) | ([MCP](https://www.npmjs.com/package/skim-mcp))
-- [GoldBean 🫘](https://goldbean-api.xyz) — x402 Micropaid API Marketplace with 7 paid crypto/DeFi endpoints: BTC price, gas forecast, market sentiment, DeFi insights, network health, MEV tracking, token risk. .01-.05 USDC/call on Base. No API keys needed. Bazaar: [/.well-known/x402-bazaar](https://goldbean-api.xyz/.well-known/x402-bazaar). ([GitHub](https://github.com/wuzenghai616-lang/goldbean))
+- [GoldBean 🫘](https://goldbean-api.xyz) — Full-stack x402 API marketplace: 23+ API routes across Baidu AI (OCR, TTS, ASR, Translation, LLM Chat, Face Detection), crypto/DeFi (BTC price, gas, sentiment), web search, image gen, utilities. .01-.08 USDC/call on Base. PayPal & Alipay also supported. Built-in MCP server. No API keys needed. Bazaar: [/.well-known/x402-bazaar](https://goldbean-api.xyz/.well-known/x402-bazaar) | OpenAPI: [/openapi.json](https://goldbean-api.xyz/openapi.json). ([GitHub](https://github.com/wuzenghai616-lang/goldbean))
 - [AgentBanks](https://agentbanks.vercel.app) - Base blockchain data and agent payment infrastructure for
   AI agents. Free: live gas prices, agent registry. Paid: ETH/BTC/VIRTUAL/AERO prices + Base DeFi TVL
   ($0.003 USDC), private AI inference ($0.01 USDC). B20-native memo payments — on-chain order receipts. No
