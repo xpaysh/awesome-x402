@@ -133,6 +133,7 @@ Real companies using x402 in production with proven scale and transaction volume
 - [Cloudflare Workers](https://workers.cloudflare.com) - Edge computing platform with x402 integration serving global distributed payment verification at scale across 300+ data centers.
 
 - [AgentCourt](https://agentcourt.to) — B2B dispute resolution API for agent commerce. POST /v1/disputes returns structured ruling with confidence score, legal reasoning, and remedy. 7 policy templates, 42 rules, 50 verdicts stored. $0.05 USDC per dispute on Base mainnet via x402. <100ms avg latency. ([GitHub](https://github.com/vbkotecha/agentcourt-api) | [OpenAPI](https://agentcourt-api-production.up.railway.app/docs) | [Health](https://agentcourt-api-production.up.railway.app/health))
+- [AgentServices](https://agentservices.to) — Paid data APIs for AI agents with 13 MCP tools. Crypto prices, technical indicators, DeFi yields, DEX quotes, prediction markets, news, search, IP geolocation, URL metadata, marketing intelligence (sentiment, trends, competitors, content gaps, ad copy), and dispute resolution. $0.01–$0.05 USDC per call on Base via x402. MCP server with streamable-http transport. ([API Docs](https://api.aiservices.to/docs) | [LLMs.txt](https://api.aiservices.to/llms.txt) | [GitHub](https://github.com/vbkotecha/aiservices-api))
 
 ### Production Success Metrics
 
