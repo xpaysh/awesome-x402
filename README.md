@@ -287,6 +287,7 @@ Server-side integrations for accepting x402 payments.
 
 ### Gateway / Proxy
 - [swerver](https://x402.swerver.net) - High-performance x402 gateway proxy. Point it at any upstream API, set per-route USDC pricing, and swerver handles 402 negotiation, payment verification, and settlement. Built in Zig (3.4M rps on 64 cores). Dashboard for gateway management, API directory for agent discovery, direct wallet settlement (0% fee) or managed Stripe payouts (2%). Base network, USDC. ([Docs](https://x402.swerver.net/docs)) ([Directory](https://x402.swerver.net/directory))
+- [Vaaya](https://vaaya.ai) - One MCP server that acts as an x402 buyer/router: agents call one tool and Vaaya routes payment to the right upstream over x402 (USDC on Base) or Stripe, no per-service API keys. Covers media/video generation, research, scraping, compute, browser automation, and email. ([MCP](https://vaaya.ai/mcp)) ([x402](https://vaaya.ai/.well-known/x402))
 
 ### Node.js/TypeScript
 
