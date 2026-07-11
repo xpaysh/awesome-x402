@@ -363,6 +363,7 @@ Payment verification and settlement services.
 Full working examples and templates.
 
 - [LION](https://lionx402.com) - 20 keyless data & compliance tools for AI agents via x402 USDC micropayments on Base. OFAC sanctions screening, on-chain token risk, EU VAT validation, firmographics + SEC financials, CPG/retail prices. Every response Ed25519-attested — verify offline. No API key, no signup. ([MCP](https://lionx402.com/api/mcp) · [Quickstart](https://github.com/8dp6brm9hp-svg/lion-mcp-public))
+- [Levels of Self Nervous System](https://api.100levelup.com) - Governance APIs for agent systems over x402 on Base: MCP config audits, agent-stack legal prep, bookkeeping, and a half-cent payment self-test with signed receipts. Self-hosted facilitator.
 ### Full-Stack Applications
 
 - [Weather API Service](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) - Simple paid API endpoint.
