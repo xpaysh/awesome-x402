@@ -695,6 +695,8 @@ Development tools and utilities for x402.
 - [x402 List](https://x402-list.com) - Agent-first directory of x402 API services with live uptime monitoring and machine-readable discovery for AI agents (JSON API, OpenAPI 3.1, llms.txt). Per-service endpoints, pricing, response time, and uptime charts. ([API](https://x402-list.com/api/v1/services)) ([OpenAPI](https://x402-list.com/api/v1/openapi.json)) ([llms.txt](https://x402-list.com/llms.txt))
 - [SmartFlow Mapper API](https://api.smartflowproai.com) - JSON REST API exposing 22,251+ catalogued x402 endpoints with uptime, payment-success, and facilitator metadata. Free tier (100 req/day) + paid bulk export. ([Live stats](https://api.smartflowproai.com/v1/stats))
 
+- [x402-observe](https://github.com/Homie4570/x402-observe) - Decode the X-PAYMENT header from your nginx logs to see which chain agents pay on (Base, Solana, ...) and which payment attempts were REJECTED — the failed payments that never settle and are invisible in your revenue data. Read-only, zero dependencies, 3-line nginx setup. MIT.
+
 ### Security & Analysis
 
 - [Base Token Safety Scanner](https://base-token-scanner.onrender.com) - Free API that analyzes Base chain ERC-20 tokens for rug pull risks, honeypots, ownership issues, and security flags. Returns risk score with detailed flag breakdown. Built for AI agents and DeFi traders. ([GitHub](https://github.com/0xVarius/base-token-scanner)) ([Guide](https://base-token-scanner.onrender.com/guide))
