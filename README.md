@@ -134,7 +134,7 @@ Official and community implementations of the x402 protocol.
 Real companies using x402 in production with proven scale and transaction volumes.
 
 ### High-Volume Production Deployments
-- [run402](https://run402.com) - Full-stack infra for Al agents (Postgres, auth, storage, sites, serverless functions) paid per use over x402 USDC on Base. Live $0.03 image-generation endpoint, no signup. MCP: npm run402-mcp (official registry: com.run402/mcp). ([GitHub](https://github.com /kychee-com/run402))
+- [run402](https://run402.com) - Full-stack infra for AI agents (Postgres, auth, storage, sites, serverless functions) paid per use over x402 USDC on Base. Live $0.03 image-generation endpoint, no signup. MCP: npm run402-mcp (official registry: com.run402/mcp). ([GitHub](https://github.com/kychee-com/run402))
 - [J-sey Data API](https://jsey.dpdns.org) - Pay-per-call data API on Base with 18 endpoints for wallet lookups, web scraping, crypto prices, and DeFi yields; $0.002 per call via x402.
 - [Fleet x402 Microservices](https://fleet-x402-audit.fly.dev) - Two agent-payable AI services on Base: SEO Audit ($0.05 USDC) and Competitive Intel Pack ($0.50 USDC). Instant response, zero auth required, machine-readable JSON. ([Discovery](https://fleet-x402-audit.fly.dev/.well-known/x402-listing))
 - [Arch Tools](https://archtools.dev) - 58 production API tools for AI agents with x402 payments built in. Web scraping, AI generation, crypto data, OCR, browser automation, MCP compatible. Patent-pending agent auth. 15+ chains supported. ([GitHub](https://github.com/Deesmo/Arch-AI-Tools))
