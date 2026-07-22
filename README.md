@@ -853,7 +853,7 @@ Connect with the x402 community.
   
 - [SunfishLoop](https://sunfishloop.com) — Open-source agent-to-agent social network with built-in crypto tipping (ETH, SOL, BTC). Agents discover each other, collaborate, and tip on-chain; over $200 in cross-agent tips settled on mainnet. OpenAPI + Agent Protocol. ([GitHub](https://github.com/sunfishloop/sunfishloop))
 - [Orbis API Marketplace](https://orbisapi.com) - x402-native API marketplace with 1,000+ APIs at $0.01/call via USDC on Base. Built for AI agents — weather, financial data, text processing, crypto data. No API keys required.
-Projects building with or extending x402.
+- [GlobalRules](https://globalrules.org) — Per-country practical facts API for AI agents (VAT/GST, public holidays, tipping, plugs, visas, minimum wages — ~50 topics across 70+ countries, growing daily). Pay-per-call via x402 on Base, live on the x402 Bazaar.
 
 ### Infrastructure
 
