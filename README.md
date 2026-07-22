@@ -130,6 +130,7 @@ Official and community implementations of the x402 protocol.
 
 
 ## 🏭 Production Implementations
+- [AI Rook](https://agents.ai-rook.com) — Trading intelligence x402 API: market pulse, trade signals, order flow, AI chart analysis, backtesting, liquidation heatmap, translation. 10 pay-per-call endpoints on Base mainnet. CDP Bazaar listed. [OpenAPI](https://agents.ai-rook.com/openapi.json)
 
 Real companies using x402 in production with proven scale and transaction volumes.
 
