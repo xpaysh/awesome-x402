@@ -658,6 +658,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [true402 MCP](https://true402.dev) - Machine-native x402 marketplace on Base: token rug check with a real buy/sell honeypot simulation (proves sellability, not just static flags), address safety, deployer reputation, new pairs, whale swaps, SEO/GEO audits, and LLM inference. ~13 tools, $0.001–$0.015 USDC on Base; first few safety checks free, no wallet needed. `npx @true402.dev/mcp-server`. ([npm](https://www.npmjs.com/package/@true402.dev/mcp-server)) ([OpenAPI](https://true402.dev/openapi.json)) ([llms.txt](https://true402.dev/llms.txt))
 
 - [token-intel MCP](https://nexus-zero.xyz/mcp) - x402-paid MCP server (Streamable HTTP) for Solana token rug-risk intelligence. One tool (`get_token_intel`), $0.01 USDC on Solana mainnet: CLEAN→RUGGED verdict, LP-lock depth, holder locks, authority flags from RugCheck + GoPlus + on-chain. Payment travels in MCP `_meta` via @x402/mcp. ([Site](https://nexus-zero.xyz))
+- [Predge](https://github.com/predgeAI/whale-data-mcp) - Outcome-verified Polymarket whale-intelligence MCP server for AI agents: trades ≥$10k, wallet leaderboards ranked on realized edge over market price, and smart-money consensus. 13 pay-per-call endpoints ($0.005–$0.03), USDC on Base via x402, no accounts or API keys. In the official MCP Registry as `io.github.predgeAI/whale-data-mcp`. `npx -y @predge/whale-data-mcp`. ([npm](https://www.npmjs.com/package/@predge/whale-data-mcp)) ([Site](https://data.predge.io))
 
 ### Agent Frameworks
 
