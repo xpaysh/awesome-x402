@@ -710,6 +710,7 @@ Development tools and utilities for x402.
 - [Foundry](https://getfoundry.sh/) - Smart contract development toolkit.
 - [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - `curl` for x402 paid APIs. Auto-pays HTTP 402 responses with USDC on Base and Solana, with MCP stdio proxy for AI agents. `npx x402-proxy`. ([npm](https://www.npmjs.com/package/x402-proxy))
 - [x402trace](https://github.com/fardinvahdat/x402trace) - Local CLI debugger for x402 on Base. Detects timeout-reconciliation gaps (the [#1062](https://github.com/coinbase/x402/issues/1062) settled-but-server-thinks-not pattern), validates `.well-known/x402` + Bazaar listings (the [#2207](https://github.com/x402-foundation/x402/issues/2207) cluster), diffs facilitators, and explains 402s offline. Read-only, no key handling. Sepolia + Base mainnet. `npx x402trace`. ([npm](https://www.npmjs.com/package/x402trace))
+- [pay.sh](https://pay.sh) - Agentic payments layer from the Solana Foundation that lets AI agents and CLI tools call HTTP 402 paid APIs with no sign-up or pre-funding, settling per call over Solana. Ships the `@solana/pay` CLI plus a public registry of 402-gated services. ([GitHub](https://github.com/solana-foundation/pay)) ([Registry](https://github.com/solana-foundation/pay-skills))
 
 ### Monitoring & Analytics
 
