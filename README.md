@@ -1131,6 +1131,7 @@ x402 v2. MCP server on npm. Dataset actively growing.
 - [Paybound](https://github.com/pando-b/paybound) - Open-source spending controls for AI agents making x402 payments. Per-agent budgets, time-windowed limits, circuit breakers, and full audit trail. Drop-in `@x402/fetch` replacement. MIT licensed.
 - [PolicyLayer](https://policylayer.com) - Non-custodial spending controls for AI agents with crypto wallets. Enforces daily spending limits, per-transaction caps, recipient whitelists, and rate limiting without holding private keys.
 - [ICME Labs](https://docs.icme.io) - Formal verification for AI agent actions using the ARc paper approach. Natural language policies compile to SMT-LIB formal logic, checked by an SMT solver — SAT = allowed, UNSAT = blocked. Wrapped in zero knowledge proofs for sub-1s verification, private policies, and  cryptographic audit trails per decision. 99%+ soundness under adversarial pressure. $0.10 USDC per check on Base, no account needed. Live demo policy available. 
+- [Counterroll](https://counterroll.dev) - Deny-by-default policy gate for x402 agent payments with per-transaction, rolling-window, payee, network, and asset controls. Returns Ed25519-signed, hash-chained receipts for policy-evaluable approve and deny decisions with offline verification; TypeScript SDK: `npm i @counterroll/sdk`.
 
 ## 🔗 Related Protocols
 
