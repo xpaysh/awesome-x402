@@ -176,6 +176,7 @@ Real companies using x402 in production with proven scale and transaction volume
 | BNB Chain     | Production  | Pieverse                   | Instant (2s)    | Gaming, NFTs              |
 | Radius        | Production  | Community                  | Instant (<1s)   | Micropayments             |
 
+Hermes Web API — pay-per-call web search ($0.01) & page extraction ($0.02), x402 v2, USDC on Base — https://x402-service-two.vercel.app
 ### Data & Social APIs
 - [TerraDeed Scrape API](https://api.terradeed.co.uk) - Pay-per-use web scraping and structured JSON extraction. $0.01/$0.05 USDC on Base mainnet. LLM-ready markdown, JS rendering, schema-driven extraction. ([GitHub](https://github.com/terradeed/terradeed-scraper))
 - [EZ-Path](https://ezpath.myezverse.xyz) — Best-execution pay-per-request DEX meta-router. Races 10+ venues (0x, ParaSwap, Aerodrome, Uniswap V3, Curve, Balancer, 1Inch, CoW Swap, Synthetix) concurrently on Base mainnet. Three tiers: basic ($0.03, 0x only), resilient ($0.10, dual-lane race), institutional ($0.50, all venues). Strict agent wallet drain protections with hardcoded toll address validation. x402 v2 USDC on Base. Supports ElizaOS plugin integration. ([Discovery](https://ezpath.myezverse.xyz/.well-known/agent.json)) ([npm](https://www.npmjs.com/package/plugin-ezpath)) ([GitHub](https://github.com/infiniteezverse/ez-agentic-price-path))
