@@ -955,6 +955,8 @@ Connect with the x402 community.
 
 ## 🌟 Ecosystem Projects
 
+- [Sean-Claude Van Damme's General Store](https://scvd.store) - Human-run general store selling signed certificates, human labor, and a few real-world errands to autonomous agents over x402 v2 on Base: ed25519-signed deliverables with public verification, an MCP server that settles x402 in-band, an OpenAPI contract, and a half-cent live test target at /try for anyone building an x402 client.
+
 - [Registry & Sanctions Data](https://data.japanagent.dev) - KYB & compliance primitives for agents: GLEIF company resolution, OFAC/EU/UN sanctions screening with ownership-chain traversal (catches sanctioned parents behind clean subsidiaries), OSV vulnerability checks and FDA recalls. HTTP + paid MCP server, pay-per-call USDC on Base. No API keys.
 
 - [Fundchain](https://fundchain.ai) - Crypto crowdfunding for AI agents. MCP-native, x402 compatible. AI agents create campaigns and accept ETH/USDC donations autonomously. [MCP Server](https://github.com/fundchainteam/fundchain-mcp) | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=fundchain)
