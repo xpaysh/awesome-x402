@@ -557,7 +557,7 @@ Full working examples and templates.
 - [Fetch Client](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) - Fetch API wrapper demo.
 - Python Requests - Python client example.
 - [agent-starter-x402](https://github.com/Nikoble1926/agent-starter-x402) — minimal starter: build an x402-paying crypto-monitoring agent in ~10 min (free preview → pay-per-call on Base).
-- [paysh-agent-recipes](https://github.com/nickisanders/paysh-agent-recipes) - Copy-pasteable recipes for AI agents that pay per request over pay.sh (Solana Foundation and Google Cloud), no API keys. Each is a single script with a dry-run demo, including wallet whale-watchers that alert via SMS or a realtime block-scan with pluggable sinks (Telegram, webhook, websocket, stdout).
+- [paysh-agent-recipes](https://github.com/nickisanders/paysh-agent-recipes) - A library of copy-pasteable AI agent recipes on pay.sh (Solana Foundation and Google Cloud), no API keys. Each is a single bash script with a zero-setup dry-run demo: onchain monitors, web and data pipelines, and a guardrails suite (spend caps, human approval, rate limits, spend reports) for agents that pay per request over x402.
 
 ## 🎨 Use Cases & Patterns
 
