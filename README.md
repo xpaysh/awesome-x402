@@ -133,6 +133,13 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+- [Token Risk](https://5-9-107-124.nip.io) - Read-only Base and Ethereum
+  contract-risk API for agents. It reports bytecode and control risks including
+  upgradeability, owner/admin, mint, pause, blacklist, fee, and honeypot
+  indicators. Calls cost $0.02-$0.05 USDC on Base through x402; no API key or
+  signup. ([Discovery](https://5-9-107-124.nip.io/.well-known/x402.json) |
+  [OpenAPI](https://5-9-107-124.nip.io/openapi.json) |
+  [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=token-risk))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
 
