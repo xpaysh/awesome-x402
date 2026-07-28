@@ -1055,6 +1055,8 @@ Connect with the x402 community.
 
 ## 🌟 Ecosystem Projects
 
+- [Sean-Claude Van Damme's General Store](https://scvd.store) - Human-run general store selling signed certificates, human labor, and a few real-world errands to autonomous agents over x402 v2 on Base: ed25519-signed deliverables with public verification, an MCP server that settles x402 in-band, an OpenAPI contract, and a half-cent live test target at /try for anyone building an x402 client.
+
 - [Registry & Sanctions Data](https://data.japanagent.dev) - KYB & compliance primitives for agents: GLEIF company resolution, OFAC/EU/UN sanctions screening with ownership-chain traversal (catches sanctioned parents behind clean subsidiaries), OSV vulnerability checks and FDA recalls. HTTP + paid MCP server, pay-per-call USDC on Base. No API keys.
 
 - [RobinX](https://robinx.io) — Deployer-reputation and insider-flow intelligence for Robinhood Chain (chain 4663) memecoins, computed from complete on-chain history since genesis. Paid x402 endpoints on Base USDC (no API key): `GET /verdict/{token}` ($0.02) composite buy-risk verdict, `GET /deployer/{address}` ($0.01) reputation rap sheet, `GET /feed/new` ($0.01) pollable scored launch feed. Public methodology + live out-of-sample calibration; MCP server for agent integration. ([Methodology](https://robinx.io/methodology)) | ([Discovery](https://api.robinx.io/.well-known/x402)) | ([MCP](https://www.npmjs.com/package/robinx-mcp))
