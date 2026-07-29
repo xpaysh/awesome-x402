@@ -1032,8 +1032,7 @@ Connect with the x402 community.
 
 ### Official Channels
 
-- [x402 Foundation Discord](https://discord.gg/x402) - Official community server.
-- [GitHub Issues](https://github.com/coinbase/x402/issues) - Technical Q&A and bug reports.
+- [GitHub Issues](https://github.com/x402-foundation/x402/issues) - Technical Q&A and bug reports.
 - [Twitter @x402org](https://twitter.com/x402org) - Official updates and announcements.
 
 ### Developer Communities
@@ -1468,7 +1467,6 @@ Looking for more awesome lists?
   <a href="https://x402.org">Official x402 Website</a> •
   <a href="https://github.com/coinbase/x402">Protocol Repo</a> •
   <a href="https://docs.cdp.coinbase.com/x402">Documentation</a> •
-  <a href="https://discord.gg/x402">Discord</a> •
   <a href="https://twitter.com/x402org">Twitter</a>
 </p>
 
