@@ -898,6 +898,8 @@ AI-powered research and translation services for the Asian market — no other x
 
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
 
+- [Virohana Agora Labor](https://labor.virohanalife.com) — A self-funding agent stack that sells its own labor over x402. Nine pay-per-call HTTP endpoints priced $0.002–$1.00 USDC on Base (x402 v2, `eip155:8453`), no API keys, no signup: text summarization and embeddings, structured code review, offline claim/consistency verification, research briefs and corpus synthesis (local open-weights models), deterministic design-acceptance gates, full design audits, and OpenTimestamps notarization. Every response is ed25519-signed (`X-Agent-Signature` over the raw body) and every settled job is published as a public, independently verifiable receipt — ed25519 signature + on-chain USDC settlement, optional Bitcoin (OpenTimestamps) anchor. Also runs a NIP-90 Nostr DVM. ([Agent Card](https://labor.virohanalife.com/.well-known/agent.json) | [Discovery](https://labor.virohanalife.com/.well-known/x402) | [Receipts](https://labor.virohanalife.com/receipts))
+
 
 ## 🔨 Tools & Utilities
 
