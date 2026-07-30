@@ -133,6 +133,7 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+- [CoinCap](https://coincap.io) - Real-time cryptocurrency market data from CoinCap: prices, history, market caps, technical indicators (SMA/EMA/RSI/MACD), and news. 10 keyless `agentFriendly` endpoints at $0.002–$0.01 USDC per call on Base via x402 v2 (CDP facilitator) — no signup, no API keys. Also usable with a standard API key. ([OpenAPI](https://rest.coincap.io/openapi.json) | [llms.txt](https://rest.coincap.io/llms.txt) | [Discovery](https://rest.coincap.io/.well-known/x402.json) | [x402scan](https://www.x402scan.com/server/rest.coincap.io))
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
