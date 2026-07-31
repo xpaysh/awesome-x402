@@ -134,6 +134,7 @@ Official and community implementations of the x402 protocol.
 
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
+- [Sévérine Data APIs](https://severine-api.projectveritos.com) — 99 pay-per-call DeFi/crypto data endpoints for AI agents: price feeds, yield scanners, whale tracking, gas optimization, token analysis, wallet profiling, DEX quotes, funding rates, on-chain analytics. $0.01–$0.05 USDC on Base via CDP facilitator. MCP server with 30+ tools at severine-mcp.projectveritos.com. Self-facilitated, no API keys. ([Discovery](https://severine-api.projectveritos.com/.well-known/x402)) ([GitHub](https://github.com/hebridean-tech/severine-mcp))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
 
