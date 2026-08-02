@@ -118,6 +118,7 @@ Official and community implementations of the x402 protocol.
 
 - [x402-pay](https://pypi.org/project/x402-pay/) - Call any x402 API with one API key. Routes requests through a broker that handles on-chain payment. httpx-based, optional wallet mode for direct payments. ([GitHub](https://github.com/bartonguestier1725-collab/x402-pay))
 - [hive-rosetta](https://pypi.org/project/hive-rosetta/) ⭐ **Community** - Direct port of the Node `hive-rosetta` signer. Byte-identical EIP-712 digest across both languages. Returns `{scheme, network, payload}` matching CDP `/verify` and `/settle`. ([GitHub](https://github.com/srotzin/hive-rosetta))
+- [feeless402](https://pypi.org/project/feeless402/) ⭐ **Community** - Feeless x402 micropayments over Nano (XNO): self-custodied client (`nano-pay pay`), payer-cost rail comparison, self-settling merchant server with no facilitator, PoW-gated starter faucet for agents, MCP server (official registry: `com.feeless402/nano-pay`), and the vendor-neutral [railHint](https://railhint.com) extension. ([GitHub](https://github.com/Feeless402/feeless402))
 
 ### Rust
 
