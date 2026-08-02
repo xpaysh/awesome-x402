@@ -412,6 +412,10 @@ Major tech companies leveraging x402 in production include **Coinbase** (Native 
 
 Client libraries for making x402 payments.
 
+### Multi-Language (Solana Foundation)
+
+- [pay-kit](https://github.com/solana-foundation/pay-kit) - **Solana Foundation** multi-language SDKs for building x402 and MPP agent payments into any application. Server-side: TypeScript, Rust, Go, Python, Ruby, PHP, Lua. Client-side: TypeScript, Rust, Go, Python, Kotlin, Swift. Quick-start example: `require_payment! usd("0.10")` in a 7-line Ruby/Sinatra app. Includes a local playground web app for end-to-end testing. MIT. ([pay CLI](https://github.com/solana-foundation/pay)) ([Docs](https://docs.solanapay.com))
+
 ### JavaScript/TypeScript
 
 **HTTP Clients**
@@ -922,6 +926,7 @@ Development tools and utilities for x402.
 - [x402trace](https://github.com/fardinvahdat/x402trace) - Local CLI debugger for x402 on Base. Detects timeout-reconciliation gaps (the [#1062](https://github.com/coinbase/x402/issues/1062) settled-but-server-thinks-not pattern), validates `.well-known/x402` + Bazaar listings (the [#2207](https://github.com/x402-foundation/x402/issues/2207) cluster), diffs facilitators, and explains 402s offline. Read-only, no key handling. Sepolia + Base mainnet. `npx x402trace`. ([npm](https://www.npmjs.com/package/x402trace))
 - [x402check](https://github.com/SapienLearn/x402check) - Pre-pay recon for x402 endpoints: reads the `/.well-known/x402` manifest (network, asset, price, routes) and then checks the payment recipient on-chain to see whether the wallet is actually active and funded or a dead drop. Read-only, no keys, public block explorers only, pure Python stdlib.
 - [minia2a](https://github.com/minia2a/minia2a-cli) - Zero-dependency CLI for the minia2a.uk M2M micropayment marketplace. Discover 173+ x402 services, call any endpoint, register for 500 free trial credits, and pay in USDC. `npm install -g minia2a`. Built for AI agents that need utility APIs with per-call pricing. MIT. ([minia2a.uk](https://minia2a.uk))
+- [pay](https://github.com/solana-foundation/pay) - **Solana Foundation** CLI for agentic payments (x402, MPP, AP2). Wrap any command (`curl`, `claude`, `codex`) — when an API returns HTTP 402, `pay` detects the protocol, prepares a stablecoin transaction, prompts the local wallet (Touch ID / Windows Hello / GNOME Keyring), and retries with the payment proof. Ships with a built-in MCP server for AI assistants, ACP support (Goose, Claude, Codex), and a debugging web UI. `brew install pay` or `npm install -g @solana/pay`. Solana stablecoins, MIT. ([Docs](https://docs.solanapay.com)) ([pay-kit](https://github.com/solana-foundation/pay-kit))
 
 ### Monitoring & Analytics
 
