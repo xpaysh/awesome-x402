@@ -509,6 +509,7 @@ Payment verification and settlement services.
 - [Cloudflare x402](https://blog.cloudflare.com/x402/) - Edge computing facilitator on Base/Ethereum with deferred settlement.
 - [BNB Chain Pieverse](https://twitter.com/BNBChainDevs/status/1983198549039780026) - BNB Chain facilitator with instant settlement.
 - [AsterPay](https://asterpay.io) - European x402 Facilitator with EUR off-ramp via SEPA Instant. MiCA compliant, ERC-8004 ready, ElizaOS plugin. First European-focused x402 infrastructure.
+- [AgentPay Avalanche](https://github.com/majorsam10/agentpay-avalanche) - AgentPay Terminal — x402 agentic payments on Avalanche. Speedrun competition MVP demonstrating x402 settlement on Avalanche C-Chain. ([GitHub](https://github.com/majorsam10/agentpay-avalanche))
 - [FluxA](https://fluxapay.xyz) - Hosted x402 facilitator for AI agent payments. Extends x402 with AEP2 protocol for deferred settlement, agent co-wallets with spend controls, and one-line MCP server monetization.
 - [MERX x402 for TRON](https://x402.merx.exchange) - First TRON facilitator. Supports USDT, USDC, USDD on TRON mainnet. Sub-3-second confirmation for micropayments. [Express middleware](https://npmjs.com/package/merx-x402), [documentation](https://github.com/Hovsteder/x402-tron).
 - [Primev FastRPC](https://facilitator.primev.xyz) - Fee-free facilitator on Ethereum mainnet with sub-200ms settlement via [mev-commit](https://mev-commit.xyz) preconfirmations. ERC-8004 registered (Agent #23175).
@@ -548,6 +549,7 @@ Full working examples and templates.
 - [x402 Boilerplate — Conflux eSpace](https://github.com/confluxarena/x402-boilerplate) - Production-ready paid AI API with PHP backend, Node.js facilitator, CLI agent, Docker, 87 tests, and multi-wallet demo. EIP-3009 USDT0 settlement. [Live Demo](https://confluxarena.org/x402-demo).
 - [x402 Dynamic Pricing](https://github.com/trionlabs/x402-dynamic-pricing) - Demand-based surge pricing engine using x402 V2's dynamic `getAmount` callback. Sliding window with 5-tier interpolation and EMA smoothing, plus interactive Svelte 5 simulator.
 - [Agent Arena](https://agentarena.site) - On-chain ERC-8004 agent registry with x402-gated search ($0.001 USDC/query) and registration ($0.05 USDC). Agents discover and hire each other autonomously on Base mainnet. No API keys required.
+- [PR Legislative x402](https://github.com/kushaim/pr-legislative-x402) - Pay-per-call access to structured Puerto Rico legislative data over x402. HTTP API + MCP server. Novel government data monetization pattern. ([GitHub](https://github.com/kushaim/pr-legislative-x402))
 - [CIPHER Premium](https://cipher-x402.vercel.app) - Next.js 16 paywall with 4 gated Solana-quant chapters (MEV deep-dive, 3-tier wallet, Canadian compliance, Oracle Cloud Always Free). $0.25 USDC/Base per fetch. Hand-rolled proxy.ts, no facilitator deps at advertise time.
 
 ### API Examples
@@ -972,6 +974,11 @@ Tools and resources for testing x402 implementations
 - [Base Sepolia USDC Faucet](https://faucet.circle.com/) - Get test USDC.
 - [Base Sepolia Bridge](https://bridge.base.org/) - Bridge test ETH.
 
+### Testing Tools
+
+- [Kanon](https://github.com/iamonuwa/kanon) - Conformance test-vector corpus and reference verifier for x402 agent-payment mandates. Validate your implementation against canonical test vectors. ([GitHub](https://github.com/iamonuwa/kanon))
+- [x402 Regression Base](https://github.com/caliperforge/x402-regression-base) - CI-native planted-twin regression harness for the x402 agentic-payments settlement threat model. Live on Base mainnet + Sepolia. Apache-2.0. ([GitHub](https://github.com/caliperforge/x402-regression-base))
+
 
 ## 📚 Tutorials & Learning Resources
 
@@ -1029,6 +1036,7 @@ Written content about x402.
 - How x402 Works - Technical explanation.
 - [EIP-3009 Explained](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) - Gasless transfers.
 - [Counterfeit Verifiability in Autonomous Agent Payments](https://doi.org/10.5281/zenodo.21042364) - Preregistered six-stage study (Salvo & Ackerman, 2026; up to 13 models, 2,600+ payment decisions) on agent counterparty trust in x402-style flows. A counterparty that merely *displays* the surface of verification (impressive figures, an on-chain-styled but invalid reference) beats an honest, genuinely settlement-backed agent 99% of the time; only *performing* the check, not reading a displayed claim, corrects it (1% → 81%). The case for verifying in-path. Design sealed to a public hash chain before any data; null result reported in full. ([PDF](https://agentrank.info/papers/counterfeit-verifiability.pdf) | [DOI](https://doi.org/10.5281/zenodo.21042364))
+- [How Organic Is x402](https://github.com/paultimfv/how-organic-is-x402) - Research analyzing organic vs. gamed transaction volume on the x402 agentic payments protocol. Data-driven investigation into transaction authenticity. ([GitHub](https://github.com/paultimfv/how-organic-is-x402))
 
 ### Use Case Articles
 
@@ -1353,6 +1361,7 @@ Security resources and best practices for x402 implementations.
 - [Inntris x402 Policy Adapter](https://github.com/Inntris/inntris-x402-policy-adapter) - Pre-execution policy decisions for x402 agent payments. Separates the decision to pay from the act of paying with signed, independently verifiable policy evaluations. ([GitHub](https://github.com/Inntris/inntris-x402-policy-adapter))
 - [agentpay-guard](https://github.com/theMobiusStrip/agentpay-guard) - Fail-closed spend guard for x402 agent payments. Stateful policy plugin, EIP-3009 replay middleware, and DrainBench — a reproducible adversarial drain benchmark. ([GitHub](https://github.com/theMobiusStrip/agentpay-guard))
 - [Hedera AgentPay Guard](https://github.com/krutftw/hedera-agentpay-guard) - Signed policy receipts for Hedera x402 agent payments with HCS and Mirror Node verification. ([GitHub](https://github.com/krutftw/hedera-agentpay-guard))
+- [x402 Spend Receipt](https://github.com/selfradiance/x402-spend-receipt) - Local policy gate + signed, hash-chained allow/deny receipts for x402 agent payments. Agents hold their own spend policy; receipts are independently verifiable. ([GitHub](https://github.com/selfradiance/x402-spend-receipt))
 
 ### Smart Contract Audits
 
