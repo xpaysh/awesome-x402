@@ -1080,7 +1080,7 @@ Connect with the x402 community.
 
 ### Events & Meetups
 
-- x402 Hackathons - Upcoming hackathons and prizes.
+- [x402 Global Challenge](https://minia2a.uk/x402-hackathon-2026.html) — $100K+ prizes hackathon for building APIs AI agents pay for. Free starter kit (Python/Node/Go), 500 credits, remote OK. PreHack Aug 23, Bengaluru. [Starter kit](https://github.com/minia2a/x402-hackathon-starter) · [Guide](https://minia2a.uk/hackathon-guide-2026.html)
 - [Local Meetups](https://meetup.com/x402) - In-person gatherings.
 
 ### Newsletters
