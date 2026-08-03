@@ -1290,6 +1290,13 @@ Projects building with or extending x402.
 - **[DeFi Intelligence Engine](https://defi-yield-engine-production.up.railway.app/mcp)** — Complete DeFi intelligence across Yield, Liquid Staking, Restaking, RWA, Perpetuals, Gas Optimization and Smart Contract Security. Risk-adjusted single recommendations with reasoning — 97% fewer tokens than raw data. 18 tools including gas window prediction, GoPlus contract scoring, APY alerts, and A2A Agent Card. 0.05 USDC/call on Base · MCP streamable-http · x402 native
 - [YieldSignal](https://yieldsignal.vercel.app) - Real-time risk-weighted USDC lending APY across Aave, Compound, Morpho, Moonwell, Euler and Fluid on Base. Every reading tagged with its data source (onchain/api/defillama) — sources that fail are omitted, never estimated. $0.01 USDC per call via CDP Facilitator, Bazaar discoverable.
 - [Runbot Strategy Copilot](https://mcp.runbot.io/v1) — Build, backtest, optimize and export real crypto trading strategies from plain English on the Runbot engine (perp futures + Polymarket prediction markets), with real market data and verified backtest scores. Paid per call, x402 v2 dual-rail: USDT on X Layer (eip155:196) or USDC on Base (eip155:8453). $1.50 build · $0.25 backtest · $0.25/minute optimize · $0.35 export. Free machine-readable discovery at [/v1](https://mcp.runbot.io/v1); cataloged in PayAI's Bazaar; MCP endpoint at `/mcp`.
+- **[Kite](https://kite.money)** — Vertically integrated agent payment layer (Avalanche L1, ~$35M from PayPal Ventures & General Catalyst). 1-second block times, gas abstraction, and **Kite Agent Passport**: programmable wallet + identity system with spending limits, approved merchants, and kill switches — no exposed private keys. Acts as settlement hub for x402, Google AP2, Anthropic MCP, and Stripe MPP. ([Docs](https://docs.kite.money)) ([GitHub](https://github.com/kite-agents))
+- **[XDC AI](https://xinfin.org/ai)** — XDC Network's AI agent payment platform pairing x402 with **gasless USDC settlement**. Agents pay per request without holding native tokens for gas. Integrated **Bridge (a Stripe company)** for stablecoin settlement infrastructure. Demonstrated to 100+ banks, VCs, and tech firms in New York (August 2026). Enables agents to not just recommend services but execute payment autonomously. ([Announcement](https://www.xinfin.org/press/xdc-ai-agent-payments)) ([x402 Docs](https://docs.xinfin.org/xdc-ai/x402))
+- **[Fabric Foundation RoboPay](https://fabric.foundation/robopay)** — "Pay-to-Actuate" infrastructure bringing x402 payments to physical robots. Demonstrated on quadruped (Deep Robotics M20 Pro), humanoid (AGIBot X2), and robotic arm (DOBOT CR5V): USDC payment clears via x402 → authorizes task → robot executes. $1M ROBO bounty program (deadline Aug 21, 2026) across 12 robotic platforms. ([GitHub](https://github.com/fabric-foundation/robopay)) ([Bounty](https://fabric.foundation/robo-bounty))
+- **[Blockscout x402 Pro API](https://www.blockscout.com)** — Blockchain data APIs for 120+ chains on Base, payable per call in USDC via x402. AI agents query transaction history, token transfers, contract state, and block data without API keys — EIP-3009 signed transfers, fractions of a cent per request. Production-ready with the same infrastructure that powers Blockscout's block explorer used by thousands of chains. ([Docs](https://docs.blockscout.com/for-users/api/x402-payments))
+- **[Cryptorefills Agent Skills](https://github.com/Cryptorefills/agents)** — Agent skills for buying gift cards (3,000+ brands), mobile top-ups, and eSIMs with crypto. MCP-native tools with x402 payment rails — agents discover, compare, and purchase digital goods autonomously. USDC settlement on Base and Solana. ([GitHub](https://github.com/Cryptorefills/agents)) ([Docs](https://docs.cryptorefills.com/agents))
+- **[Agent Payment Protocols — Landscape Analysis](https://github.com/custena/agent-payment-protocols)** — Neutral, comprehensive landscape analysis of 10+ AI agent payment protocols (x402, MPP, L402, Google AP2, Visa TAP+ICC, Mastercard Agent Pay, Amex ACE, Google/Shopify UCP, OpenAI ACP). Maintained by Genesis Software Group, Copenhagen. Updated April 2026. CC BY 4.0. Key finding: protocols are **converging into a layered stack**, not competing — API operators should be multi-protocol. ([GitHub](https://github.com/custena/agent-payment-protocols))
+- [x402view](https://github.com/primer-systems/x402view) — Investment-focused directory of x402 projects and tokens. Track the x402 ecosystem from an investor perspective — project discovery, token metrics, and ecosystem mapping.
 
 ### Developer Tools
 
@@ -1306,7 +1313,7 @@ Live metrics and on-chain analytics for the x402 ecosystem.
 
 ### Market Overview
 
-**Ecosystem Market Cap**: $815 million combined market capitalization of x402 ecosystem tokens. **Weekly Transactions**: 500K+ payment settlements across all chains. **Cumulative Transactions**: 10.5M+ total transactions processed on AIsa network. **Transaction Growth**: 10,000%+ year-over-year increase in payment volume. **Settlement Time**: 2-second average across production deployments.
+**Ecosystem Market Cap**: $815 million combined market capitalization of x402 ecosystem tokens (CoinGecko, Benzinga). **Cumulative Transactions**: 109M+ x402 payments processed since May 2025, with $15M+ total volume (Visa/Artemis report, August 2026). **Base L2**: 100M+ agentic payment transactions, with transfers >$1 now 95% of value. **Weekly Transactions**: 500K+ payment settlements across all chains. **Settlement Time**: 2-second average across production deployments. **Institutional Backing**: x402 Foundation under Linux Foundation with 40+ members including Visa, Mastercard, Stripe, Google, AWS, Coinbase, Circle, and Shopify. **Franklin Templeton** ($1.5T AUM) publicly identified AI agent micropayments as blockchain's next major growth driver.
 
 ### Analytics Dashboards
 
@@ -1327,12 +1334,12 @@ Evolution from developer curiosity to production scale: **Q1 2024** (Initial pro
 
 | Metric              | Value      | Source                  |
 | ------------------- | ---------- | ----------------------- |
-| Total Transactions  | 10.5M+     | AIsa Network            |
+| Total Transactions  | 109M+      | Visa/Artemis (Aug 2026) |
+| Total Volume        | $15M+      | Visa/Artemis (Aug 2026) |
 | Weekly Volume       | 500K+      | Ecosystem-wide          |
 | Market Cap          | $815M      | Benzinga, CoinGecko     |
 | Settlement Speed    | 2 seconds  | Production avg          |
-| Supported Chains    | 5+         | Base, ETH, SOL, BNB     |
-- [x402view](https://github.com/primer-systems/x402view) — Investment-focused directory of x402 projects and tokens. Track the x402 ecosystem from an investor perspective — project discovery, token metrics, and ecosystem mapping.
+| Supported Chains    | 8+         | Base, ETH, SOL, BNB, TRON, XDC, Avalanche, X Layer |
 | Active Facilitators | 10+        | Hosted + Self-hosted    |
 
 ## 🚀 Migration Guides
