@@ -961,6 +961,7 @@ Guides and tutorials for learning x402.
 - Understanding Payment Flows - Visual explanation.
 - Building a Paid Weather API - Step-by-step tutorial.
 - Client Setup Guide - Making payments.
+- [Ship x402](https://shipx402.com) - Free interactive x402 tutorial for Solana with a live 402 lab, endpoint checker, middleware generator, and Devnet practice wallet.
 
 ### Intermediate Tutorials
 
