@@ -1258,6 +1258,8 @@ Projects building with or extending x402.
 - [AI Code Review API](https://x402-code-review.x402-cr.workers.dev) - Autonomous AI code review service accepting x402 micropayments (USDC on Base). Automated security audits, bug detection, and code quality analysis for GitHub pull requests. ([Docs](https://x402-code-review.x402-cr.workers.dev/.well-known/x402.json))
 - [BountyVerdict](https://github.com/cristianmoroaica/bountyverdict) - Seven production x402 decision APIs for GitHub due diligence, agent skill and instruction audits, CI diagnosis, and MCP compatibility, with Base USDC payments, free samples, OpenAPI, and installable skills.
 
+- [ArgonautWorks Commercial-Safe Image API](https://github.com/ArgonautWorks/product-image-api) - Accountless x402 v2 endpoint that generates one screened 768×768 PNG for $0.02 USDC on Base using local CPU inference. Paid calls return private asynchronous status and download credentials; OpenAPI, Bazaar, A2A, and x402 discovery metadata are public. ([Live API](https://product-image-api-delta.vercel.app) | [OpenAPI](https://product-image-api-delta.vercel.app/openapi.json) | [x402scan](https://www.x402scan.com/server/53d50c64-7894-47f7-aa83-1beb51633b30))
+
 ## 📊 Ecosystem Market Data
 
 Live metrics and on-chain analytics for the x402 ecosystem.
