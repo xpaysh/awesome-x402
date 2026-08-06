@@ -130,6 +130,8 @@ Official and community implementations of the x402 protocol.
 
 
 ## 🏭 Production Implementations
+- [Script Master Labs Premium Capability Index](https://www.scriptmasterlabs.com/pricing.html) — Hosted ranked discovery so AI agents can find and hire APIs (Match API + AMB beacons + multi-rail x402). Starter $49/mo. [Article](https://www.scriptmasterlabs.com/ai-agent-api-discovery-premium-index.html) · [IMP protocol](https://github.com/Timwal78/intention-market-protocol) · [Dev.to](https://dev.to/scriptmaster78/your-api-is-invisible-to-ai-agents-fix-it-with-a-hosted-capability-index-49-2mmm)
+
 
 Real companies using x402 in production with proven scale and transaction volumes.
 
