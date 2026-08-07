@@ -4,6 +4,16 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/xpaysh/awesome-x402?style=social)](https://github.com/xpaysh/awesome-x402)
 
+### Operation-X01 - Gemini 3 via x402 (Base)
+
+Pay-per-use OpenAI-compatible **Gemini 3** chat, settled via **x402 v2** on **Base mainnet USDC**.
+
+- Endpoint: `https://operation-x01.dedyn.io/v1/chat/completions`
+- No API key, no signup, no account for buyers — POST, receive HTTP 402 with the exact price, pay with any Base wallet, get the completion
+- Price: from **$0.001** per request; launch offer **up to 90% off**
+- Models: `gemini-3.6-flash`, `gemini-3.5-flash`, `gemini-3.5-flash-lite`, `gemini-3-flash-preview`, `gemini-3.1-flash-lite`
+- Discovery: `/v1/models` · `/llms.txt` · `/.well-known/agent.json` · `/openapi.json`
+
 ## Contents
 
 - [🎯 Quick Start - Become an x402 Champion](#-quick-start---become-an-x402-champion)
