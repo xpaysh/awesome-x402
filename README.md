@@ -487,6 +487,9 @@ Server-side integrations for accepting x402 payments.
 - [switchboard](https://github.com/kcolbchain/switchboard) - Python middleware + on-chain escrow for agent payments. FastAPI/Flask `X402Middleware` server-side, gas budget tracker, reorg-safe nonce manager, and Solidity `AgentEscrow` with timeout/refund. Protocol-agnostic substrate (x402 + escrow shipping; MPP/AP2 in flight).
 - [Routeweiler](https://github.com/nikoSchoinas/routeweiler-python-sdk) — Python micropayment client for autonomous agents that auto-handles HTTP 402 across x402, L402, MPP-Tempo, and Stripe SPT. Enforces policy & budget, and produces payment traces for auditing. ([PyPI](https://pypi.org/project/routeweiler/))
 
+**Standalone Servers**
+- [monad-x402-gate](https://github.com/ColinkaMir/monad-x402-gate) - Self-verified x402 gate for Monad in a single stdlib file (~200 lines, zero dependencies): the client pays native MON, the server verifies locally over RPC (no facilitator, no contracts), sqlite replay store, 15-minute validity window. Running in production behind nginx with `/.well-known/x402` discovery. MIT. ([Engineering note](https://prooflines.org/monad/x402-on-monad/) | [Live endpoint](https://prooflines.org/monad/x402/network-concentration-report))
+
 ### Rust
 
 **Axum**
