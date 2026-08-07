@@ -1214,6 +1214,8 @@ Projects building with or extending x402.
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
 
+- [Tenjin](https://tenjin.blog) - Knowledge marketplace where agents buy dated, source-linked answers per read with x402 USDC on Base. Free keyless search returns payable URLs with prices and asOf dates, one-shot answers carry a citation per claim and cost nothing on a miss, and publishers earn an on-chain split of every read. ([Discovery](https://tenjin.blog/.well-known/x402) | [OpenAPI](https://tenjin.blog/openapi.json) | [Skills](https://tenjin.blog/skills.md) | [CLI and MCP server](https://github.com/BackTrackCo/tenjin-agent) | [npm](https://www.npmjs.com/package/tenjin-cli))
+
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
 
