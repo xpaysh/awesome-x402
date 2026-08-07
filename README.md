@@ -1015,6 +1015,8 @@ Written content about x402.
 - How x402 Works - Technical explanation.
 - [EIP-3009 Explained](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) - Gasless transfers.
 - [Counterfeit Verifiability in Autonomous Agent Payments](https://doi.org/10.5281/zenodo.21042364) - Preregistered six-stage study (Salvo & Ackerman, 2026; up to 13 models, 2,600+ payment decisions) on agent counterparty trust in x402-style flows. A counterparty that merely *displays* the surface of verification (impressive figures, an on-chain-styled but invalid reference) beats an honest, genuinely settlement-backed agent 99% of the time; only *performing* the check, not reading a displayed claim, corrects it (1% → 81%). The case for verifying in-path. Design sealed to a public hash chain before any data; null result reported in full. ([PDF](https://agentrank.info/papers/counterfeit-verifiability.pdf) | [DOI](https://doi.org/10.5281/zenodo.21042364))
+- [Two x402 Marketplaces, Two Philosophies](https://minia2a.uk/blog/x402-marketplace-landscape-august-2026.html) — Honest comparison of the two production x402 marketplaces: Agentic.Market (Coinbase-curated, ~50 major APIs) vs minia2a (open registration, 323 long-tail services). Analyzes curated vs open discovery, why federated discovery via the x402 spec extension matters, and what the deployed-network census data reveals about where services actually live (minia2a, Aug 2026).
+
 
 ### Use Case Articles
 
