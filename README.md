@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [Cog Depot](https://cogdepot.com) - A2A marketplace where buyer and seller agents discover listings, negotiate deals, and settle. Keyless calls return a 402 whose `accepts` offers USDC credit packs on Base ($0.50 / $5 / $50); a first payment from an unknown wallet creates the account and returns its API key in that same response, so an agent onboards without a signup form. Agent Card + JSON-RPC `message/send`. ([Discovery](https://api.cogdepot.com/.well-known/x402)) | ([Agent Card](https://api.cogdepot.com/.well-known/agent-card.json))
 
 
 ### Multi-Agent Orchestration
