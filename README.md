@@ -103,6 +103,7 @@ Official and community implementations of the x402 protocol.
   - Payment verification and settlement logic
   - Multi-chain support (Base, Base Sepolia, Ethereum, Solana)
 - [x402-data-api](https://github.com/155143783/x402-data-api) - HTTP 402 micro-payment data API with Base chain USDC payments. 16 developer data tools including email validation, DNS lookup, WHOIS, SSL check, and IP geolocation with x402 payment integration.
+- [Andreax API Services](https://pagos.andreax.dev/tienda) - 20 pay-per-call AI services over x402 (USDC on Base): compression, inference, research, web-read, FX, summarize, translate, extract-JSON, and more. From $0.001. Machine-readable catalog at https://pagos.andreax.dev/api/taller/peaje/catalogo
 
 - [x402-express](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) - Express.js middleware example.
 - [hive-rosetta](https://www.npmjs.com/package/hive-rosetta) ⭐ **Community** - Open EIP-3009 `transferWithAuthorization` signer. Zero ethers/web3 dependency, primitives-only EIP-712. Returns wire shape `{scheme: 'exact', network: 'eip155:8453', payload: {authorization, signature}}`. Same package name on PyPI. ([GitHub](https://github.com/srotzin/hive-rosetta))
