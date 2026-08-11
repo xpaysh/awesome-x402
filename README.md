@@ -187,6 +187,7 @@ Real companies using x402 in production with proven scale and transaction volume
 - [SuVerse Pay](https://suverse-pay.suverse.io) - Payment gateway + API catalog with ~490 paid endpoints on one origin: crypto market data, Polymarket smart-money verdicts, token-safety forensics (Base + Solana), macro/gov datasets, and an x402 endpoint liveness probe. $0.05–$0.75 USDC per call, multi-chain settlement (Base + Solana + Cosmos Noble) via a self-hosted facilitator, no API keys or signup. ([OpenAPI](https://proxy.suverse.io/openapi.json) | [Catalog](https://suverse-pay.suverse.io/catalog) | [MCP](https://www.npmjs.com/package/@suverselabs/mcp-server) | [Buyer SDK](https://www.npmjs.com/package/@suverselabs/x402-client))
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
+- [Gondola](https://gondola-ai.com) - x402-payable LLM inference marketplace on Base: a keyless POST to /v1/chat/completions returns a 402 challenge, a signed X-PAYMENT retry returns the completion, and overpayment banks as reusable wallet credit. OpenAI and Anthropic wire formats, 105 text models plus image generation on Venice AI supply, each request routed to the cheapest seller. No API keys, no signup. ([OpenAPI](https://api.gondola-ai.com/openapi.json) | [llms.txt](https://gondola-ai.com/llms.txt))
 
 ### Production Success Metrics
 
