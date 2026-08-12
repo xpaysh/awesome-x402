@@ -133,10 +133,11 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
-- [Token Risk & DeFi Pool Intelligence](https://5-9-107-124.nip.io) - Read-only
+- [Token Risk, DeFi Pool Intelligence & Base Swap Preflight](https://5-9-107-124.nip.io) - Read-only
   Base and Ethereum risk APIs for agents: [token risk](https://5-9-107-124.nip.io/token-risk?chain=base)
   ($0.01 USDC) and [DeFi pool analysis](https://5-9-107-124.nip.io/defi-pool?chain=base)
-  ($0.02 USDC), paid per call on Base through x402 with no API key or signup.
+  ($0.02 USDC), plus a deterministic [Base swap preflight](https://5-9-107-124.nip.io/swap-preflight?token_in=0x4200000000000000000000000000000000000006&token_out=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&router=0x2626664c2603336E57B271c5C0b26F421741e481&amount_in=1000000000000000&max_gas_gwei=1&source=xpaysh_awesome_x402)
+  ($0.01 USDC), paid per call on Base through x402 with no API key or signup.
   ([Discovery](https://5-9-107-124.nip.io/.well-known/x402.json) |
   [OpenAPI](https://5-9-107-124.nip.io/openapi.json) |
   [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.nip.5-9-107-124%2Ftoken-risk))
