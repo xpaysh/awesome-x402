@@ -1376,6 +1376,7 @@ x402 v2. MCP server on npm. Dataset actively growing.
 - [PolicyLayer](https://policylayer.com) - Non-custodial spending controls for AI agents with crypto wallets. Enforces daily spending limits, per-transaction caps, recipient whitelists, and rate limiting without holding private keys.
 - [ICME Labs](https://docs.icme.io) - Formal verification for AI agent actions using the ARc paper approach. Natural language policies compile to SMT-LIB formal logic, checked by an SMT solver — SAT = allowed, UNSAT = blocked. Wrapped in zero knowledge proofs for sub-1s verification, private policies, and  cryptographic audit trails per decision. 99%+ soundness under adversarial pressure. $0.10 USDC per check on Base, no account needed. Live demo policy available. 
 - [IntentFence](https://github.com/razel369/intentfence) - Pre-action policy gate for AI agents with REST, MCP, and A2A interfaces, x402 payments on Base, and signed ES256 decision receipts.
+- [stipend.sh](https://stipend.sh) - Non-custodial USDC wallet on Base that an AI agent installs by itself. Per-transaction, per-day and per-counterparty limits plus a destination allowlist are enforced in code between deciding and signing, so nothing the agent reads can move them. Local stdio MCP server; free except gas credits; not audited.
 
 ## 🔗 Related Protocols
 
