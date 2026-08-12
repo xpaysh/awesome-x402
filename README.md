@@ -1,6 +1,6 @@
 # Awesome X402 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> ⚡ **The Ultimate x402 Resource Hub** - Everythng you need to build internet-native payments using HTTP 402. Perfect for AI agents, APIs, and micropayments. Build paywalls, monetize services, and enable autonomous agent payments with crypto/USDC. Zero fees, 2-second settlement.
+> ⚡ **The Ultimate x402 Resource Hub** - Everything you need to build internet-native payments using HTTP 402. Perfect for AI agents, APIs, and micropayments. Build paywalls, monetise services, and enable autonomous agent payments with crypto/USDC. Zero fees, 2-second settlement.
 
 [![GitHub stars](https://img.shields.io/github/stars/xpaysh/awesome-x402?style=social)](https://github.com/xpaysh/awesome-x402)
 
@@ -9,16 +9,16 @@
 - [🎯 Quick Start - Become an x402 Champion](#-quick-start---become-an-x402-champion)
 - [📚 Official Resources](#-official-resources)
 - [📖 Protocol Documentation](#-protocol-documentation)
-- [🚀 Quickstart Guides](#-quickstart-guides)
+- [🚀 Quickstart Guides](#-quick-start-guides)
 - [⚙️ Protocol Implementations](#-protocol-implementations)
-- [🏭 Production Implementatdions](#-production-implementations)
+- [🏭 Production Implementations](#-production-implementations)
 - [🛠️ SDKs & Client Libraries](#-sdks--client-libraries)
 - [🔧 Server Frameworks & Middleware](#-server-frameworks--middleware)
 - [🏗️ Facilitators](#-facilitators)
 - [💡 Example Applications](#-example-applications)
 - [🎨 Use Cases & Patterns](#-use-cases--patterns)
 - [🤖 AI Agent Integration](#-ai-agent-integration)
-- [Octodamus](https://api.octodamus.com) — AI market-intelligence API for agents. 33 pay-per-call x402 endpoints on Base ($0.01–$0.02, USDC, no keys): cross-venue derivatives facts, prediction-market odds, congressional trades, macro reference numbers, and a tokenized-equity suite (24/7 fair value, on-chain basis, and Arcus perp facts for Robinhood Chain). Ed25519-signed responses, MCP server, all endpoints cataloged in the CDP x402 Bazaar. ([llms.txt](https://octodamus.com/llms.txt)) ([Discovery](https://api.octodamus.com/.well-known/x402.json)) ([MCP](https://smithery.ai/server/octodamusai/market-intelligence))
+- [Octodamus](https://api.octodamus.com) — AI market-intelligence API for agents. 33 pay-per-call x402 endpoints on Base ($0.01–$0.02, USDC, no keys): cross-venue derivatives facts, prediction-market odds, congressional trades, macro reference numbers, and a tokenised-equity suite (24/7 fair value, on-chain basis, and Arcus perp facts for Robinhood Chain). Ed25519-signed responses, MCP server, all endpoints cataloged in the CDP x402 Bazaar. ([llms.txt](https://octodamus.com/llms.txt)) ([Discovery](https://api.octodamus.com/.well-known/x402.json)) ([MCP](https://smithery.ai/server/octodamusai/market-intelligence))
 - [🔨 Tools & Utilities](#-tools--utilities)
 - [🧪 Testing & Development](#-testing--development)
 - [📚 Tutorials & Learning Resources](#-tutorials--learning-resources)
@@ -209,6 +209,7 @@ Real companies using x402 in production with proven scale and transaction volume
 | Radius        | Production  | Community                  | Instant (<1s)   | Micropayments             |
 
 ### Data & Social APIs
+- BaseCheck [https://basecheck.up.railway.app/] - Plain-English activity and risk summary for any Base wallet or contract address: balance, recent transaction count, failure rate, counterparty diversity, and decoded function calls, synthesized by an LLM from live Blockscout data. $0.03 USDC on Base via Coinbase CDP facilitator, Bazaar discovery on every 402. No API keys, no signup. [https://basecheck.up.railway.app/#try]
 - [API Witchcraft (API_Dalla)](https://apiwitchcraft.duckdns.org) — 19 hands-off pay-per-call APIs for AI agents, settling USDC on Base via Coinbase CDP Facilitator. Covers compliance (VAT/VIES validation, e-invoicing mandates, OFAC/EU/UN/UK sanctions + PEP screening, US export-control ECCN, FX rates, EPR fees), geo (IP lookup + VPN/Tor detection), crypto (prices, trending, collective arbitrage), agent-security (AgentDojo scenarios + SPAR scoring), web (scrape-permit check, BJJ lineage), lifestyle (digital-nomad visa index, weather micro-betting), and x402 seller tooling (reconcile, balance). $0.002 USDC/call, no API keys, no signup. ([llms.txt](https://apiwitchcraft.duckdns.org/llms.txt) | [openapi.json](https://apiwitchcraft.duckdns.org/openapi.json) | [agent.json](https://apiwitchcraft.duckdns.org/.well-known/agent.json))
 - [KR-DART Events](https://dartapi.ljaysk.com) - Real-time Korean corporate disclosure (DART) events for AI agents. Korea's ~2,500 daily filings polled every 15s, classified into 31 categories with importance scores, English labels and English company names. Cursor-delta stream, material-only screen, per-company timelines. $0.002-$0.01 USDC on Base or Solana via x402 (Coinbase CDP facilitator, Bazaar discovery on every 402). No API keys, no signup. ([llms.txt](https://dartapi.ljaysk.com/llms.txt)) ([OpenAPI](https://dartapi.ljaysk.com/openapi.json)) ([GitHub](https://github.com/LJaysk/kr-dart-events)) ([MCP](https://github.com/LJaysk/kr-dart-events/blob/main/mcp_server.py))
 - [Tinstop Website Intelligence API](https://tinstop.com) - Pay-per-call domain security and performance audits on Base: DNS, SSL/TLS, HTTP security headers, SPF/DKIM/DMARC, and PageSpeed. $0.02–$0.10 USDC via x402 v2 (EIP-3009). ([OpenAPI](https://tinstop.com/openapi.json) | [Discovery](https://tinstop.com/.well-known/x402) | [llms.txt](https://tinstop.com/llms.txt))
