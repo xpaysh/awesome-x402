@@ -133,11 +133,11 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
-- [Token Risk](https://5-9-107-124.nip.io) - Read-only Base and Ethereum
-  contract-risk API for agents. It reports bytecode and control risks including
-  upgradeability, owner/admin, mint, pause, blacklist, fee, and honeypot
-  indicators. Calls cost $0.02-$0.05 USDC on Base through x402; no API key or
-  signup. ([Discovery](https://5-9-107-124.nip.io/.well-known/x402.json) |
+- [Token Risk & DeFi Pool Intelligence](https://5-9-107-124.nip.io) - Read-only
+  Base and Ethereum risk APIs for agents: [token risk](https://5-9-107-124.nip.io/token-risk?chain=base)
+  ($0.01 USDC) and [DeFi pool analysis](https://5-9-107-124.nip.io/defi-pool?chain=base)
+  ($0.02 USDC), paid per call on Base through x402 with no API key or signup.
+  ([Discovery](https://5-9-107-124.nip.io/.well-known/x402.json) |
   [OpenAPI](https://5-9-107-124.nip.io/openapi.json) |
   [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.nip.5-9-107-124%2Ftoken-risk))
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
