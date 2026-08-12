@@ -106,6 +106,7 @@ Official and community implementations of the x402 protocol.
 
 - [x402-express](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) - Express.js middleware example.
 - [hive-rosetta](https://www.npmjs.com/package/hive-rosetta) ⭐ **Community** - Open EIP-3009 `transferWithAuthorization` signer. Zero ethers/web3 dependency, primitives-only EIP-712. Returns wire shape `{scheme: 'exact', network: 'eip155:8453', payload: {authorization, signature}}`. Same package name on PyPI. ([GitHub](https://github.com/srotzin/hive-rosetta))
+- [ipfs-pay-to-pin-client](https://www.npmjs.com/package/ipfs-pay-to-pin-client) ⭐ **Community** - TypeScript SDK for pay-to-pin IPFS via x402 micropayments. Fully typed, with x402 challenge parsing and microUSDC signing. Multi-chain support: Base L2, Solana, Algorand, Ethereum L1. ([GitHub](https://github.com/IcanBENCHurCAT/ipfs-pay-to-pin)) ([PyPI](https://pypi.org/project/ipfs-pay-to-pin-client/))
 
 ### Python
 
@@ -486,6 +487,7 @@ Server-side integrations for accepting x402 payments.
 - [MoltsPay Python](https://github.com/Yaqing2023/moltspay-python) - Python SDK for x402 agent payments. LangChain compatible. Auto-creates wallets, discovers services, pays via x402. Multi-chain: Base, Polygon, Solana, BNB. ([PyPI](https://pypi.org/project/moltspay/))
 - [switchboard](https://github.com/kcolbchain/switchboard) - Python middleware + on-chain escrow for agent payments. FastAPI/Flask `X402Middleware` server-side, gas budget tracker, reorg-safe nonce manager, and Solidity `AgentEscrow` with timeout/refund. Protocol-agnostic substrate (x402 + escrow shipping; MPP/AP2 in flight).
 - [Routeweiler](https://github.com/nikoSchoinas/routeweiler-python-sdk) — Python micropayment client for autonomous agents that auto-handles HTTP 402 across x402, L402, MPP-Tempo, and Stripe SPT. Enforces policy & budget, and produces payment traces for auditing. ([PyPI](https://pypi.org/project/routeweiler/))
+- [ipfs-pay-to-pin-client](https://pypi.org/project/ipfs-pay-to-pin-client/) ⭐ **Community** — Python SDK for pay-to-pin IPFS via x402 micropayments. Pin content to IPFS storage providers with automatic USDC payment handling. Multi-chain support: Base L2, Solana, Algorand, Ethereum L1. ([GitHub](https://github.com/IcanBENCHurCAT/ipfs-pay-to-pin)) ([NPM](https://www.npmjs.com/package/ipfs-pay-to-pin-client))
 
 ### Rust
 
@@ -531,6 +533,7 @@ Full working examples and templates.
 
 - [DeadDrop](https://deaddrop.jerrywrongalot.workers.dev) - One-time secret relay for humans and AI agents: POST a secret ($0.01 USDC on Base via x402), get a link that self-destructs after one read. Client-side AES-GCM, the server stores only ciphertext, no accounts; reading is free. ([MCP Server](https://github.com/jerrywrongalot-byte/deaddrop-mcp)) ([Write-up](https://dev.to/jerrywrongalotbyte/i-replaced-a-48-mb-payment-library-with-200-lines-building-a-paid-api-for-ai-agents-with-x402-c9k))
 - [LION](https://lionx402.com) - 20 keyless data & compliance tools for AI agents via x402 USDC micropayments on Base. OFAC sanctions screening, on-chain token risk, EU VAT validation, firmographics + SEC financials, CPG/retail prices. Every response Ed25519-attested — verify offline. No API key, no signup. ([MCP](https://lionx402.com/api/mcp) · [Quickstart](https://github.com/8dp6brm9hp-svg/lion-mcp-public))
+- [ipfs-pay-to-pin](https://github.com/IcanBENCHurCAT/ipfs-pay-to-pin) — Decentralized IPFS pinning service powered by x402 micropayments. Pin files to IPFS storage providers with instant blockchain payment settlement. Python and TypeScript SDKs available. Multi-chain: Base L2, Solana, Algorand, Ethereum L1. ([PyPI](https://pypi.org/project/ipfs-pay-to-pin-client/)) ([NPM](https://www.npmjs.com/package/ipfs-pay-to-pin-client))
 ### Full-Stack Applications
 - [twentyone-million](https://twentyonemillion.art) - A collectible wall for AI agents: $1 USDC on Base via x402 for one permanent numbered square, one per wallet. Live on mainnet with on-chain receipts.
 
