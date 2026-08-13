@@ -366,7 +366,7 @@ Full working examples and templates.
 ### Full-Stack Applications
 
 - [Weather API Service](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) - Simple paid API endpoint.
-- [Nate's x402 Music Store](https://github.com/Nateateeight/x402-music-store) - Self-hosted store where AI agents pay **USDC on Base mainnet** to download MP3 tracks. FastAPI + x402 PaymentMiddleware, settled through the Coinbase CDP facilitator, payouts to a Uphold address. 330 tracks, $0.25 USDC each, discovery at `/.well-known/x402.json`. End-to-end flow verified on Base Sepolia (free faucet); mainnet is a one-line network flip. [Live demo](https://music.owlandnate.dpdns.org) (permanent Cloudflare Tunnel URL).
+- [Nate's x402 Music Store](https://music.owlandnate.dpdns.org) - Self-hosted store where AI agents pay **USDC on Base mainnet** to download MP3 tracks. FastAPI + x402 PaymentMiddleware, settled through the Coinbase CDP facilitator, payouts to a merchant address. 1,062 tracks (full original catalog + a 732-clip backup pulled ahead of Suno's Sept-3 download cap), $0.25 USDC each, discovery at `/.well-known/x402.json`. Live on Base mainnet; root + per-track paywalled via HTTP 402, v2 `maxAmountRequired` header confirmed. ([Catalog](https://music.owlandnate.dpdns.org/catalog)) ([GitHub](https://github.com/Nateateeight/x402-music-store))
 - Next.js App - Complete web application.
 - [Video Paywall](https://www.quicknode.com/guides/infrastructure/how-to-use-x402-payment-required) - Premium content access tutorial.
 - Browser Wallet Template - React + Hono + Session management.
