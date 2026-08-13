@@ -133,6 +133,21 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+- [Token Risk, DeFi Pool Intelligence & Base Swap Preflight](https://5-9-107-124.nip.io) - Read-only
+  Agent decision APIs led by a deterministic [Base swap preflight](https://5-9-107-124.nip.io/swap-preflight?token_in=0x4200000000000000000000000000000000000006&token_out=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&router=0x2626664c2603336E57B271c5C0b26F421741e481&amount_in=1000000000000000&max_gas_gwei=1&source=xpaysh_awesome_x402)
+  ($0.01 USDC) that returns a strict execute/do-not-execute JSON decision before
+  a Base swap, plus [token risk](https://5-9-107-124.nip.io/token-risk?chain=base)
+  ($0.01 USDC) and [DeFi pool analysis](https://5-9-107-124.nip.io/defi-pool?chain=base)
+  ($0.02 USDC), and machine-buyable [invariant tests](https://5-9-107-124.nip.io/artifact/invariant-test)
+  ($0.03), [repository reviews](https://5-9-107-124.nip.io/artifact/repository-review)
+  ($0.05), and [protocol research](https://5-9-107-124.nip.io/artifact/protocol-research)
+  ($0.03), paid per call on Base through x402 with no API key or signup.
+  Agents can start with the [payment-ready quickstart](https://5-9-107-124.nip.io/llms.txt):
+  call the default token scan, read the standard `payment-required` challenge,
+  sign it with their existing x402 client, and retry the same URL.
+  ([Discovery](https://5-9-107-124.nip.io/.well-known/x402.json) |
+  [OpenAPI](https://5-9-107-124.nip.io/openapi.json) |
+  [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.nip.5-9-107-124%2Ftoken-risk))
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
