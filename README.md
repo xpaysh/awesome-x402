@@ -138,7 +138,10 @@ Real companies using x402 in production with proven scale and transaction volume
   ($0.01 USDC) that returns a strict execute/do-not-execute JSON decision before
   a Base swap, plus [token risk](https://5-9-107-124.nip.io/token-risk?chain=base)
   ($0.01 USDC) and [DeFi pool analysis](https://5-9-107-124.nip.io/defi-pool?chain=base)
-  ($0.02 USDC), paid per call on Base through x402 with no API key or signup.
+  ($0.02 USDC), and machine-buyable [invariant tests](https://5-9-107-124.nip.io/artifact/invariant-test)
+  ($0.03), [repository reviews](https://5-9-107-124.nip.io/artifact/repository-review)
+  ($0.05), and [protocol research](https://5-9-107-124.nip.io/artifact/protocol-research)
+  ($0.03), paid per call on Base through x402 with no API key or signup.
   Agents can start with the [payment-ready quickstart](https://5-9-107-124.nip.io/llms.txt):
   call the default token scan, read the standard `payment-required` challenge,
   sign it with their existing x402 client, and retry the same URL.
