@@ -939,6 +939,10 @@ Development tools and utilities for x402.
 - [chainfacts](https://chainfacts-x402.onrender.com) - Verifiable token risk / pre-trade rug screen for any Base ERC-20. Deterministic contract-security facts (upgradeable proxy / EIP-1967, ownership renounced, mint authority, paused) + holder concentration (Gini, HHI, Nakamoto, top-1/3/5/10 share) + a 0-100 risk score, each block-pinned with a reproducible sha256 attestation any agent can independently recompute. 3 pay-per-call routes, USDC on Base, no API key: `POST /token-risk-report` ($0.01), `POST /batch-token-risk-screen` (up to 25 tokens, $0.005), `POST /onchain-snapshot-analyze` ($0.003). ([Offerings](https://chainfacts-x402.onrender.com/offerings)) ([Health](https://chainfacts-x402.onrender.com/health))
 - [Sentinel Payment Preflights](https://github.com/TerminallyLazy/sentinel-recovery-support) - Free local MCP server that deterministically checks decoded x402 v2 PaymentRequired JSON against a scoped exact-EVM EIP-3009 safety profile; the preflight makes no network requests and performs no wallet access, signing, or settlement. ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.TerminallyLazy%2Fsentinel-recovery-services/versions/0.3.0))
 
+### Payment Operations
+
+- [Peer Cash](https://github.com/zkp2p/peer-cash) - Cash out Base USDC earned by an x402 server; the [working example](https://github.com/x402-foundation/x402/pull/3157) tracks confirmed revenue with `onAfterSettle` and prepares unsigned transactions for the receiving wallet.
+
 
 ## 🧪 Testing & Development
 
