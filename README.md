@@ -132,6 +132,7 @@ Official and community implementations of the x402 protocol.
 
 ## 🏭 Production Implementations
 
+- [FractalAI — Post-Quantum Proof API](https://fractalai.net.co) - 7 pay-per-call proof services signed with **post-quantum ML-DSA-65 / Dilithium-3 (NIST FIPS-204)**: digital signature, AI-decision notary, dataset & training provenance (C2PA), Know-Your-Agent identity, and CBOM sealing. USDC micropayments on Base (gasless EIP-3009, x402 **v2**); every proof is **offline-verifiable** (`signed_message` + `ml_dsa65.verify`). Machine-readable catalog at `/.well-known/x402.json`. To our knowledge, the first/only post-quantum proof API on x402.
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
