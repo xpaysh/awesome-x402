@@ -1257,6 +1257,7 @@ Projects building with or extending x402.
 - [x402 Triage MCP](https://github.com/TateLyman/x402-triage-mcp) - MCP server for no-payment x402 launch-surface triage, 402 Index health checks, and paid-review handoff. Tools: `triage_x402_surface`, `watch_402_index`, and `x402_paid_paths`. ([npm](https://www.npmjs.com/package/x402-triage-mcp)) ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.TateLyman%2Fx402-triage-mcp))
 - [AI Code Review API](https://x402-code-review.x402-cr.workers.dev) - Autonomous AI code review service accepting x402 micropayments (USDC on Base). Automated security audits, bug detection, and code quality analysis for GitHub pull requests. ([Docs](https://x402-code-review.x402-cr.workers.dev/.well-known/x402.json))
 - [BountyVerdict](https://github.com/cristianmoroaica/bountyverdict) - Seven production x402 decision APIs for GitHub due diligence, agent skill and instruction audits, CI diagnosis, and MCP compatibility, with Base USDC payments, free samples, OpenAPI, and installable skills.
+- [InstructLint](https://instructlint.vercel.app) - Deterministic drift audits for AGENTS.md, CLAUDE.md, Copilot, and Cursor instructions in public GitHub repositories. Free previews; full evidence and suggested-patch reports cost $1 USDC through x402 v2 on Base. ([GitHub](https://github.com/BahirHakimy/instructlint)) ([OpenAPI](https://instructlint.vercel.app/openapi.json)) ([Sample report](https://instructlint.vercel.app/sample-report.json))
 
 ## 📊 Ecosystem Market Data
 
