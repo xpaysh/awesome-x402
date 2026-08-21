@@ -407,6 +407,8 @@ Major tech companies leveraging x402 in production include **Coinbase** (Native 
 - [b0xM4](https://b0xm4-solana-pulse.mulberry-boar.workers.dev) - **Meridian-powered Solana DLMM screener.** Real-time TVL, volume, organic score, smart wallet tracking, token safety, fee/TVL yield ranking. 5 endpoints, $0.0001–0.0005 USDC/call. Payout 7P7w3M9yQs5P... on Solana.
 - [agentfeeds.jp](https://api.agentfeeds.jp) - Japan regulatory, sanctions & DEX market data for AI agents. 27 paid endpoints ($0.001-$0.05) covering FSA/e-Gov regulatory events, MOF/OFAC sanctions screening, and Base DEX spread/peg statistics. REST + MCP.
 
+- [LedgerProof Settlement Army](https://ledgerproofhq.io) - 21 proof-gated data endpoints for agents, pay-per-call in USDC on Base via x402 ($0.001-$0.05, no account, no subscription): live web search and page extraction, prediction-market odds priced across **both** Polymarket and Kalshi with the cross-venue spread computed, FX and technical indicators, SEC filings, FDA recalls, CVE lookups, sanctions screening, DNS/RDAP, GLEIF LEI, Wikidata, Federal Register, World Bank indicators, and hash anchoring/verification. Settlement is proof-gated: every endpoint publishes an acceptance rule that can genuinely fail, and a deliverable that fails its own test is never charged for. Every settled call includes a free cryptographically anchored hash receipt with a verify_url that checks independently. ([Discovery](https://jmspfggpztykyubyzvlx.supabase.co/functions/v1/laen-army-discovery)) ([MCP](https://ledgerproofhq.io/api/laen/mcp)) ([Verifier](https://verify.ledgerproofhq.io))
+
 ## 🛠️ SDKs & Client Libraries
 
 Client libraries for making x402 payments.
