@@ -134,6 +134,7 @@ Official and community implementations of the x402 protocol.
 
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
+- [code402](https://code402.dev) — Open M2M/1 commerce layer on x402: sell any API to AI agents per call in USDC (buyers $0, 0.099% seller fee invoiced monthly), self-hosted facilitator, probe-verified trust index with daily-published drift audit, MCP server on the official registry. ([Discovery](https://code402.dev/.well-known/x402.json) | [llms.txt](https://code402.dev/llms.txt) | [MCP](https://mcp.code402.dev/mcp) | [GitHub](https://github.com/89rat/m2m-exchange))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
 
@@ -901,6 +902,7 @@ AI-powered research and translation services for the Asian market — no other x
 
 ## 🔨 Tools & Utilities
 
+- [x402 402 Check](https://github.com/89rat/x402-check) — GitHub Action: CI verification that a live 402 challenge matches your manifest (price / network / payTo drift detection). Fails the build on drift.
 - [Cinderwright Discovery Hub](https://api.ideafactorylab.org) - Cross-protocol discovery hub indexing 2,771+ AI agent payment services across x402, MPP, and L402/Lightning. Free keyword search (`/discover?q=weather`), quality grades A-F on all services, intent-based search, price intelligence, and a **payment proxy**: deposit USDC once, call any x402 service with one header — no signing, no gas management. MCP server installable in Claude Desktop. ([Proxy Docs](https://api.ideafactorylab.org/proxy) | [MCP](https://api.ideafactorylab.org/.well-known/mcp.json) | [GitHub](https://github.com/cinderwright-ai/cinderwright-api))
 - [Assay](https://assay.nominal-labs.com) - Service-quality oracle for x402: pays real USDC to probe machine-payable services on a schedule and scores what actually comes back — payment settlement, schema conformance, ground-truth accuracy, LLM-judged quality (composite 0-100, tiers gold/ok/avoid). Every rating carries on-chain receipts; daily evidence digests are Bitcoin-anchored via OpenTimestamps so history can't be quietly rewritten. Free tier verdicts at `/tier/{url}`, paid full reports ($0.005 USDC on Base), listed in the CDP Bazaar. ([GitHub](https://github.com/JasonCZMeng/assay)) ([Leaderboard](https://assay.nominal-labs.com/leaderboard)) ([SKILL.md](https://assay.nominal-labs.com/SKILL.md))
 
