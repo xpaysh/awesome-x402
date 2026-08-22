@@ -898,6 +898,8 @@ AI-powered research and translation services for the Asian market — no other x
 
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
 
+- [Munchausen Lab Analytics](https://munchausen-x402.munlab.workers.dev) - Six pay-per-call x402 endpoints on Base (USDC via CDP facilitator, no API keys, no signup): real-time crypto quotes ($0.01), LLM market analysis ($0.05), full research reports ($0.25), URL-to-clean-text scraping ($0.005), LLM claim fact-checking with verdict+confidence ($0.02), and EVM token rug-pull risk scoring from live DEX data ($0.01). Free tier: demo analysis + live prices, no wallet needed. Bazaar discovery extensions on every 402. ([Discovery](https://munchausen-x402.munlab.workers.dev/.well-known/x402)) ([llms.txt](https://munchausen-x402.munlab.workers.dev/llms.txt)) ([agent.json](https://munchausen-x402.munlab.workers.dev/agent.json))
+
 
 ## 🔨 Tools & Utilities
 
