@@ -1261,6 +1261,7 @@ Projects building with or extending x402.
 ## 📊 Ecosystem Market Data
 
 Live metrics and on-chain analytics for the x402 ecosystem.
+- [FillBench](https://fillbench.com/x402-payment-rails/) - Independent, reproducible benchmarks of x402 USDC settlement time to true finality, measured from real on-chain payments per chain (Algorand ~5.2s, Stellar ~5.6s, XRP ~6.2s, Solana ~14.4s, Base ~15-20min to L1 finality). Open methodology + public CC BY 4.0 data.
 
 ### Market Overview
 
