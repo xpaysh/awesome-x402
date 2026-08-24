@@ -187,6 +187,7 @@ Real companies using x402 in production with proven scale and transaction volume
 - [SuVerse Pay](https://suverse-pay.suverse.io) - Payment gateway + API catalog with ~490 paid endpoints on one origin: crypto market data, Polymarket smart-money verdicts, token-safety forensics (Base + Solana), macro/gov datasets, and an x402 endpoint liveness probe. $0.05–$0.75 USDC per call, multi-chain settlement (Base + Solana + Cosmos Noble) via a self-hosted facilitator, no API keys or signup. ([OpenAPI](https://proxy.suverse.io/openapi.json) | [Catalog](https://suverse-pay.suverse.io/catalog) | [MCP](https://www.npmjs.com/package/@suverselabs/mcp-server) | [Buyer SDK](https://www.npmjs.com/package/@suverselabs/x402-client))
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
+- [Longwatch](https://longwatch.dev) - Durable monitoring API and remote MCP server for AI agents: website changes, RSS items, crypto price thresholds, and SEC filing alerts with resumable cursors. $0.001-$0.005 USDC per call on Base via x402, with a free demo and trial; no account or API key. ([OpenAPI](https://longwatch.dev/openapi.json) | [Discovery](https://longwatch.dev/.well-known/x402) | [MCP](https://longwatch.dev/mcp) | [GitHub](https://github.com/saishav7/longwatch))
 
 ### Production Success Metrics
 
