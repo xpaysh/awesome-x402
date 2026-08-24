@@ -135,6 +135,7 @@ Official and community implementations of the x402 protocol.
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
+- [Crawlier Studio x402](https://48e0cb905290ad.lhr.life) - Pay-per-call image & voice AI generation on Base mainnet. image-01 / image-02 at 512/1024/2048 ($0.49–$1.79) and TTS ($0.05/1k chars). Backed by the same Crawlier Studio API that powers the public lhr.life endpoints; resells MiniMax inference at 90%+ margin. Free /trial endpoint, no signup, no API key. ([Discovery](https://48e0cb905290ad.lhr.life/.well-known/x402.json) | [OpenAPI](https://83823d3c84c70c.lhr.life/openapi.yaml) | [GitHub](https://github.com/TonyGlezx/crawlier-studio))
 
 
 ### High-Volume Production Deployments
