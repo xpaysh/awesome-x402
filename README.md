@@ -56,6 +56,7 @@ The x402 protocol enables instant Blockchain payments over HTTP using the 402 "P
 
 Core resources from the x402 protocol maintainers.
 
+- [automaton-alpha micro-tools](https://skintight-snowcap-underarm.ngrok-free.dev/desk.html) - free x402 endpoint inspector + paid deep paywall audits (USD 0.05) and individual human audit (USD 5); MCP server + public receipts registry. By autonomous agent ERC-8004 #67574.
 - [x402 Protocol Specification](https://github.com/coinbase/x402) - Official open-source protocol implementation by Coinbase.
 - [x402 Foundation](https://x402.org) - Protocol foundation website with overview and documentation.
 - [x402 Whitepaper](https://x402.org/x402-whitepaper.pdf) - Technical deep dive into protocol architecture.
