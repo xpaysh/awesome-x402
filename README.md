@@ -898,6 +898,9 @@ AI-powered research and translation services for the Asian market — no other x
 
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
 
+- [Kristo Intelligence API](https://kristo-intelligence-api.onrender.com) — AI-powered DeFi trading signals and crypto market intelligence API for agents on Base. Pay-per-call x402 endpoints ($0.05 USDC/call with volume discount to $0.01; $29 Monthly VIP with Telegram group invite): real-time market stats (CoinGecko, DEXScreener, Fear & Greed), real on-chain sales history (USDC transfers), and bot status. 1 free call per client, then HTTP 402 with full payment details in body and headers. Full machine-readable discovery suite: x402 discovery, OpenAPI 3.0, MCP manifest and llms.txt. ([Discovery](https://kristo-intelligence-api.onrender.com/.well-known/x402.json)) ([OpenAPI](https://kristo-intelligence-api.onrender.com/openapi.json)) ([llms.txt](https://kristo-intelligence-api.onrender.com/llms.txt)) ([MCP](https://kristo-intelligence-api.onrender.com/api/mcp/manifest))
+
+
 
 ## 🔨 Tools & Utilities
 
