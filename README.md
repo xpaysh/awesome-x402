@@ -19,6 +19,7 @@
 - [🎨 Use Cases & Patterns](#-use-cases--patterns)
 - [🤖 AI Agent Integration](#-ai-agent-integration)
 - [Octodamus](https://api.octodamus.com) — AI market-intelligence API for agents. 33 pay-per-call x402 endpoints on Base ($0.01–$0.02, USDC, no keys): cross-venue derivatives facts, prediction-market odds, congressional trades, macro reference numbers, and a tokenized-equity suite (24/7 fair value, on-chain basis, and Arcus perp facts for Robinhood Chain). Ed25519-signed responses, MCP server, all endpoints cataloged in the CDP x402 Bazaar. ([llms.txt](https://octodamus.com/llms.txt)) ([Discovery](https://api.octodamus.com/.well-known/x402.json)) ([MCP](https://smithery.ai/server/octodamusai/market-intelligence))
+- [CryptoRisk](https://cryptorisk-api.vercel.app) — Wallet & token risk-scoring API for agents. Pay-per-call x402 endpoint on Base ($0.01, USDC, no keys): checks any Ethereum or Base address against OFAC sanctions, 3,000+ scam/phishing addresses, and honeypot/rug-pull signals. Returns a 0-100 risk score with PROCEED/CAUTION/BLOCK verdict. ([llms.txt](https://cryptorisk-api.vercel.app/llms.txt)) ([Discovery](https://cryptorisk-api.vercel.app/.well-known/x402.json)) 
 - [🔨 Tools & Utilities](#-tools--utilities)
 - [🧪 Testing & Development](#-testing--development)
 - [📚 Tutorials & Learning Resources](#-tutorials--learning-resources)
