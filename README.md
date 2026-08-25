@@ -1539,3 +1539,4 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+- [KHOTEM](https://khotem.com) — Cryptographic witness for AI agents. Seal, attest, verify via x402 v2 direct (USDC, Base). 8/8 resources on [x402scan](https://x402scan.com/m/khotem.com), ERC-8004 agent [#68748](https://basescan.org/address/0x8004A169FB4a3325136EB29fA0ceB6D2e539a432). [Repo](https://github.com/fortikripto/khotem-witness)
