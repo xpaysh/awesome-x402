@@ -1057,6 +1057,7 @@ Connect with the x402 community.
 - [Agent Economy Digest](https://agenteconomy.substack.com) - AI agent payments news.
 
 ## 🌟 Ecosystem Projects
+- [ox402-utils](https://treating-arcade-overall-enough.trycloudflare.com) - 88 paid tools for AI agents via x402 (USDC on Base): AI image gen, rewrite/translate, resume parser, PDF tools, research, security, media, speech (Kokoro TTS). MCP server at /mcp402/. Free tier: 5 calls/IP.
 
 - [Registry & Sanctions Data](https://data.japanagent.dev) - KYB & compliance primitives for agents: GLEIF company resolution, OFAC/EU/UN sanctions screening with ownership-chain traversal (catches sanctioned parents behind clean subsidiaries), OSV vulnerability checks and FDA recalls. HTTP + paid MCP server, pay-per-call USDC on Base. No API keys.
 
