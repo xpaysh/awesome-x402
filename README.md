@@ -188,6 +188,8 @@ Real companies using x402 in production with proven scale and transaction volume
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
 
+[402rpc](https://402rpc.com) - Ethereum mainnet JSON-RPC on an independently operated full node, paid per call with no account or API key. eth_/net_/web3_ methods; blocks, transactions, receipts and logs from the Merge onward, current state only. Raw transactions broadcast via public relays. Priced by method weight, $0.001–$0.03 USDC per call on Base via the CDP facilitator.
+
 ### Production Success Metrics
 
 **Key Performance Indicators:**
