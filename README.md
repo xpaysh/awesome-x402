@@ -187,7 +187,7 @@ Real companies using x402 in production with proven scale and transaction volume
 - [SuVerse Pay](https://suverse-pay.suverse.io) - Payment gateway + API catalog with ~490 paid endpoints on one origin: crypto market data, Polymarket smart-money verdicts, token-safety forensics (Base + Solana), macro/gov datasets, and an x402 endpoint liveness probe. $0.05–$0.75 USDC per call, multi-chain settlement (Base + Solana + Cosmos Noble) via a self-hosted facilitator, no API keys or signup. ([OpenAPI](https://proxy.suverse.io/openapi.json) | [Catalog](https://suverse-pay.suverse.io/catalog) | [MCP](https://www.npmjs.com/package/@suverselabs/mcp-server) | [Buyer SDK](https://www.npmjs.com/package/@suverselabs/x402-client))
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
-
+- [402rpc](https://402rpc.com) - Ethereum mainnet JSON-RPC on an independently operated full node, paid per call with no account or API key. eth_/net_/web3_ methods; blocks, transactions, receipts and logs from the Merge onward, current state only. Raw transactions broadcast via public relays. Priced by method weight, $0.001–$0.03 USDC per call on Base via the CDP facilitator.
 ### Production Success Metrics
 
 **Key Performance Indicators:**
