@@ -133,7 +133,6 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 
-- [ox402-utils](https://satisfaction-genetic-lightbox-buying.trycloudflare.com) — 57 paid tools for AI agents (research, security, media, speech, external APIs) via x402 (USDC on Base). MCP server ready, per-minute video pricing, Kokoro-82M neural TTS, full-page screenshots. $0.001–$0.10/call. ([Discovery](https://satisfaction-genetic-lightbox-buying.trycloudflare.com/.well-known/x402) | [MCP](https://satisfaction-genetic-lightbox-buying.trycloudflare.com/mcp402/) | [GitHub](https://github.com/Hasned-spec/ox402-utils) | [llms.txt](https://satisfaction-genetic-lightbox-buying.trycloudflare.com/llms.txt))
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
@@ -904,7 +903,6 @@ AI-powered research and translation services for the Asian market — no other x
 ## 🔨 Tools & Utilities
 
 - [Cinderwright Discovery Hub](https://api.ideafactorylab.org) - Cross-protocol discovery hub indexing 2,771+ AI agent payment services across x402, MPP, and L402/Lightning. Free keyword search (`/discover?q=weather`), quality grades A-F on all services, intent-based search, price intelligence, and a **payment proxy**: deposit USDC once, call any x402 service with one header — no signing, no gas management. MCP server installable in Claude Desktop. ([Proxy Docs](https://api.ideafactorylab.org/proxy) | [MCP](https://api.ideafactorylab.org/.well-known/mcp.json) | [GitHub](https://github.com/cinderwright-ai/cinderwright-api))
-- [ox402-utils](https://treating-arcade-overall-enough.trycloudflare.com) - 88 paid tools for AI agents via x402 (USDC on Base): AI image gen, rewrite/translate, resume parser, PDF tools, research, security, media, speech (Kokoro TTS). MCP server at /mcp402/.
 - [Assay](https://assay.nominal-labs.com) - Service-quality oracle for x402: pays real USDC to probe machine-payable services on a schedule and scores what actually comes back — payment settlement, schema conformance, ground-truth accuracy, LLM-judged quality (composite 0-100, tiers gold/ok/avoid). Every rating carries on-chain receipts; daily evidence digests are Bitcoin-anchored via OpenTimestamps so history can't be quietly rewritten. Free tier verdicts at `/tier/{url}`, paid full reports ($0.005 USDC on Base), listed in the CDP Bazaar. ([GitHub](https://github.com/JasonCZMeng/assay)) ([Leaderboard](https://assay.nominal-labs.com/leaderboard)) ([SKILL.md](https://assay.nominal-labs.com/SKILL.md))
 
 Development tools and utilities for x402.
@@ -1057,7 +1055,6 @@ Connect with the x402 community.
 - [Agent Economy Digest](https://agenteconomy.substack.com) - AI agent payments news.
 
 ## 🌟 Ecosystem Projects
-- [ox402-utils](https://treating-arcade-overall-enough.trycloudflare.com) - 88 paid tools for AI agents via x402 (USDC on Base): AI image gen, rewrite/translate, resume parser, PDF tools, research, security, media, speech (Kokoro TTS). MCP server at /mcp402/. Free tier: 5 calls/IP.
 
 - [Registry & Sanctions Data](https://data.japanagent.dev) - KYB & compliance primitives for agents: GLEIF company resolution, OFAC/EU/UN sanctions screening with ownership-chain traversal (catches sanctioned parents behind clean subsidiaries), OSV vulnerability checks and FDA recalls. HTTP + paid MCP server, pay-per-call USDC on Base. No API keys.
 
@@ -1543,3 +1540,5 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+
+- [ox402-utils](https://deviant-oils-guardian-coating.trycloudflare.com) - 87 paid micro-utilities for AI agents via x402 (USDC on Base): research/web, PDF+OCR, speech (Kokoro neural TTS, Whisper STT), security recon, dev tools, media. Free trial: 10 calls/IP. MCP server at /mcp402/. SDK: POST /x402/paid/<tool> with x402 payment.
