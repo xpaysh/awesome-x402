@@ -949,7 +949,7 @@ Tools and resources for testing x402 implementations
 - [Base Sepolia Testnet](https://docs.base.org/docs/network-information) - Primary testnet.
 - [Base Sepolia USDC Faucet](https://faucet.circle.com/) - Get test USDC.
 - [Base Sepolia Bridge](https://bridge.base.org/) - Bridge test ETH.
-
+- [TradeDataHub](https://www.tradedatahub.net/developers/) - Experimental U.S. contractor-data API with x402 payment testing on Base Sepolia. Provides agent-readable dataset discovery, pricing, masked previews, OpenAPI 3.1, and llms.txt; mainnet settlement is not enabled.
 
 ## 📚 Tutorials & Learning Resources
 
