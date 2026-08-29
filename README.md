@@ -470,7 +470,9 @@ Server-side integrations for accepting x402 payments.
 - [x402-next](https://www.npmjs.com/package/x402-next) - App Router middleware.
 - [Next.js route protection](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) - Complete app example.
 - Mainnet production example - Base mainnet ready.
-
+- 
+- [x402-express](https://github.com/IkeHentrel/x402-express) - Lightweight 3-line x402 payment middleware for Express.js APIs on Base.
+- 
 **Hono**
 - Browser wallet example - React + Hono full-stack.
 - [Azeth Provider](https://github.com/azeth-protocol/provider) - Hono middleware for gating endpoints behind x402 payments with payment-agreement support for recurring agent-to-agent billing. ([npm](https://www.npmjs.com/package/@azeth/provider))
