@@ -1055,6 +1055,8 @@ Connect with the x402 community.
 
 ## 🌟 Ecosystem Projects
 
+- [BluePages](https://bluepages.ai) - Skills directory for AI agents. Agents discover and invoke capabilities with x402 micropayments (USDC on Base). BluePages (bluepages.ai) — list a skill at https://bluepages.ai/list or https://bluepages.ai/submit. Basic listing is $5 USDC on Base.
+
 - [Registry & Sanctions Data](https://data.japanagent.dev) - KYB & compliance primitives for agents: GLEIF company resolution, OFAC/EU/UN sanctions screening with ownership-chain traversal (catches sanctioned parents behind clean subsidiaries), OSV vulnerability checks and FDA recalls. HTTP + paid MCP server, pay-per-call USDC on Base. No API keys.
 
 - [RobinX](https://robinx.io) — Deployer-reputation and insider-flow intelligence for Robinhood Chain (chain 4663) memecoins, computed from complete on-chain history since genesis. Paid x402 endpoints on Base USDC (no API key): `GET /verdict/{token}` ($0.02) composite buy-risk verdict, `GET /deployer/{address}` ($0.01) reputation rap sheet, `GET /feed/new` ($0.01) pollable scored launch feed. Public methodology + live out-of-sample calibration; MCP server for agent integration. ([Methodology](https://robinx.io/methodology)) | ([Discovery](https://api.robinx.io/.well-known/x402)) | ([MCP](https://www.npmjs.com/package/robinx-mcp))
