@@ -1252,6 +1252,7 @@ Projects building with or extending x402.
 ### Developer Tools
 
 - NEAR AI - Cross-chain agent settlements.
+- [hostile-facilitator](https://github.com/aurumflux20/hostile-facilitator) - Retry-safety conformance battery for x402 clients. A fake facilitator that settles-then-times-out / 502s-after-settle / double-402s, then counts how many times your client actually paid for one purchase — catches double-pays on the ambiguous retry in 60s. One-command CLI + drop-in GitHub Action. MIT, stdlib-only, no keys.
 - [Boosty Labs](https://boosty.io) - AI agents buying real-time insights.
 - [x402 Surface Check](https://github.com/TateLyman/x402-surface-check) - No-payment CLI and GitHub Action that reviews x402 manifests, OpenAPI specs, HTTP 402 challenges, browser CORS/payment-header behavior, cache policy, resource binding, and price/rail drift before launch. ([npm](https://www.npmjs.com/package/x402-surface-check)) ([Action](https://github.com/marketplace/actions/x402-surface-check))
 - [x402 Triage MCP](https://github.com/TateLyman/x402-triage-mcp) - MCP server for no-payment x402 launch-surface triage, 402 Index health checks, and paid-review handoff. Tools: `triage_x402_surface`, `watch_402_index`, and `x402_paid_paths`. ([npm](https://www.npmjs.com/package/x402-triage-mcp)) ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.TateLyman%2Fx402-triage-mcp))
