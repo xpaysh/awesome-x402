@@ -18,6 +18,7 @@
 - [💡 Example Applications](#-example-applications)
 - [🎨 Use Cases & Patterns](#-use-cases--patterns)
 - [🤖 AI Agent Integration](#-ai-agent-integration)
+- [Xingchen SentriScan ASP](https://asp.xhdym.sbs) — 10 deterministic security & finance micro-tools for agents (contract risk scan, secrets/PII leak scan, wash-trading detection, arbitrage & impermanent-loss calculators, JSON repair, gas optimizer). $0.01 per call, USDT0 on X Layer via OKX x402 facilitator. Zero LLM, zero API keys, free tier 3 calls/day/IP, sub-10ms. Discovery at `/.well-known/x402`, MCP at `/mcp`. ([Stats](https://asp.xhdym.sbs/v1/stats)) ([MCP](https://asp.xhdym.sbs/mcp))
 - [Octodamus](https://api.octodamus.com) — AI market-intelligence API for agents. 33 pay-per-call x402 endpoints on Base ($0.01–$0.02, USDC, no keys): cross-venue derivatives facts, prediction-market odds, congressional trades, macro reference numbers, and a tokenized-equity suite (24/7 fair value, on-chain basis, and Arcus perp facts for Robinhood Chain). Ed25519-signed responses, MCP server, all endpoints cataloged in the CDP x402 Bazaar. ([llms.txt](https://octodamus.com/llms.txt)) ([Discovery](https://api.octodamus.com/.well-known/x402.json)) ([MCP](https://smithery.ai/server/octodamusai/market-intelligence))
 - [🔨 Tools & Utilities](#-tools--utilities)
 - [🧪 Testing & Development](#-testing--development)
@@ -696,6 +697,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [Xingchen SentriScan — Agent Micro-Utilities Matrix](https://asp.xhdym.sbs/.well-known/x402) — 10 deterministic, sub-10ms micro-tools for agents: contract risk scan, secret-leak scan, market factors, token-efficient markdown extraction, DEX arbitrage spread, impermanent loss, EVM address validation, LLM JSON repair, wash-trade detection, EIP-1559 gas optimizer. x402 v2 USDT0 on X Layer via OKX facilitator ($0.01/call), zero private key. 3 free calls/day per IP, no signup - try: `curl -X POST https://asp.xhdym.sbs/v1/scan-contract -H "Content-Type: application/json" -d '{"code":"contract T {}"}'`. MCP JSON-RPC at `/mcp`. ([Directory card](https://agent-tools.cloud/api/v1/services/asp-xhdym-sbs-sub346))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
