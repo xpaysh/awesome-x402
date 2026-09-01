@@ -188,6 +188,8 @@ Real companies using x402 in production with proven scale and transaction volume
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
 
+- [FixFinderOS](https://fixfinderos.com) - Agent-payable repair and property-maintenance intelligence on Base mainnet. AI agents can purchase maintenance triage for $0.05 USDC via x402, returning trade classification, urgency, safety flags, likely causes, and recommended next actions. ([Agent Discovery](https://fixfinderos.com/.well-known/agent.json))
+
 ### Production Success Metrics
 
 **Key Performance Indicators:**
