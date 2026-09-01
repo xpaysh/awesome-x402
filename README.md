@@ -263,6 +263,7 @@ Full working examples and templates.
 - REST API with Auth Pricing - SIWE + dynamic pricing.
 - [PortsideLabs Places API](https://portsidelabs-x402-places-536698811508.us-west1.run.app) - Google Places API v1 proxy with x402 pay-per-request access. Exposes place detail lookup and full-text search via USDC micropayments on Base mainnet and Solana mainnet. $0.001 USDC per call.
 - [PortsideLabs KoinChappie](https://portsidelabs-x402-koinchappie-536698811508.us-west1.run.app) - Crypto signals API with x402 pay-per-request. Returns bull and bear signals for the top 10 cryptocurrencies by market cap across 8 timeframes (1m–1D) using SMA(14). Single-coin lookup supports any CryptoCompare symbol. USDC micropayments on Base mainnet and Solana mainnet. $0.001 USDC per call. 
+- [MadeOnSol RHC Token Intel](https://madeonsol.com/robinhood/x402) - Robinhood Chain token intelligence for AI agents: token risk & holders, deployer reputation & alerts, KOL/smart-money trades, wallet PnL. 10 keyless endpoints from a self-hosted RHC node, dual-accept payments — USDG on Robinhood Chain or USDC on Solana (self-hosted facilitator, no Base dependency). From $0.04 per call. [OpenAPI](https://madeonsol.com/openapi.json) | [llms.txt](https://madeonsol.com/llms.txt)
 
 ### Client Examples
 
