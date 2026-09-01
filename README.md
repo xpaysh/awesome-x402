@@ -419,6 +419,9 @@ Client libraries for making x402 payments.
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
 
 **AI Agent SDKs**
+- [@zeromodern/mcp-server-0mod](https://github.com/zeromodern/mcp-server-0mod) - MCP server wrapping the 0mod HTTP 402 API Gateway (stealth-dom, airgap-scrub, rag-shrink, RDAP domain check, DEX pricing, sentiment, OCR, embeddings, summarization) via x402 micropayments on Base USDC. ([npm](https://www.npmjs.com/package/@zeromodern/mcp-server-0mod))
+- [@zeromodern/eliza-plugin-0mod](https://github.com/zeromodern/eliza-plugin-0mod) - ElizaOS plugin for the 0mod HTTP 402 API Gateway using x402 micropayments on Base USDC. ([npm](https://www.npmjs.com/package/@zeromodern/eliza-plugin-0mod))
+- [@zeromodern/agentkit-provider-0mod](https://github.com/zeromodern/agentkit-provider-0mod) - Coinbase AgentKit action provider for 0mod HTTP 402 edge API utilities on Base USDC. ([npm](https://www.npmjs.com/package/@zeromodern/agentkit-provider-0mod))
 - [PayBot SDK](https://github.com/RBKunnela/paybot-sdk) - TypeScript SDK for integrating x402 payments into AI agents and bots. Supports automatic 402 detection, wallet management, and USDC payments on Base. ([npm](https://www.npmjs.com/package/paybot-sdk))
 - [ClawPay MCP](https://www.npmjs.com/package/clawpay-mcp) - Non-custodial x402 payment layer for AI agents. Agents sign locally with their own keys — no custodial infrastructure needed. Supports automatic 402 detection and USDC payments on Base. ([npm](https://www.npmjs.com/package/clawpay-mcp))
 - [Askew OpenClaw Plugin](https://github.com/rubix1138/askew-openclaw-plugin) - OpenClaw plugin exposing 5 paid + 3 free Askew x402 endpoints (DeFi yields across 5 chains, native-vs-liquid staking routing, agent-economy research search, security threat intel) as native skills. Thin Node bridge to `mcp.askew.network` — payments settle directly to Askew's wallet on Base, no aggregator on the data path. Open alternative to closed/curated x402 plugins. `openclaw plugins install @askew-network/openclaw-plugin`. ([npm](https://www.npmjs.com/package/@askew-network/openclaw-plugin))
@@ -696,6 +699,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [0mod HTTP 402 Gateway](https://0mod.com) - HTTP 402 API Gateway for AI agents using x402 micropayments on Base USDC for stealth web fetching, PII scrubbing, RAG compaction, domain checks, and market sentiment. ([MCP Server](https://github.com/zeromodern/mcp-server-0mod) | [ElizaOS Plugin](https://github.com/zeromodern/eliza-plugin-0mod) | [AgentKit Provider](https://github.com/zeromodern/agentkit-provider-0mod))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
