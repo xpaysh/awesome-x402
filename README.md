@@ -19,6 +19,8 @@
 - [🎨 Use Cases & Patterns](#-use-cases--patterns)
 - [🤖 AI Agent Integration](#-ai-agent-integration)
 - [Octodamus](https://api.octodamus.com) — AI market-intelligence API for agents. 33 pay-per-call x402 endpoints on Base ($0.01–$0.02, USDC, no keys): cross-venue derivatives facts, prediction-market odds, congressional trades, macro reference numbers, and a tokenized-equity suite (24/7 fair value, on-chain basis, and Arcus perp facts for Robinhood Chain). Ed25519-signed responses, MCP server, all endpoints cataloged in the CDP x402 Bazaar. ([llms.txt](https://octodamus.com/llms.txt)) ([Discovery](https://api.octodamus.com/.well-known/x402.json)) ([MCP](https://smithery.ai/server/octodamusai/market-intelligence))
+- [SPX GEX & Options Intelligence API](https://gexorbv1-production.up.railway.app) — Real-time SPX gamma exposure, dealer positioning, gamma flip (raw + smoothed), and options intelligence (IV, expected move, max pain, pin risk) for AI agents. Pay-per-call x402 on Base ($0.02–$0.05, USDC, no keys). Free summary tier (5-min cache) lets agents evaluate freshness/confidence before paying for real-time data (~10s refresh); every response includes source, methodology version, and data-age metadata — never serves stale data as live. Cataloged in the CDP x402 Bazaar. ([Discovery](https://gexorbv1-production.up.railway.app/.well-known/x402)) ([OpenAPI](https://gexorbv1-production.up.railway.app/openapi.json))
+- [🔨 Tools & Utilities](#-tools--utilities)
 - [🔨 Tools & Utilities](#-tools--utilities)
 - [🧪 Testing & Development](#-testing--development)
 - [📚 Tutorials & Learning Resources](#-tutorials--learning-resources)
