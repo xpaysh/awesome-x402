@@ -1,0 +1,219 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "x402 Scraped Data API",
+    "version": "1.0.0",
+    "description": "Fetches cleaned, structured data from a target URL. The scraper endpoint is protected by the x402 payment protocol and costs $0.01 USDC on Base per request."
+  },
+  "servers": [
+    {
+      "url": "https://x402-api-91r3.vercel.app",
+      "description": "Production Vercel deployment"
+    }
+  ],
+  "paths": {
+    "/api/scraped-data": {
+      "get": {
+        "operationId": "getScrapedData",
+        "summary": "Scrape a target URL",
+        "description": "Returns cleaned text and metadata for the target URL. This operation requires x402 payment of $0.01 USDC on Base. If payment is omitted or invalid, the server responds with HTTP 402 and a PAYMENT-REQUIRED header describing the payment requirements.",
+        "parameters": [
+          {
+            "name": "target",
+            "in": "query",
+            "required": false,
+            "description": "The absolute URL to fetch and scrape. Defaults to https://example.com when omitted.",
+            "schema": {
+              "type": "string",
+              "format": "uri",
+              "default": "https://example.com",
+              "example": "https://example.com"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Scraped data returned successfully after payment settlement.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScrapedDataResponse"
+                }
+              }
+            }
+          },
+          "402": {
+            "description": "Payment required. The client must use the x402 payment requirements in PAYMENT-REQUIRED, submit payment, and retry the request with the payment signature header.",
+            "headers": {
+              "PAYMENT-REQUIRED": {
+                "$ref": "#/components/headers/PaymentRequired"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentRequiredResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Scraping or internal server error.",
+            "content": {
+              "application/json": {
+                "$ref": "#/components/schemas/ErrorResponse"
+              }
+            }
+          },
+          "404": {
+            "description": "Route not found.",
+            "content": {
+              "application/json": {
+                "$ref": "#/components/schemas/NotFoundResponse"
+              }
+            }
+          }
+        },
+        "x-x402": {
+          "price": "$0.01",
+          "network": "base",
+          "paymentRequiredResponse": 402,
+          "paymentRequiredHeader": "PAYMENT-REQUIRED",
+          "paymentSignatureRequestHeader": "PAYMENT-SIGNATURE",
+          "paymentResponseHeader": "PAYMENT-RESPONSE"
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "operationId": "getHealth",
+        "summary": "Check API health",
+        "description": "Returns deployment and payment-network health information. This endpoint is public and is not protected by x402.",
+        "responses": {
+          "200": {
+            "description": "API is running.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "headers": {
+      "PaymentRequired": {
+        "description": "x402 payment requirements. The exact serialized format is defined by the deployed x402 middleware.",
+        "schema": {
+          "type": "string"
+        }
+      }
+    },
+    "schemas": {
+      "ScrapedDataResponse": {
+        "type": "object",
+        "required": ["success", "data"],
+        "properties": {
+          "success": {
+            "type": "boolean",
+            "example": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/ScrapedData"
+          }
+        }
+      },
+      "ScrapedData": {
+        "type": "object",
+        "required": ["target", "scrapedAt", "title", "text", "textLength", "source", "success"],
+        "properties": {
+          "target": {
+            "type": "string",
+            "format": "uri",
+            "example": "https://example.com"
+          },
+          "scrapedAt": {
+            "type": "string",
+            "format": "date-time",
+            "example": "2026-08-17T12:00:00.000Z"
+          },
+          "title": {
+            "type": "string",
+            "example": "Example Domain"
+          },
+          "text": {
+            "type": "string",
+            "description": "The first 1,000 characters of cleaned page text."
+          },
+          "textLength": {
+            "type": "integer",
+            "minimum": 0,
+            "example": 125
+          },
+          "source": {
+            "type": "string",
+            "example": "real-scraper"
+          },
+          "success": {
+            "type": "boolean",
+            "example": true
+          }
+        }
+      },
+      "PaymentRequiredResponse": {
+        "type": "object",
+        "description": "The middleware's x402 payment-required response. Payment requirements are carried in the PAYMENT-REQUIRED response header.",
+        "additionalProperties": true
+      },
+      "HealthResponse": {
+        "type": "object",
+        "required": ["status", "network", "wallet"],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "network": {
+            "type": "string",
+            "example": "base"
+          },
+          "wallet": {
+            "type": "string",
+            "pattern": "^0x[a-fA-F0-9]{40}$"
+          }
+        }
+      },
+      "ErrorResponse": {
+        "type": "object",
+        "required": ["success", "error"],
+        "properties": {
+          "success": {
+            "type": "boolean",
+            "example": false
+          },
+          "error": {
+            "type": "string",
+            "example": "Internal scraping error"
+          },
+          "details": {
+            "type": "string"
+          }
+        }
+      },
+      "NotFoundResponse": {
+        "type": "object",
+        "required": ["error"],
+        "properties": {
+          "error": {
+            "type": "string",
+            "example": "Not found"
+          }
+        }
+      }
+    }
+  }
+}
