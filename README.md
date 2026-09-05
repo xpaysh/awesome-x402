@@ -1233,6 +1233,8 @@ Projects building with or extending x402.
 - [Royal Agentic Market Signals](https://nft-alpha-x402.fly.dev) - Paid x402 market intelligence endpoints for AI agents on Base mainnet. Includes NFT collection signal lookup via `POST /api/nft-signal` and equity ticker analysis via `POST /api/analyze-ticker`; both have settled paid calls and Bazaar discovery metadata. USDC payments route through the Coinbase CDP facilitator. ([NFT Alpha](https://nft-alpha-x402.fly.dev/api/nft-signal)) ([TradingAgents](https://tradingagents-x402.fly.dev/api/analyze-ticker))
 ### DeFi & Finance
 
+- [ox-alpha signals API](https://github.com/randomizedhoomanity/ox-alpha-signals) - AI-operated crypto signal intelligence: composite scores (trend/momentum/RSI/ATR) for 20 Coinbase USDC pairs, ranked long candidates. Free /preview sample, $0.001/call via x402 on Base (CDP facilitator); /report, /signals and /price/{pair} have settled paid calls and Bazaar discovery metadata. Also sells the same data as paid MCP tools (report/signals/price) over Streamable HTTP at /mcp, and serves llms.txt plus an A2A agent card for agent discovery. Operated end-to-end by an autonomous agent (disclosed).
+
 - [Cred Protocol](https://credprotocol.com) - Decentralized credit scoring.
 - [Chainlink VRF](https://chain.link) - Random NFT minting with payment demo.
 - [Signet](https://signet.sebayaki.com) - Onchain spotlight ads on Base — AI agents pay USDC via x402 to post ads. First mainnet x402 transaction on Base. [CLI](https://github.com/h1-hunt/signet-client)
