@@ -133,6 +133,8 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+
+- [Veltrix Node](https://veltrix-node.onrender.com) - Task-routed AI text API for agents: extract, summarize, classify, and convert. Strict JSON output. $0.005/call via x402 with USDC on Base. No API key or signup. ([OpenAPI](https://veltrix-node.onrender.com/openapi.json) | [llms.txt](https://veltrix-node.onrender.com/llms.txt))
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
@@ -419,6 +421,7 @@ Client libraries for making x402 payments.
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
 
 **AI Agent SDKs**
+- [Veltrix Node](https://veltrix-node.onrender.com/openapi.json) - Task-routed AI text endpoint for agents: extract, summarize, classify, convert. Strict JSON output only. $0.005/call, USDC on Base via PayAI facilitator. No API keys, no signup.
 - [PayBot SDK](https://github.com/RBKunnela/paybot-sdk) - TypeScript SDK for integrating x402 payments into AI agents and bots. Supports automatic 402 detection, wallet management, and USDC payments on Base. ([npm](https://www.npmjs.com/package/paybot-sdk))
 - [ClawPay MCP](https://www.npmjs.com/package/clawpay-mcp) - Non-custodial x402 payment layer for AI agents. Agents sign locally with their own keys — no custodial infrastructure needed. Supports automatic 402 detection and USDC payments on Base. ([npm](https://www.npmjs.com/package/clawpay-mcp))
 - [Askew OpenClaw Plugin](https://github.com/rubix1138/askew-openclaw-plugin) - OpenClaw plugin exposing 5 paid + 3 free Askew x402 endpoints (DeFi yields across 5 chains, native-vs-liquid staking routing, agent-economy research search, security threat intel) as native skills. Thin Node bridge to `mcp.askew.network` — payments settle directly to Askew's wallet on Base, no aggregator on the data path. Open alternative to closed/curated x402 plugins. `openclaw plugins install @askew-network/openclaw-plugin`. ([npm](https://www.npmjs.com/package/@askew-network/openclaw-plugin))
@@ -529,6 +532,7 @@ Payment verification and settlement services.
 
 Full working examples and templates.
 
+- [Veltrix Node](https://veltrix-node.onrender.com/openapi.json) - Task-routed AI text endpoint for agents: extract, summarize, classify, convert. Strict JSON output only. $0.005/call, USDC on Base via PayAI facilitator. No API keys, no signup.
 - [DeadDrop](https://deaddrop.jerrywrongalot.workers.dev) - One-time secret relay for humans and AI agents: POST a secret ($0.01 USDC on Base via x402), get a link that self-destructs after one read. Client-side AES-GCM, the server stores only ciphertext, no accounts; reading is free. ([MCP Server](https://github.com/jerrywrongalot-byte/deaddrop-mcp)) ([Write-up](https://dev.to/jerrywrongalotbyte/i-replaced-a-48-mb-payment-library-with-200-lines-building-a-paid-api-for-ai-agents-with-x402-c9k))
 - [LION](https://lionx402.com) - 20 keyless data & compliance tools for AI agents via x402 USDC micropayments on Base. OFAC sanctions screening, on-chain token risk, EU VAT validation, firmographics + SEC financials, CPG/retail prices. Every response Ed25519-attested — verify offline. No API key, no signup. ([MCP](https://lionx402.com/api/mcp) · [Quickstart](https://github.com/8dp6brm9hp-svg/lion-mcp-public))
 ### Full-Stack Applications
@@ -609,6 +613,7 @@ Full working examples and templates.
 - [Kerdos Market Intelligence](https://nonvisceral-eloisa-mousily.ngrok-free.dev) - AI market intelligence API for agents and traders. 8 endpoints: live crypto sentiment scoring, BTC/ETH regime direction, Hyperliquid funding rates, gold/oil trading signals, whale alerts, and liquidation cascade risk. $0.01-$0.05 USDC per call on Base.
 - [Mercury402](https://mercury402.uk) - Pay-per-call U.S. Treasury and macro data API using x402. Agents access FRED indicators, yield curves, and GDP data with USDC micropayments on Base.
 - [Product Reputation API](https://github.com/andichen0420/x402-reputation-api) — AI-powered product reputation intelligence from Reddit, HN & YouTube. Pay $0.03-$0.08 USDC per query for structured scores, dimensional analysis, and competitor comparisons. ([Live](https://x402-reputation-api-production.up.railway.app)) ([x402scan](https://www.x402scan.com/server/8ae848b3-ea71-4b2a-8ea1-fa6bec508ca5))
+- - [Veltrix Node](https://veltrix-node.onrender.com/openapi.json) - Task-routed AI text endpoint for agents: extract, summarize, classify, convert. Strict JSON output only. $0.005/call, USDC on Base via PayAI facilitator. No API keys, no signup.
 - [x402engine](https://x402engine.app) - Pay-per-call API gateway with 74 endpoints: 44 LLMs, image/video generation, crypto data, web search, code execution, TTS, travel, and IPFS. Multi-chain: USDC on Base, USDm on MegaETH, USDC on Solana. Discovery: [/.well-known/x402.json](https://x402engine.app/.well-known/x402.json) | [/.well-known/agent.json](https://x402engine.app/.well-known/agent.json). ([GitHub](https://github.com/agentc22/x402-engine)) | ([MCP](https://www.npmjs.com/package/x402engine-mcp))
 - [SignalFuse](https://api.signalfuse.co) — Trading intelligence + x402 API gateway. Crypto signals fusing sentiment, macro regime, and market structure ($0.001–$0.050). Gateway proxies: web search via Tavily ($0.012) and Brave ($0.008), code execution via E2B ($0.005). Agents pay USDC on Base per call — no API keys needed. [Landing](https://signalfuse.co) | [Gateway Info](https://api.signalfuse.co/v1/gateway/info)
 - [mornin-agentee](https://api.mornin-agentee.cc) — Daily Tokyo morning briefing API generated by an OpenClaw multi-agent system (researcher + coder + main). Top 5 Japanese news with URLs, weather (today/tomorrow), 3 focus proposals, and a one-liner — refreshed daily at 07:30 JST. $0.05 USDC per call on Base mainnet. Cached output (near-zero marginal cost). [llms.txt](https://api.mornin-agentee.cc/llms.txt) | [.well-known/x402.json](https://api.mornin-agentee.cc/.well-known/x402.json) | [Source](https://github.com/Minnanthu/mornin-agentee)
@@ -664,6 +669,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Premium podcast episodes
 
 **Data & APIs**
+- [Veltrix Node](https://veltrix-node.onrender.com/openapi.json) - Task-routed AI text endpoint for agents: extract, summarize, classify, convert. Strict JSON output only. $0.005/call, USDC on Base via PayAI facilitator. No API keys, no signup.
 - Weather data services
 - Financial market data ([Tick Aggregator API](https://tick.hugen.tokyo) — multi-source FX Best Bid/Ask)
 - Geolocation services
@@ -696,6 +702,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [Veltrix Node](https://veltrix-node.onrender.com/openapi.json) - Task-routed AI text endpoint for agents: extract, summarize, classify, convert. Strict JSON output only. $0.005/call, USDC on Base via PayAI facilitator. No API keys, no signup.
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
