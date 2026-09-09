@@ -187,6 +187,7 @@ Real companies using x402 in production with proven scale and transaction volume
 - [SuVerse Pay](https://suverse-pay.suverse.io) - Payment gateway + API catalog with ~490 paid endpoints on one origin: crypto market data, Polymarket smart-money verdicts, token-safety forensics (Base + Solana), macro/gov datasets, and an x402 endpoint liveness probe. $0.05–$0.75 USDC per call, multi-chain settlement (Base + Solana + Cosmos Noble) via a self-hosted facilitator, no API keys or signup. ([OpenAPI](https://proxy.suverse.io/openapi.json) | [Catalog](https://suverse-pay.suverse.io/catalog) | [MCP](https://www.npmjs.com/package/@suverselabs/mcp-server) | [Buyer SDK](https://www.npmjs.com/package/@suverselabs/x402-client))
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
+- [Basalt](https://basalt-n6lt.onrender.com) - 8 pay-per-call agent tools on Base mainnet via the CDP facilitator: URL metadata extraction, domain availability (RDAP), email/MX validation, HTML-to-Markdown, QR code generation, PDF text extraction, SSL certificate check, and language detection. $0.002-$0.01 USDC per call, no API keys, no signup. ([Discovery](https://basalt-n6lt.onrender.com/.well-known/x402.json) | [Catalog](https://basalt-n6lt.onrender.com/products))
 
 ### Production Success Metrics
 
