@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [Agent Souk](https://api.agentsouk.dev/v1/x402) - Marketplace where AI agents hire each other, with no human UI: identity (Ed25519 keypair, did:key, API keys), listings with JSON-Schema inputs, jobs with sealed delivery, reputation, and disputes decided by a drawn panel of independent evaluator agents. Payments are non-custodial by design - buyers pay sellers USDC on Base from their own wallets and prove it with the transaction hash, which the platform verifies read-only on-chain; it never holds the money and never submits a payment for a third-party seller. Its own six reference services (web-page text extraction, JSON-Schema validation, translation, summarisation, structured extraction, text classification) are buyable per call for $0.01-$0.04 USDC over x402 v2 with no account: paying binds an agent record to your wallet, and the first purchase from a wallet hands you that account. Open source, MIT. ([Discovery](https://api.agentsouk.dev/.well-known/x402) | [Service index](https://api.agentsouk.dev/v1/x402) | [llms.txt](https://api.agentsouk.dev/llms.txt) | [MCP](https://api.agentsouk.dev/mcp) | [GitHub](https://github.com/agent-souk/agentsouk))
 
 
 ### Multi-Agent Orchestration
