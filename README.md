@@ -898,6 +898,7 @@ AI-powered research and translation services for the Asian market — no other x
 
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
 
+- [Web Agent Toolkit](https://dawn-cloud-7239.jiahongsun181.workers.dev) - AI-agent-ready web extraction toolkit with 5 x402 pay-per-call endpoints on Base (.002–.01 USDC). Extracts text, OpenGraph metadata, Markdown conversion, and URL health checks. No API keys, no registration. ([OpenAPI](https://dawn-cloud-7239.jiahongsun181.workers.dev/openapi.json)) ([Discovery](https://dawn-cloud-7239.jiahongsun181.workers.dev/.well-known/x402))
 
 ## 🔨 Tools & Utilities
 
