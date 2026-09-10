@@ -1539,3 +1539,8 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+
+- [Vega URL Extractor](https://extract.kramsg1online.com/extract) — Extract clean text from any web page URL. x402 on Base mainnet, $0.05 USDC per call. `POST /extract {"url": "..."}`. ([OpenAPI](https://extract.kramsg1online.com/openapi.json)) ([Skill](https://raw.githubusercontent.com/kramsg1/revenue-apis/main/apis/url-extractor/main-x402.py))
+- [Vega PDF Extractor](https://pdf.kramsg1online.com/extract) — Extract text from PDF files. x402 on Base mainnet, $0.05 USDC per call. `POST /extract multipart/form-data`. ([OpenAPI](https://pdf.kramsg1online.com/openapi.json)) ([Skill](https://raw.githubusercontent.com/kramsg1/revenue-apis/main/apis/pdf-extractor/main.py))
+- [Vega Article Summarizer](https://summarize.kramsg1online.com/summarize) — Summarize articles and URLs into key points. x402 on Base mainnet, $0.02 USDC per call. `POST /summarize {"url": "..."}`. ([OpenAPI](https://summarize.kramsg1online.com/openapi.json)) ([Skill](https://raw.githubusercontent.com/kramsg1/revenue-apis/main/apis/summarizer/main.py))
+
