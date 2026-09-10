@@ -908,6 +908,8 @@ Development tools and utilities for x402.
 
 ### CLI Tools
 
+- [utunumus agent-economy index](https://index.utunumus.com) - A measured census of what x402 services actually settle on Base, counted from the chain rather than from self-reported dashboards: every transfer into each catalogued service's `payTo`, with the operator's own payments excluded. Publishes the zeros as well as the wins and states its scope plainly - a catalogue census, not the whole market. Machine-readable at [index.utunumus.com/data.json](https://index.utunumus.com/data.json).
+
 - [Foundry](https://getfoundry.sh/) - Smart contract development toolkit.
 - [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - `curl` for x402 paid APIs. Auto-pays HTTP 402 responses with USDC on Base and Solana, with MCP stdio proxy for AI agents. `npx x402-proxy`. ([npm](https://www.npmjs.com/package/x402-proxy))
 - [x402trace](https://github.com/fardinvahdat/x402trace) - Local CLI debugger for x402 on Base. Detects timeout-reconciliation gaps (the [#1062](https://github.com/coinbase/x402/issues/1062) settled-but-server-thinks-not pattern), validates `.well-known/x402` + Bazaar listings (the [#2207](https://github.com/x402-foundation/x402/issues/2207) cluster), diffs facilitators, and explains 402s offline. Read-only, no key handling. Sepolia + Base mainnet. `npx x402trace`. ([npm](https://www.npmjs.com/package/x402trace))
