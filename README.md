@@ -136,6 +136,8 @@ Real companies using x402 in production with proven scale and transaction volume
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
+- [Agent Margin Router](https://amr-landing-oj2dpz.abacusai.app) - Pay-per-call data broker for AI agents on Base (USDC + USDT via x402): clean web extraction, cross-venue market spread, gas fees, median token prices, wallet balances. $0.01–$0.05 per call, 3 free calls per wallet, no API keys. MCP server (7 tools), llms.txt, OpenAPI. ([Discovery](https://agent-margin-router-production.up.railway.app/.well-known/x402) | [MCP](https://agent-margin-router-production.up.railway.app/mcp) | [GitHub](https://github.com/AgentMarginRouter/AgentMarginRouter))
+
 
 ### High-Volume Production Deployments
 
