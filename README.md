@@ -1258,6 +1258,8 @@ Projects building with or extending x402.
 - [AI Code Review API](https://x402-code-review.x402-cr.workers.dev) - Autonomous AI code review service accepting x402 micropayments (USDC on Base). Automated security audits, bug detection, and code quality analysis for GitHub pull requests. ([Docs](https://x402-code-review.x402-cr.workers.dev/.well-known/x402.json))
 - [BountyVerdict](https://github.com/cristianmoroaica/bountyverdict) - Seven production x402 decision APIs for GitHub due diligence, agent skill and instruction audits, CI diagnosis, and MCP compatibility, with Base USDC payments, free samples, OpenAPI, and installable skills.
 
+- [402cron](https://402cron.com) - Scheduled, signed HTTP delivery for AI agents through REST and MCP, prepaid in USDC on Base via x402.
+
 ## 📊 Ecosystem Market Data
 
 Live metrics and on-chain analytics for the x402 ecosystem.
