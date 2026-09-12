@@ -1071,7 +1071,9 @@ Projects building with or extending x402.
 - [HALIMA Islamic AI Marketplace](https://halima-api.com) - 376 Shariah-compliant endpoints. Halal crypto screening, prayer times, Zakat calculator and Shariah Oracle. Pay-per-call USDC on Base.
 
 
-### Infrastructure
+
+- [Brian Booms](https://brianbooms.com/agents/) - Agent-native music store: 22 digital products via x402/USDC micropayments on Base; Booms Rewards 10% back + 15% first-purchase bonus.
+- [Synthetic Universe API](https://brianbooms.com/rewards/synth-api/) - Brian Booms ambient music per-call over x402: 10 tracks at $0.10 USDC on Base, $0.75 complete-catalog bundle, $1.00 24h day-pass. No accounts, no API keys — agents sign one EIP-3009 authorization per call; server verifies and settles on-chain before fulfilling. Free catalog, mood-based picks, machine-readable spec. ([Machine spec](https://brianbooms.com/.well-known/synthetic-universe-api.json)) ([Docs](https://brianbooms.com/rewards/synth-api/))### Infrastructure
 
 - [Coinbase Developer Platform](https://coinbase.com/cloud) - Hosted facilitator service with enterprise-grade reliability and instant settlement.
 - Cloudflare x402 - Edge payment processing.
