@@ -136,6 +136,12 @@ Real companies using x402 in production with proven scale and transaction volume
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
+### AI Content Extraction & Summarization (kramsg1online.com)
+
+- [Vega URL Extractor](https://extract.kramsg1online.com/extract) - Extract clean text from any web page URL via x402 on Base mainnet. $0.05 USDC per call.
+- [Vega PDF Extractor](https://pdf.kramsg1online.com/extract) - Extract text from PDF files via x402 on Base mainnet. $0.05 USDC per call.
+- [Vega Article Summarizer](https://summarize.kramsg1online.com/summarize) - Summarize articles and URLs into key points via x402 on Base mainnet. $0.02 USDC per call.
+
 
 ### High-Volume Production Deployments
 
