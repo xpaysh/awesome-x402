@@ -1523,6 +1523,7 @@ curl https://api.autonomagic.org/.well-known/x402.json
 **Wallet (pay-to):** `0x6C6013313dfa397f792c72f61b36A5d6bc20919b` on Base mainnet
 **Demo video (1:50):** https://youtu.be/v8xL53fo8Q4
 - [MAKO](https://github.com/ChrisDover/mako-verifier) — x402 trust layer (Verifier $0.25 + Pulse $0.02 + Pricing Index $0.02 + Reputation Score $0.03) on Base. Live at mako.pollinateresearch.com.
+- [AVEL](https://github.com/Ensi81/Avel) — identity/reputation verification layer for agent-to-agent payments. Reads the x402 proof an agent already produced (no extra signature), returns a verdict + reputation for both sides; never touches the payment itself. Python SDK, MIT.
 - [NEXUS Agent Services](https://nexus-agent-xa12.onrender.com) - Real-time crypto prices, Reddit intelligence, DeFi data, stock prices, sentiment analysis. $0.001-0.05/call USDC on Base.
 - [JMT x402 Agent Tools](https://jmt-x402-proxy.jmthomasofficial.workers.dev) — 25 paid x402 endpoints on Base mainnet: web search, AI summarization, deep analysis, research reports, crypto/stock data, SEC filing analysis, company intelligence, news briefing, sentiment analysis, macro dashboard. $0.001-$0.15/call USDC. Local LLM-powered (zero cloud tokens).
 - [- [x402-policy](https://x402-api-seven.vercel.app/docs) - Spending-policy enforcement for AI agents: pay-per-call policy checks, cross-chain trust scores, and EIP-4337 session keys, gated entirely by x402 micropayments ($0.001-0.002 USDC) on Base.
