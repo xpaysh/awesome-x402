@@ -696,6 +696,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [Onvexia](https://onvexia.com/mcp) - Crypto social sentiment, whale tracking and on-chain analytics for AI agents. 66 read-only MCP tools over 2,300+ coins: social volume and sentiment (X/Twitter, Reddit, Farcaster, Bluesky), whale transfers and exchange flows against 80,000+ labelled addresses, Galaxy Score/AltRank, crypto bot and coordinated-pump detection, and an influencer accountability ledger scoring callers as Predictor or Reactor. Most of the surface is free and keyless; metered endpoints are x402 pay-per-call on Base ($0.001-$0.01, USDC, CDP facilitator). Read-only - no tool can move funds. ([llms.txt](https://onvexia.com/llms.txt)) ([Discovery](https://onvexia.com/.well-known/x402)) ([Source](https://github.com/faraz152/onvexia-mcp))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
