@@ -524,6 +524,7 @@ Payment verification and settlement services.
 - [@facilitator/eip7702](https://github.com/melonask/facilitator) - Support for all EVM blockchains (BNB, Polygon, etc.), all tokens (USDT, DAI, WBTC, etc.), and all native coins (POL, AVAX, etc.).
 - [agenticpay facilitator](https://github.com/krystiangw/agenticpay/tree/main/packages/facilitator) ([npm](https://www.npmjs.com/package/@agenticpay/facilitator)) - Open-source TypeScript facilitator for Solana (devnet + mainnet). Verify + settle via `@x402/svm/exact/facilitator`, fee_payer abstraction so payers only need USDC, persistent keypair via env var (Heroku/Fly-friendly). Hosted devnet endpoint: `https://agentpay-facilitator-e9b20a5fee6a.herokuapp.com`.
 - [Ontario Protocol](https://ontarioprotocol.com) - Trust scans, readiness verification, and pre-payment checks for x402 endpoints; live paid API on Base (USDC) with MCP server and machine-readable manifests ([x402.json](https://ontarioprotocol.com/.well-known/x402.json)).
+- [Neuronto Payments](https://pay.neuronto.com) - x402 facilitator on Base mainnet. USDC via EIP-3009, idempotent settlement with resubmit-to-poll, payer and merchant addresses screened against the public OFAC SDN crypto address list before any chain call, observed availability published at [/status](https://pay.neuronto.com/status), an MCP server at /mcp for agents, and a refunding echo merchant at [/echo](https://pay.neuronto.com/echo) to test clients against.
 
 ## 💡 Example Applications
 
