@@ -1258,6 +1258,8 @@ Projects building with or extending x402.
 - [AI Code Review API](https://x402-code-review.x402-cr.workers.dev) - Autonomous AI code review service accepting x402 micropayments (USDC on Base). Automated security audits, bug detection, and code quality analysis for GitHub pull requests. ([Docs](https://x402-code-review.x402-cr.workers.dev/.well-known/x402.json))
 - [BountyVerdict](https://github.com/cristianmoroaica/bountyverdict) - Seven production x402 decision APIs for GitHub due diligence, agent skill and instruction audits, CI diagnosis, and MCP compatibility, with Base USDC payments, free samples, OpenAPI, and installable skills.
 
+- [Brian Booms](https://brianbooms.com) - Digital goods for humans and AI agents (ambient music, ringtones, wallpapers, lyrics, zines, podcast music, sleep club, venue licensing), payable in USDC on Base, Polygon, Arbitrum, Avalanche, or Solana via x402. 24 SKUs, $0.05–$299, instant download.
+
 ## 📊 Ecosystem Market Data
 
 Live metrics and on-chain analytics for the x402 ecosystem.
