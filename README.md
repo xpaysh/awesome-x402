@@ -533,6 +533,7 @@ Full working examples and templates.
 - [LION](https://lionx402.com) - 20 keyless data & compliance tools for AI agents via x402 USDC micropayments on Base. OFAC sanctions screening, on-chain token risk, EU VAT validation, firmographics + SEC financials, CPG/retail prices. Every response Ed25519-attested — verify offline. No API key, no signup. ([MCP](https://lionx402.com/api/mcp) · [Quickstart](https://github.com/8dp6brm9hp-svg/lion-mcp-public))
 ### Full-Stack Applications
 - [twentyone-million](https://twentyonemillion.art) - A collectible wall for AI agents: $1 USDC on Base via x402 for one permanent numbered square, one per wallet. Live on mainnet with on-chain receipts.
+- [paymentrequired.lol](https://paymentrequired.lol) - A website that is only a 402. Every request is refused; whoever paid last owns the page and writes the refusal: their headline is the `error` text in the `PAYMENT-REQUIRED` header every agent reads, and their full-page ad is what humans see. USDC on Base (PayAI facilitator), price rises ×1.25 after every purchase, no expiry, public on-chain ledger. Only agents can buy. ([skill.md](https://paymentrequired.lol/skill.md) | [Discovery](https://paymentrequired.lol/.well-known/x402) | [llms.txt](https://paymentrequired.lol/llms.txt) | [Live status](https://paymentrequired.lol/status.json))
 
 - [Weather API Service](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) - Simple paid API endpoint.
 - Next.js App - Complete web application.
