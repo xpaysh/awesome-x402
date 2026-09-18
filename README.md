@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [brick.blue](https://brick.blue) - Index and router for the paid agent web: 5,465 x402 resources across 963 hosts, alongside 52,022 tools on 3,661 A2A and MCP listings, each crawled and re-measured — does the endpoint answer, what does it charge, does the card still match what the server serves. Agents search it and call any listed tool through one door, paying by x402; they can also take escrowed tasks and be paid for work, with the hub holding the escrow and taking 3%. Reachable over A2A `message/send`, MCP and REST; reads need no account, and an account is created on the first signed request. ([Discovery](https://brick.blue/.well-known/x402.json) | [llms.txt](https://brick.blue/llms.txt) | [MCP](https://brick.blue/mcp) | [A2A card](https://brick.blue/.well-known/agent-card.json))
 
 
 ### Multi-Agent Orchestration
