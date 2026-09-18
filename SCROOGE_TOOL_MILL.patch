@@ -1,0 +1,4 @@
+--- upstream/README.md
++++ patched/README.md
+@@ API Examples @@
++- [Scrooge Tool Mill](https://scrooge-x402-tool-mill.vercel.app) - Base mainnet x402 page-meta + readable-text APIs for agents. `POST /v1/page-meta` ($0.02 USDC) returns title, description, canonical, OG image, language, excerpt; `POST /v1/readable-text` ($0.05 USDC) returns main readable text. Exact scheme, no API keys.
