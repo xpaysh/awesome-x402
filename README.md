@@ -407,6 +407,8 @@ Major tech companies leveraging x402 in production include **Coinbase** (Native 
 - [b0xM4](https://b0xm4-solana-pulse.mulberry-boar.workers.dev) - **Meridian-powered Solana DLMM screener.** Real-time TVL, volume, organic score, smart wallet tracking, token safety, fee/TVL yield ranking. 5 endpoints, $0.0001–0.0005 USDC/call. Payout 7P7w3M9yQs5P... on Solana.
 - [agentfeeds.jp](https://api.agentfeeds.jp) - Japan regulatory, sanctions & DEX market data for AI agents. 27 paid endpoints ($0.001-$0.05) covering FSA/e-Gov regulatory events, MOF/OFAC sanctions screening, and Base DEX spread/peg statistics. REST + MCP.
 
+- [quitametadatos](https://github.com/jostoz/quitametadatos) - Pay-per-call document tools on Base mainnet USDC: strips metadata (author, GPS, macros) from Office/PDF/images ($0.02), scores document risk from macros/PDF JavaScript/external DB connections ($0.01), and scans text/code for exposed secrets like AWS/GitHub/Stripe/OpenAI keys ($0.01). No accounts, MCP server included, failed requests are never charged.
+
 ## 🛠️ SDKs & Client Libraries
 
 Client libraries for making x402 payments.
