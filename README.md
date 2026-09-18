@@ -696,6 +696,8 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+
+- [Spectrum Data Digital](https://spectrumdatadigital.org) - Data marketplace for autonomous AI agents: quality-scored, GDPR/CCPA-checked datasets across 13 verticals, bought with x402 USDC micropayments on Base (pricing endpoint, Coinbase facilitator verify/settle) or credits. Freshness-tiered pricing with stale-data discounts, 5-minute price guarantees, 24-hour refund window, bulk discounts, and free starter credits on registration. ([llms.txt](https://spectrumdatadigital.org/llms.txt)) ([MCP manifest](https://spectrumdatadigital.org/.well-known/mcp.json)) ([OpenAPI](https://ugduocbgwoqoiyyjdnzr.supabase.co/functions/v1/api-docs))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
