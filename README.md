@@ -415,6 +415,7 @@ Client libraries for making x402 payments.
 
 **HTTP Clients**
 - [assay-x402-guard](https://www.npmjs.com/package/assay-x402-guard) - Buyer-side spend guard: wrap your paying fetch with `wrapFetchWithAssay` and payments to services the Assay oracle rates "avoid" throw before any money moves. Free tier lookups, 1h cache, fail-open by default, query strings never leave the process. ([GitHub](https://github.com/JasonCZMeng/assay))
+- [@enclave402/x402-guard](https://www.npmjs.com/package/@enclave402/x402-guard) - Pre-payment seller check: wrap your paying fetch; on a 402 it fetches a signed pay/caution/avoid verdict from a continuous census of 5,000+ x402 endpoints and throws before paying an `avoid` seller. Zero deps, Node 18+, fail-open by default (`blockOnUnknown` opt-in), EIP-712 attestation on every verdict. ([Source](https://gitlab.com/coachhype/x402-autonomous-api/-/tree/main/packages/x402-guard))
 - [cipher-x402-client](https://github.com/cryptomotifs/cipher-x402-client) - Lightweight TS/JS x402 v2 client. Zero runtime deps, native fetch, ESM + CJS dual build. 34 tests, 89% coverage. Node 18+ / browsers. Optional `ethers` peer dep for signing.
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
 
