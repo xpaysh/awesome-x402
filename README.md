@@ -1377,6 +1377,8 @@ x402 v2. MCP server on npm. Dataset actively growing.
 - [ICME Labs](https://docs.icme.io) - Formal verification for AI agent actions using the ARc paper approach. Natural language policies compile to SMT-LIB formal logic, checked by an SMT solver — SAT = allowed, UNSAT = blocked. Wrapped in zero knowledge proofs for sub-1s verification, private policies, and  cryptographic audit trails per decision. 99%+ soundness under adversarial pressure. $0.10 USDC per check on Base, no account needed. Live demo policy available. 
 - [IntentFence](https://github.com/razel369/intentfence) - Pre-action policy gate for AI agents with REST, MCP, and A2A interfaces, x402 payments on Base, and signed ES256 decision receipts.
 
+- [源·ORIGIN (ORIGIN)](https://github.com/source-origin/l5-protocol) — Settlement & clearing layer for the AI-agent economy, chain-native instead of stacked. Own L1 `origin-1` (DPoS, 21 validators, 100 YUAN min stake), native settlement token `YUAN`, and Article 0 — *"Human will is the supreme law"* — hard-coded into the genesis block. Shipping: 6 settlement contracts (agreement / escrow / identity / delegation / x402 / credit score), crash-recoverable off-chain orchestration (state graph + checkpoints + idempotency), dual-ledger escrow, default-state interceptor. ([Portal](https://source-origin.github.io/source-origin/) · [Chain](https://github.com/source-origin/origin-chain))
+
 ## 🔗 Related Protocols
 
 Adjacent protocols and standards.
