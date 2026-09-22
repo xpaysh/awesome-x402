@@ -135,6 +135,7 @@ Official and community implementations of the x402 protocol.
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
+- [Vend](https://paypercall.dev) - Live x402 pay-per-call data APIs for AI agents settled on Nano (XNO): clean text/markdown extraction from any URL, web search, IP geolocation, domain intelligence, and Nano account info. 0.0001–0.0005 XNO per call on a fee-free native rail (no gas, no stablecoin on-ramp, no facilitator). Passes the Stelar x402 Doctor at grade A / 100.0 (9/9 checks). ([Discovery](https://extract.paypercall.dev/.well-known/x402) | [OpenAPI](https://extract.paypercall.dev/openapi.json) | [GitHub](https://github.com/PANDeveloper001/vend))
 
 
 ### High-Volume Production Deployments
