@@ -133,6 +133,8 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+
+- [Vend API Merchant](https://extract.paypercall.dev/.well-known/x402) - Pay-per-call API merchant settled in Nano (XNO), the only live x402 v2 seller on a fee-free native-coin rail: web extract -> clean markdown, link/URL status, domain intelligence, web search, geoip, nano account info, and YouTube transcript - all $0.0001-$0.0005 XNO per call, zero fees, no signup, no API key. Nano's DAG settles ~instant for sub-cent calls the stablecoin rails price at $0.001+. ([Manifest](https://extract.paypercall.dev/.well-known/x402) | [GitHub](https://github.com/PANDeveloper001/vend))
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
