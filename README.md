@@ -1213,6 +1213,7 @@ Projects building with or extending x402.
 
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
+- [minia2a](https://minia2a.uk) - Pay-per-call x402 marketplace of 1,700+ live agent endpoints (crypto and on-chain data, web scraping, AI inference, CAPTCHA solving, token security, DNS/WHOIS, gas monitoring), settled in USDC on Base. 5 free trial calls per signed wallet, no registration. Remote MCP server at https://minia2a.uk/mcp. ([Discovery](https://minia2a.uk/.well-known/x402) | [OpenAPI](https://minia2a.uk/openapi.json) | [npm](https://www.npmjs.com/package/minia2a-mcp))
 
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
