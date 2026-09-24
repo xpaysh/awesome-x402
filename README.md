@@ -1404,6 +1404,8 @@ Adjacent protocols and standards.
 - 21.co Micropayments - Early Bitcoin micropayment attempt (2015).
 - [HTTP 402 Proposal](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) - Original RFC (1999).
 
+
+- [Vend](https://paypercall.dev/) — Production pay-per-call data APIs for AI agents (clean text/markdown extraction from any URL, web search, IP geolocation, domain intelligence, Nano account info) gated by HTTP 402 and settled in Nano (XNO) at 0.0001-0.0005 XNO/call (~USD 0.00003-0.00017). No signup, no API keys, no subscription; fee-free, instant, green native rail. Machine-readable manifest https://extract.paypercall.dev/.well-known/x402 (also /openapi.json).
 ## 🤝 Contributing
 
 Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
