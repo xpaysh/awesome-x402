@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Trigger deployment -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome HTTP 402 & Agentic Payments List</title>
+    <meta name="description" content="The ultimate curated list of resources, tools, and projects for the HTTP 402 protocol, AI agentic payments, and decentralized micropayments.">
+    <meta name="keywords" content="HTTP 402, x402, payments, blockchain, AI agents, micropayments, DeFi">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Awesome HTTP 402 & Agentic Payments">
+    <meta property="og:description" content="The ultimate curated list of HTTP 402 protocol resources for AI agents and decentralized payments">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xpaysh.github.io/awesome-x402/">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome HTTP 402 & Agentic Payments">
+    <meta name="twitter:description" content="The ultimate curated list of HTTP 402 protocol resources for AI agents and decentralized payments">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXKVJBPKFG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EXKVJBPKFG');
+    </script>
+    
+    <!-- Google Tag Manager Placeholder -->
+    <!-- GTM_HEAD_PLACEHOLDER -->
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Google Tag Manager Body Placeholder -->
+    <!-- GTM_BODY_PLACEHOLDER -->
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-icon">⚡</span>
+                <span class="nav-title">Awesome x402</span>
+            </div>
+            <div class="nav-links">
+                <a href="https://github.com/xpaysh/awesome-x402" class="nav-link" target="_blank">GitHub</a>
+                <a href="#resources" class="nav-link">Resources</a>
+                <a href="#contribute" class="nav-link">Contribute</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">🚀 10,000% Growth</span>
+                    <span class="badge-subtext">500K+ transactions/week</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Awesome <span class="highlight">HTTP 402</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    The ultimate curated list of resources, tools, and projects for the HTTP 402 protocol, 
+                    AI agentic payments, and decentralized micropayments.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">500K+</div>
+                        <div class="stat-label">Weekly Transactions</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">2s</div>
+                        <div class="stat-label">Settlement Time</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">0%</div>
+                        <div class="stat-label">Fees</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Languages</div>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <button id="star-btn" class="btn btn-primary">
+                        <span class="btn-icon">⭐</span>
+                        Star on GitHub
+                        <span class="btn-count">1.2k</span>
+                    </button>
+                    <button id="contrib-btn" class="btn btn-secondary">
+                        <span class="btn-icon">🤝</span>
+                        Contribute a Resource
+                    </button>
+                    <a id="repo-link-btn" class="btn btn-outline">
+                        <span class="btn-icon">📖</span>
+                        View Raw Repo
+                    </a>
+                </div>
+
+                <div class="hero-features">
+                    <div class="feature">
+                        <div class="feature-icon">🤖</div>
+                        <div class="feature-text">AI Agent Payments</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">⚡</div>
+                        <div class="feature-text">Instant Settlement</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🔗</div>
+                        <div class="feature-text">One-Line Integration</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🌐</div>
+                        <div class="feature-text">Multi-Chain Support</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="code-preview">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="code-title">x402-example.js</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code class="language-javascript">// Enable payments in one line
+import { x402 } from 'x402-next';
+
+app.use('/api/premium', 
+  x402({ price: '0.001' }),
+  (req, res) => {
+    res.json({ data: 'premium content' });
+  }
+);
+
+// AI agents can now pay automatically! 🤖</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" id="resources">
+        <div class="main-container">
+            <div class="content-header">
+                <h2>📚 Complete Resource List</h2>
+                <p>Everything you need to build with HTTP 402 and x402 protocol</p>
+            </div>
+            
+            <div id="readme-content" class="readme-content">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading awesome resources...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contribute">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🚀 Get Started</h3>
+                    <ul>
+                        <li><a href="https://docs.cdp.coinbase.com/x402/quickstart-sellers">5-Minute Quickstart</a></li>
+                        <li><a href="https://github.com/xpaysh/awesome-x402#example-applications">Examples</a></li>
+                        <li><a href="https://x402.org">Official Website</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>🤝 Community</h3>
+                    <ul>
+                        <li><a href="https://discord.gg/x402">Discord</a></li>
+                        <li><a href="https://twitter.com/x402org">Twitter</a></li>
+                        <li><a href="https://github.com/xpaysh/awesome-x402/discussions">GitHub Discussions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>📖 Resources</h3>
+                    <ul>
+                        <li><a href="https://github.com/xpaysh/awesome-x402/blob/main/CONTRIBUTING.md">Contributing Guide</a></li>
+                        <li><a href="https://x402.org/x402-whitepaper.pdf">Whitepaper</a></li>
+                        <li><a href="https://dune.com/x402">Analytics</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>
+                    🚀 Built with ❤️ by <a href="https://github.com/xpaysh">xPay</a> | 
+                    Helping the agentic community get paid and pay safely!
+                </p>
+                <p class="footer-note">
+                    If this helped you become an x402 champion, please ⭐ star the repo and share it!
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
