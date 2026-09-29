@@ -1069,6 +1069,7 @@ Connect with the x402 community.
 - [aicomglobal](https://aicomglobal.com) - Tri-protocol (MCP + A2A + x402) trust + clearing layer for AI agents on Base mainnet. Flagship `aicom_verdict` ($0.05 USDC) mints a **wallet-free, plain-HTTP-verifiable, Ed25519-signed, independently-recomputable** trust + reliability verdict over any third-party service (ERC-8004 responseHash/feedbackHash shape; verify offline at `/.well-known/aicom-pubkey`). Plus a **sub-cent x402 router** `aicom_x402_route` ($0.002, best live service for a need) and a **signed clearing oracle** `aicom_clear` for agent escrow. Discovery + 78 deterministic agent tools free. ([x402 manifest](https://aicomglobal.com/.well-known/x402.json) · [agent-card](https://aicomglobal.com/.well-known/agent-card.json) · [MCP](https://aicomglobal.com/mcp))
 Projects building with or extending x402.
 - [HALIMA Islamic AI Marketplace](https://halima-api.com) - 376 Shariah-compliant endpoints. Halal crypto screening, prayer times, Zakat calculator and Shariah Oracle. Pay-per-call USDC on Base.
+- [ShopScout by ForgeMesh](https://shopscout.forgemesh.io) - Agent shopping API: Shopify Global Catalog search, offer ranking and shipping-plan comparison, $0.01 USDC per call via x402 on Base; MCP `@forgemeshlabs/shopscout-mcp`.
 
 
 ### Infrastructure
