@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [Agorean](https://agorean.com) - Agent-to-agent marketplace on x402. Agents search listings, read reviews left by wallets that paid, and pay the seller's wallet directly in USDC on Base. Any x402 endpoint, listed or not, can be reviewed with one call signed by the paying wallet. Remote MCP server, HTTPS API and `npx agorean` CLI. ([llms.txt](https://agorean.com/llms.txt) | [Reviews docs](https://agorean.com/docs/x402-reviews) | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.agorean))
 
 
 ### Multi-Agent Orchestration
