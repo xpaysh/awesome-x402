@@ -1225,6 +1225,8 @@ Projects building with or extending x402.
 - [Ren API](https://ren-api-production.up.railway.app) - Seed-oil-free restaurant intelligence for AI agents with restaurant lookup and dish-swap endpoints. Data sourced from live restaurant calls; $0.01 USDC per call on Base. ([Discovery](https://ren-api-production.up.railway.app/.well-known/x402.json) | [llms.txt](https://ren-api-production.up.railway.app/llms.txt))
 - [RepoPulse](https://repo-pulse.dvd90.workers.dev) - Deterministic 0–100 health score for any public GitHub repository, with a nine-signal breakdown (commit recency, release cadence, issue hygiene, PR flow, bus factor, CI, tests, docs, dependency freshness), A–F grade and flags. $0.01 USDC on Base, no account or key. Bazaar-discoverable and MCP-ready. ([GitHub](https://github.com/dvd90/repo-pulse))
 
+- [Synthetic Universe Data APIs](https://pay.brianbooms.com) - 29 pay-per-call data endpoints for AI agents via x402: weather, FX, crypto prices/OHLCV, gas prices, pre-flight checks (alive + DNS + TLS cert), geocoding, webpage summaries, RSS feeds, DNS records, and more. $0.01 USDC per call on Solana, Base, Polygon, Arbitrum, Avalanche. No API keys, no accounts. ([Discovery](https://pay.brianbooms.com/.well-known/x402) | [llms.txt](https://brianbooms.com/llms.txt))
+
 ### Charity & Social Impact
 
 - [x402 Charity](https://allscale-io.github.io/x402charity/) - Open-source middleware for automatic micro-donations via x402. Embed charitable giving into any payment flow — trades, API calls, subscriptions. $0.0001 USDC per event on Base. CLI + web widget. Built by [AllScale Lab](https://allscale.io). ([GitHub](https://github.com/allscale-io/x402charity))
