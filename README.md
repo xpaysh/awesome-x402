@@ -1386,6 +1386,10 @@ Adjacent protocols and standards.
 - [Lightning Network](https://lightning.network/) - Bitcoin Layer 2 micropayments.
 - [Stellar](https://www.stellar.org) - Cross-border payments.
 - [Request Network](https://request.network/) - Payment request protocol.
+- [Nano (XNO)](https://nano.org) - Feeless, instant settlement rail for agent micropayments.
+- [nano-invoice](https://github.com/dhyabi2/nano-invoice) - Bind an XNO payment to the order it pays for: one invoice per order, a block settles one invoice, refunds to the real sender. 40 tests.
+- [dual-rail](https://github.com/dhyabi2/dual-rail) - Add a Nano (XNO) settlement leg BESIDE an existing USDC/x402 rail, never instead of it. 34 Python + 22 Node tests, both-rails-live check.
+- [nano-finality-proof](https://github.com/dhyabi2/nano-finality-proof) - Measure how long an XNO payment takes to confirm on a node you run, so an agent knows when a payment is final. 54 unit + 67 e2e checks.
 
 ### Web Standards
 
