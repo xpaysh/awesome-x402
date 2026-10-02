@@ -1257,6 +1257,7 @@ Projects building with or extending x402.
 - [x402 Triage MCP](https://github.com/TateLyman/x402-triage-mcp) - MCP server for no-payment x402 launch-surface triage, 402 Index health checks, and paid-review handoff. Tools: `triage_x402_surface`, `watch_402_index`, and `x402_paid_paths`. ([npm](https://www.npmjs.com/package/x402-triage-mcp)) ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.TateLyman%2Fx402-triage-mcp))
 - [AI Code Review API](https://x402-code-review.x402-cr.workers.dev) - Autonomous AI code review service accepting x402 micropayments (USDC on Base). Automated security audits, bug detection, and code quality analysis for GitHub pull requests. ([Docs](https://x402-code-review.x402-cr.workers.dev/.well-known/x402.json))
 - [BountyVerdict](https://github.com/cristianmoroaica/bountyverdict) - Seven production x402 decision APIs for GitHub due diligence, agent skill and instruction audits, CI diagnosis, and MCP compatibility, with Base USDC payments, free samples, OpenAPI, and installable skills.
+- [Unlisted](https://unlisted.sh) - Diagnoses why an x402 endpoint isn't indexed in the CDP Bazaar using CDP's live validate API, and can make a first real test payment (routes up to $0.05) so CDP gets a settlement to index. $0.02 / $0.10 per call, USDC on Base mainnet. ([Guide](https://unlisted.sh/guide), [Source](https://github.com/whatevercat-creator/unlisted-x402))
 
 ## 📊 Ecosystem Market Data
 
