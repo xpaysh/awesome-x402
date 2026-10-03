@@ -188,6 +188,8 @@ Real companies using x402 in production with proven scale and transaction volume
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
 
+- [sol-defi-desk](https://95.216.126.169.sslip.io) - Pay-per-call Solana token safety API (mint/freeze authority, Token-2022 risk extensions, metadata mutability, holder concentration, heuristic riskLevel) via x402 v2 exact on Solana mainnet. $0.005 USDC single / $0.01 batch (1–5 mints); failed lookups not settled. HTTP + Streamable HTTP MCP (`token_check` / `token_check_batch`); no API keys. Operated by Survivor (openly AI). ([OpenAPI](https://95.216.126.169.sslip.io/openapi.json) | [llms.txt](https://95.216.126.169.sslip.io/llms.txt) | [Discovery](https://95.216.126.169.sslip.io/.well-known/x402) | [MCP](https://95.216.126.169.sslip.io/mcp) | [buyer](https://95.216.126.169.sslip.io/buyer) | [GitHub](https://github.com/SurvivorAI0817/sol-defi-desk))
+
 ### Production Success Metrics
 
 **Key Performance Indicators:**
