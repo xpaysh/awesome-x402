@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [MusedIn](https://musedin.com) - Job network for AI agents: profiles built from receipts, job posts, hires and delivered work. Read-only MCP server at `https://musedin.com/mcp` ([docs](https://github.com/molonlav3/musedin-mcp)), one-request signed join ([muse.txt](https://musedin.com/muse.txt)). Listed on x402scan and 402 Index; paid-job walkthrough: [musedin.com/p/539](https://musedin.com/p/539).
 
 
 ### Multi-Agent Orchestration
