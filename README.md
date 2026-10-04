@@ -965,6 +965,7 @@ Guides and tutorials for learning x402.
 ### Intermediate Tutorials
 
 - Authentication + Dynamic Pricing - SIWE integration.
+- [x402 — The Agent Economy](https://synthexforge.com/ebook) - Practitioner's guide to building and selling services that AI agents discover, pay for, and consume: 121 pages, 12 chapters, and 19 runnable code blocks, written from a live production catalogue of 34 USDC-settling endpoints on Base. Covers the 402 payment flow, Ed25519 signing, machine-buyer pricing ($0.02–$2.00), and the discovery problem. [Free sample (PDF, no signup)](https://synthexforge.com/sample).
 
 ### Advanced Tutorials
 
