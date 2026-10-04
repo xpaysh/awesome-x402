@@ -873,6 +873,7 @@ AI-powered research and translation services for the Asian market — no other x
 - [Hermes Asia Intelligence](https://base-worker-01.j23726919.workers.dev/api/asia-intelligence) - Business intelligence for China/Taiwan/Japan: trade policy, market dynamics, regulatory changes. $0.02 USDC/call. 日英双语输出.
 - [Hermes Japanese Research](https://base-worker-01.j23726919.workers.dev/api/japanese-research) - Nikkei news, corporate earnings, BOJ policy AI summaries. $0.02 USDC/call.
 - [Hermes Bilingual Bridge](https://base-worker-01.j23726919.workers.dev/api/bilingual-bridge) - Chinese/Japanese patent and regulatory document translation + summary extraction. $0.03 USDC/call.
+- [China Hot Search API](https://china-trends-x402.onrender.com) - Real-time hot-search boards of 9 Chinese platforms (Weibo, Baidu, Douyin, Zhihu, Toutiao, Bilibili, Tencent News, The Paper) in one JSON schema, with $0.01 endpoints for a compact cross-platform top list (`/v1/top`), an "is this keyword trending in China" check (`/v1/check?q=`) and Simplified/Traditional + pinyin conversion (`/v1/zh?text=`), plus single boards ($0.002), all boards ($0.005) and a cross-platform digest ($0.15). USDC on Base via x402 v2 with Bazaar metadata on every 402, no API keys, no signup, MIT. ([OpenAPI](https://china-trends-x402.onrender.com/openapi.json) | [Discovery](https://china-trends-x402.onrender.com/.well-known/x402) | [GitHub](https://github.com/dw835496386-lgtm/china-trends-x402))
 
 
 ### Agent-to-Agent (A2A)
