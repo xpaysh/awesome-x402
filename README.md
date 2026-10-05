@@ -1376,6 +1376,7 @@ x402 v2. MCP server on npm. Dataset actively growing.
 - [PolicyLayer](https://policylayer.com) - Non-custodial spending controls for AI agents with crypto wallets. Enforces daily spending limits, per-transaction caps, recipient whitelists, and rate limiting without holding private keys.
 - [ICME Labs](https://docs.icme.io) - Formal verification for AI agent actions using the ARc paper approach. Natural language policies compile to SMT-LIB formal logic, checked by an SMT solver — SAT = allowed, UNSAT = blocked. Wrapped in zero knowledge proofs for sub-1s verification, private policies, and  cryptographic audit trails per decision. 99%+ soundness under adversarial pressure. $0.10 USDC per check on Base, no account needed. Live demo policy available. 
 - [IntentFence](https://github.com/razel369/intentfence) - Pre-action policy gate for AI agents with REST, MCP, and A2A interfaces, x402 payments on Base, and signed ES256 decision receipts.
+- [Burnbound](https://burnbound.dev/?utm_source=awesome-x402&utm_medium=list&utm_campaign=g5-ecosistema) - Buyer-side spending controls for AI agents that pay x402 APIs: per-agent daily caps, per-payment limits, allowed hosts and human approval are checked before the customer's own wallet (Coinbase CDP or a local key) signs. Ships as the MCP server `@burnbound/mcp` for Claude Code and Cursor; no custody, no fee on payments.
 
 ## 🔗 Related Protocols
 
