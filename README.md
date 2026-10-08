@@ -1137,6 +1137,7 @@ Projects building with or extending x402.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - BuffetPay - Smart x402 payments with guardrails.
 - [Cal.com](https://cal.com) - Automated scheduling with payments.
+- [Penny Press](https://www.pennypress.org) - Pay-per-read essays on freedom, economics and philosophy: free for humans, x402-micropaid for AI agents (USDC on Base, $0.01–$0.05 per essay).
 - [AgentStore](https://agentstore.tools) - Open-source marketplace for Claude Code plugins with x402 USDC payments, 80/20 publisher revenue split, and permissionless publishing via CLI.
 - [AIAgentStore.ai](https://aiagentstore.ai/developer) - Insights for founders with x402 payments.
 - [Einstein AI](https://emc2ai.io) - AI blockchain intelligence with 23 x402 endpoints. Whale tracking, smart money, launchpad monitoring, security audits.
