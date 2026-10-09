@@ -1224,6 +1224,7 @@ Projects building with or extending x402.
 - [Fresh CC0 Feed](https://cc0-feed-api.bodhinindustries.workers.dev) - Pay-per-call feed of works freshly dedicated to the public domain (CC0/Unlicense), aggregated from GitHub + Zenodo into one schema with reproducible provenance (verbatim LICENSE SHA-256). For AI agents needing modern, rights-clean assets/code/datasets to use or train on, plus disclosure-ready proof. $0.02 USDC/call on Base, no API key. ([Sample](https://cc0-feed-api.bodhinindustries.workers.dev/sample) | [llms.txt](https://cc0-feed-api.bodhinindustries.workers.dev/llms.txt))
 - [Ren API](https://ren-api-production.up.railway.app) - Seed-oil-free restaurant intelligence for AI agents with restaurant lookup and dish-swap endpoints. Data sourced from live restaurant calls; $0.01 USDC per call on Base. ([Discovery](https://ren-api-production.up.railway.app/.well-known/x402.json) | [llms.txt](https://ren-api-production.up.railway.app/llms.txt))
 - [RepoPulse](https://repo-pulse.dvd90.workers.dev) - Deterministic 0–100 health score for any public GitHub repository, with a nine-signal breakdown (commit recency, release cadence, issue hygiene, PR flow, bus factor, CI, tests, docs, dependency freshness), A–F grade and flags. $0.01 USDC on Base, no account or key. Bazaar-discoverable and MCP-ready. ([GitHub](https://github.com/dvd90/repo-pulse))
+- [Steward](https://pay.brianbooms.com) — 24 MCP tools letting AI agents buy music, data APIs, and sync licenses via x402 micropayments (USDC on Base): operator-set spend caps, pre-purchase quotes, and an on-chain receipt for every call. No accounts; pays from your own funded Base wallet. ([GitHub](https://github.com/brianbooms/steward-mcp)) ([npm](https://www.npmjs.com/package/@brianbooms/steward-mcp))
 
 ### Charity & Social Impact
 
@@ -1257,6 +1258,8 @@ Projects building with or extending x402.
 - [x402 Triage MCP](https://github.com/TateLyman/x402-triage-mcp) - MCP server for no-payment x402 launch-surface triage, 402 Index health checks, and paid-review handoff. Tools: `triage_x402_surface`, `watch_402_index`, and `x402_paid_paths`. ([npm](https://www.npmjs.com/package/x402-triage-mcp)) ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.TateLyman%2Fx402-triage-mcp))
 - [AI Code Review API](https://x402-code-review.x402-cr.workers.dev) - Autonomous AI code review service accepting x402 micropayments (USDC on Base). Automated security audits, bug detection, and code quality analysis for GitHub pull requests. ([Docs](https://x402-code-review.x402-cr.workers.dev/.well-known/x402.json))
 - [BountyVerdict](https://github.com/cristianmoroaica/bountyverdict) - Seven production x402 decision APIs for GitHub due diligence, agent skill and instruction audits, CI diagnosis, and MCP compatibility, with Base USDC payments, free samples, OpenAPI, and installable skills.
+
+- [Brian Booms](https://brianbooms.com) - Digital goods for humans and AI agents (ambient music, ringtones, wallpapers, lyrics, zines, podcast music, sleep club, venue licensing), payable in USDC on Base, Polygon, Arbitrum, Avalanche, or Solana via x402. 24 SKUs, $0.05–$299, instant download.
 
 ## 📊 Ecosystem Market Data
 
