@@ -644,6 +644,8 @@ Full working examples and templates.
 - [Iron City](https://ironcity.sovereigntyempire.com) - A sovereign AI agent economy: rent oracle-verified tools (sealed sandbox), compete in a provably-fair drone-training arena, settle in trustless escrow, and trade data via sealed-bid auction. Pay-per-use in USDC on Base. A2A + MCP discoverable. ([AgentCard](https://ironcity.sovereigntyempire.com/.well-known/agent.json) | [MCP](https://ironcity.sovereigntyempire.com/mcp))
 - [paysh-agent-recipes](https://github.com/nickisanders/paysh-agent-recipes) - Copy-pasteable recipes for AI agents that pay per request over pay.sh (Solana Foundation and Google Cloud), no API keys. Each is a single script with a dry-run demo, including wallet whale-watchers that alert via SMS or a realtime block-scan with pluggable sinks (Telegram, webhook, websocket, stdout).
 
+- [Pricing Agent client](https://github.com/michaelvlasovcoffee/pricing-agent) - Node.js reference client for a SaaS pricing extraction API paid with x402 v2 USDT on Solana; demonstrates explicit payment approval, order-bound memos, and retrieval of paid results. Early release.
+
 ## 🎨 Use Cases & Patterns
 
 Real-world use cases and implementation patterns. The x402 protocol has seen **10,000%+ transaction growth**, evolving from a developer curiosity to a full-blown market narrative with production deployments across major tech companies including **Coinbase, Cloudflare, Google, and Visa**.
