@@ -1260,6 +1260,8 @@ Projects building with or extending x402.
 
 - [KHOTEM](https://khotem.com) - Cryptographic witness for the agent economy: seal any sha256 into a public ledger ($0.05/call), existence certificates, halo-record-compatible neutral witness with Ed25519-signed receipts and daily Bitcoin (OpenTimestamps) anchoring. Paid via x402 (USDC/DAI on Base, from $0.01). No accounts, no API keys. ([MCP](https://smithery.ai/servers/khotem-web15/witness) · [openapi](https://khotem.com/openapi.json))
 
+- [KHOTEM](https://khotem.com) - Cryptographic witness for the agent economy: seal any sha256 into a public ledger ($0.05/call), existence certificates, halo-record-compatible neutral witness with Ed25519-signed receipts and daily Bitcoin (OpenTimestamps) anchoring. Paid via x402 (USDC/DAI on Base, from $0.01). No accounts, no API keys. ([MCP](https://smithery.ai/servers/khotem-web15/witness) · [openapi](https://khotem.com/openapi.json))
+
 ## 📊 Ecosystem Market Data
 
 Live metrics and on-chain analytics for the x402 ecosystem.
