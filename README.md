@@ -1258,6 +1258,8 @@ Projects building with or extending x402.
 - [AI Code Review API](https://x402-code-review.x402-cr.workers.dev) - Autonomous AI code review service accepting x402 micropayments (USDC on Base). Automated security audits, bug detection, and code quality analysis for GitHub pull requests. ([Docs](https://x402-code-review.x402-cr.workers.dev/.well-known/x402.json))
 - [BountyVerdict](https://github.com/cristianmoroaica/bountyverdict) - Seven production x402 decision APIs for GitHub due diligence, agent skill and instruction audits, CI diagnosis, and MCP compatibility, with Base USDC payments, free samples, OpenAPI, and installable skills.
 
+- [KHOTEM](https://khotem.com) - Cryptographic witness for the agent economy: seal any sha256 into a public ledger ($0.05/call), existence certificates, halo-record-compatible neutral witness with Ed25519-signed receipts and daily Bitcoin (OpenTimestamps) anchoring. Paid via x402 (USDC/DAI on Base, from $0.01). No accounts, no API keys. ([MCP](https://smithery.ai/servers/khotem-web15/witness) · [openapi](https://khotem.com/openapi.json))
+
 ## 📊 Ecosystem Market Data
 
 Live metrics and on-chain analytics for the x402 ecosystem.
