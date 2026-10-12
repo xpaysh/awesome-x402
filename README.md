@@ -928,6 +928,7 @@ Development tools and utilities for x402.
 - [SmartFlow Mapper API](https://api.smartflowproai.com) - JSON REST API exposing 22,251+ catalogued x402 endpoints with uptime, payment-success, and facilitator metadata. Free tier (100 req/day) + paid bulk export. ([Live stats](https://api.smartflowproai.com/v1/stats))
 - [Tersign](https://tersign.ai) - Neutral evidence layer for x402 agent commerce: seller-signed EIP-712 receipts and agent action records, counter-signed into per-seller hash chains on a public ledger, verifiable by anyone without an account, with refunds, deterministic dispute triage, and exportable evidence packs for audits and disputes. One-line verification: `npx tersign verify <receipt-hash> --ledger https://tersign.ai`. ([npm](https://www.npmjs.com/package/tersign)) ([Conformance vectors](https://github.com/tersignhq/evidence-record-conformance)) ([llms.txt](https://tersign.ai/llms.txt))
 - [_done](https://underscoredone.com) - Suite of x402 micropayment-gated utility APIs for AI agents (Web lookups, site analysis, data and more). Pay-per-call, no API keys or subscriptions — agents discover and pay per request via x402. Base + Solana mainnet payment support. 
+- [402xAgent](https://402xagent.com) - Pre-pay check for any x402 endpoint: verdict, price, pay-to and network before an agent pays. MCP: https://api.402xagent.com/mcp
 
 ### Security & Analysis
 
