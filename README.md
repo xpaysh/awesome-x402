@@ -1091,6 +1091,7 @@ Projects building with or extending x402.
 
 - [GenTech Labs](https://gentechlabs.net) — Agent economy infrastructure with 48 x402-monetized endpoints across 8 Cloudflare Workers on Base. ERC-8004 on-chain agent identity (Avalanche #1770), DeFi intelligence, LP position analytics with shape detection, agent search & discovery, fleet monitoring, human feedback layers, and a 16-endpoint AI-powered gateway. All pay-per-call via USDC, no API keys required. ([Landing](https://gentechlabs.net) | [x402 Gateway](https://gentech-x402-gateway.jordanjones0902.workers.dev) | [AgentScan](https://agentscan.info/agents/c455a06e-0d72-4847-8175-ece7f7daa3e3))
 - [Hilt Pay](https://www.hilt.so/x402) - Payment-to-access infrastructure for x402 V2 challenge and retry flows on Solana USDC, with settlement verification, receipts, entitlements, atomic usage consumption, webhooks, SDKs, MCP, and A2A discovery.
+- [Ankr JSON-RPC](https://www.ankr.com/docs/agentic-rpc/overview/) - Pay-per-call JSON-RPC for 120+ chains at `https://x402.rpc.ankr.com/<chain>`, $0.001 USDC per call over x402 (Monad) or MPP (Solana). No signup, no API key.
 
 ### Tools & Services
 - [Capital x402](https://voidd.live/capital/) - Agent micro-utilities paid via x402 USDC on Base mainnet from $0.001 USDC per call (value-tiered). Stable discovery on voidd.live; live paid host is listed in paid-url.json when the rail is public. ([agent.json](https://voidd.live/agent.json) · [Bazaar](https://voidd.live/.well-known/x402-bazaar.json) · [paid-url](https://voidd.live/capital/paid-url.json))
