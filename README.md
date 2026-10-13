@@ -1268,6 +1268,7 @@ Live metrics and on-chain analytics for the x402 ecosystem.
 
 ### Analytics Dashboards
 
+- [Agent Utility Suite](https://x402-agent-api.onrender.com) - SEC filings, red-flag alerts, company dossiers, earnings, counterparty/KYB checks, wallet & token risk for AI agents. Pay per call in USDC, MCP + HTTP.
 - [agenteconomy.to](https://agenteconomy.to) - Real-time dashboard tracking the agentic economy across x402, ERC-8004, ERC-8183, and MPP protocols on 8 chains. Aggregated event counter, chain distribution, facilitator share, and time-series charts. Data refreshes every 6 hours.
 - [Dune Analytics x402](https://dune.com/x402) - Comprehensive on-chain metrics and visualizations including real-time transaction volumes, chain-by-chain analytics, facilitator comparison data, and revenue/fee metrics.
 - [x402scan Explorer](https://x402scan.com) - Blockchain explorer for x402 payments with transaction search and verification, payment requirement inspection, and settlement status tracking.
