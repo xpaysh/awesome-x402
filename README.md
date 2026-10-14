@@ -1539,3 +1539,5 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+
+- **[M2M Market — Freedom Engine Gateway & Clearinghouse](https://github.com/m2mfreedom/freedom-m2m-mcp-server)** - Live HTTP 402 M2M API Gateway & Remote MCP Server accepting x402 (Base USDC & Solana USDC) and L402 with 100/100 Verified SLA. Provides Stealth Anti-Bot Web Unlocker, Structured Financial JSON Extractor, Isolated Python Sandbox, Clean Markdown Scraper, and Agent Memory Vault (`http://32.197.245.10:3001/openapi.json`).
