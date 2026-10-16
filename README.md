@@ -133,6 +133,7 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+- [Money Reactor](https://github.com/makar52nn2016-jpg/money-reactor) - Agent-native paid micro APIs on Base USDC: funded crypto bounty radar (hourly-refreshed, escrow-backed bounties + GitHub bounty radar with trust filtering) and repository honeypot/trust scoring (0-100, GO/CAUTION/HONEYPOT_RISK). x402 HTTP 402, $0.005-$0.01 per call, no signup or keys, both endpoints validated in the CDP x402 Bazaar. Includes a zero-dependency stdio MCP server and a live storefront.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
