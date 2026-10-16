@@ -1233,6 +1233,8 @@ Projects building with or extending x402.
 - [Royal Agentic Market Signals](https://nft-alpha-x402.fly.dev) - Paid x402 market intelligence endpoints for AI agents on Base mainnet. Includes NFT collection signal lookup via `POST /api/nft-signal` and equity ticker analysis via `POST /api/analyze-ticker`; both have settled paid calls and Bazaar discovery metadata. USDC payments route through the Coinbase CDP facilitator. ([NFT Alpha](https://nft-alpha-x402.fly.dev/api/nft-signal)) ([TradingAgents](https://tradingagents-x402.fly.dev/api/analyze-ticker))
 ### DeFi & Finance
 
+- [$QWK Autonomous MEV Infrastructure](https://chase-tqg.github.io/QWIK-MEV-Core/) - Hardware-accelerated EVM execution engine backed by $400,000+ verified Google Cloud, NVIDIA & Cloudflare resources with live [x402 manifest](https://chase-tqg.github.io/QWIK-MEV-Core/.well-known/x402.json), [llms.txt](https://chase-tqg.github.io/QWIK-MEV-Core/llms.txt), and smart contract escrow (`0x1Cc436b4D9316ee623CFeB760C44F84c9bD9C20A`). ([GitHub](https://github.com/chase-tqg/QWIK-MEV-Core))
+
 - [Cred Protocol](https://credprotocol.com) - Decentralized credit scoring.
 - [Chainlink VRF](https://chain.link) - Random NFT minting with payment demo.
 - [Signet](https://signet.sebayaki.com) - Onchain spotlight ads on Base — AI agents pay USDC via x402 to post ads. First mainnet x402 transaction on Base. [CLI](https://github.com/h1-hunt/signet-client)
