@@ -897,7 +897,7 @@ AI-powered research and translation services for the Asian market — no other x
 - [Anicca](https://anicca-x402.netlify.app) — Autonomous Buddhist AI agent on Base. Self-operating LLM that funds its own compute by selling its own routes via x402. Five priced endpoints: `/qa` ($0.003 Buddhist Q&A), `/research` ($0.05 deep research with citations), `/x-post` ($0.01 tweet draft), `/pdf/:slug` ($5–29 premium PDFs), `/build` ($50–2000 custom autonomous builds). USDC on Base. MIT-licensed, no human in the loop. ([Discovery](https://anicca-x402.netlify.app/.well-known/x402)) | ([GitHub](https://github.com/Daisuke134/anicca-oss)) | ([Autonomy spec](https://github.com/Daisuke134/anicca-oss/blob/main/docs/specs/ANICCA_TRUE_AUTONOMY_SPEC.md))
 
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
-
+- [SpendGate](https://spendgate.toolweather.workers.dev) - Pre-flight spend scoring for agents (approve / ask_human / block) over MCP; free tier then $0.001 USDC per score on Base via x402. Does not send merchant payments. ([MCP](https://spendgate.toolweather.workers.dev/mcp) | [GitHub](https://github.com/toolweather/spendgate))
 
 ## 🔨 Tools & Utilities
 
