@@ -1343,6 +1343,8 @@ Security resources and best practices for x402 implementations.
   - Key rotation strategies
   - Multi-signature setups for high-value
 
+- [Agent Lane x402 Buyer Basics](https://agentlane.net/guides/x402-buyer-basics/) - Buyer-side checklist for paying x402 requests under spend limits: check the 402 quote against session and daily caps, sign only from a dedicated spend wallet, and revoke connectors before debugging.
+
 ### Known Vulnerabilities & Mitigations
 
 - [CVE Database](https://github.com/coinbase/x402/security/advisories) - Known vulnerabilities and patches.
