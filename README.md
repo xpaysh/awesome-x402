@@ -1005,6 +1005,7 @@ Written content about x402.
 ### Technical Deep Dives
 
 - How x402 Works - Technical explanation.
+- [What AI agents actually pay for over x402](https://tanod.dev/learn/x402-bazaar-agent-demand-data.html) - 30-day payer and call counts for 34k CDP Bazaar endpoints, by endpoint and by topic, with method and caveats.
 - [EIP-3009 Explained](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) - Gasless transfers.
 - [Counterfeit Verifiability in Autonomous Agent Payments](https://doi.org/10.5281/zenodo.21042364) - Preregistered six-stage study (Salvo & Ackerman, 2026; up to 13 models, 2,600+ payment decisions) on agent counterparty trust in x402-style flows. A counterparty that merely *displays* the surface of verification (impressive figures, an on-chain-styled but invalid reference) beats an honest, genuinely settlement-backed agent 99% of the time; only *performing* the check, not reading a displayed claim, corrects it (1% → 81%). The case for verifying in-path. Design sealed to a public hash chain before any data; null result reported in full. ([PDF](https://agentrank.info/papers/counterfeit-verifiability.pdf) | [DOI](https://doi.org/10.5281/zenodo.21042364))
 
