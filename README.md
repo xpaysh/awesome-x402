@@ -873,6 +873,7 @@ AI-powered research and translation services for the Asian market — no other x
 - [Hermes Asia Intelligence](https://base-worker-01.j23726919.workers.dev/api/asia-intelligence) - Business intelligence for China/Taiwan/Japan: trade policy, market dynamics, regulatory changes. $0.02 USDC/call. 日英双语输出.
 - [Hermes Japanese Research](https://base-worker-01.j23726919.workers.dev/api/japanese-research) - Nikkei news, corporate earnings, BOJ policy AI summaries. $0.02 USDC/call.
 - [Hermes Bilingual Bridge](https://base-worker-01.j23726919.workers.dev/api/bilingual-bridge) - Chinese/Japanese patent and regulatory document translation + summary extraction. $0.03 USDC/call.
+- [Ownly China News Feed](https://ownly-cmf-x402.joyd-ai-2026.workers.dev) - China news in English and Chinese from public sources, plus ranked hot lists from Weibo 微博, Baidu 百度, Zhihu 知乎, Toutiao 今日头条, Douyin 抖音, Bilibili 哔哩哔哩 and Kuaishou 快手, and a deletion watch for removed topics. $0.01 USDC/call on Base via the CDP facilitator; free `/sample`. ([OpenAPI](https://ownly-cmf-x402.joyd-ai-2026.workers.dev/openapi.json) | [MCP](https://china-news-feed-mcp.joyd-ai-2026.workers.dev/mcp) | [GitHub](https://github.com/joydai2026-del/china-news-feed-mcp))
 
 
 ### Agent-to-Agent (A2A)
