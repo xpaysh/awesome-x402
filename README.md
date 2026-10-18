@@ -475,6 +475,9 @@ Server-side integrations for accepting x402 payments.
 - Browser wallet example - React + Hono full-stack.
 - [Azeth Provider](https://github.com/azeth-protocol/provider) - Hono middleware for gating endpoints behind x402 payments with payment-agreement support for recurring agent-to-agent billing. ([npm](https://www.npmjs.com/package/@azeth/provider))
 
+**Deno**
+- [x402-deno](https://github.com/aronaplana-os/x402-deno) - Drop-in x402 v2 middleware for any Deno or Deno Deploy fetch handler. Server-side canonical pricing (a client cannot alter the amount), Deno KV compare-and-set nonce reservation before inference to prevent cross-instance double-serving, fail-closed settlement, and cached replay of already-paid responses. Zero dependencies, MIT, smoke and integration tests included. ([GitHub](https://github.com/aronaplana-os/x402-deno))
+
 ### Python
 
 **FastAPI**
