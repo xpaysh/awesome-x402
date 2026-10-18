@@ -1214,6 +1214,14 @@ Projects building with or extending x402.
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
 
+### RAEN Fleet
+
+- [dispatch-x402](https://dispatch-x402.fly.dev) - x402-gated multi-agent dispatch for autonomous agent teams. Pay-per-call via USDC on Base.
+- [nft-alpha-x402](https://nft-alpha-x402.fly.dev) - x402-gated NFT alpha signals, floor analysis, and collection intelligence for autonomous agents.
+- [sentry-forge-x402](https://sentry-forge-x402.fly.dev) - x402-gated contract monitoring and forge execution for autonomous agent fleets.
+- [rae-a2a-adapter-x402](https://rae-a2a-adapter-x402.fly.dev) - A2A AgentCard-compliant merchant adapter. Agents discover services at /.well-known/agent-card.json and pay per-call via x402.
+- [opensea-data-x402](https://opensea-data-x402.fly.dev) - x402-gated OpenSea marketplace data: collections, stats, traits, and trading signals for agents.
+
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
 
@@ -1270,7 +1278,7 @@ Live metrics and on-chain analytics for the x402 ecosystem.
 
 - [agenteconomy.to](https://agenteconomy.to) - Real-time dashboard tracking the agentic economy across x402, ERC-8004, ERC-8183, and MPP protocols on 8 chains. Aggregated event counter, chain distribution, facilitator share, and time-series charts. Data refreshes every 6 hours.
 - [Dune Analytics x402](https://dune.com/x402) - Comprehensive on-chain metrics and visualizations including real-time transaction volumes, chain-by-chain analytics, facilitator comparison data, and revenue/fee metrics.
-- [x402scan Explorer](https://x402scan.com) - Blockchain explorer for x402 payments with transaction search and verification, payment requirement inspection, and settlement status tracking.
+- [x402scan.com](https://x402scan.com) - x402 Ecosystem Explorer: block explorer, analytics dashboard, and marketplace for paid APIs and agentic commerce.
 - [Valoria](https://x402.valoria.net) - x402 market intelligence with revenue rankings, service analysis, and pricing data across 90K+ indexed services and $148M+ in tracked on-chain volume.
 - [x402watch](https://x402.printmoneylab.com) - Wash-filtered intelligence layer for x402. 36k+ services indexed across Base, Solana, Polygon, and Arbitrum, AI-classified into 33 categories with 8-label buyer detection (organic_user, suspected_wash, self_test, developer, ai_agent, analytics_bot, exchange_user, verifier). 24h trends, anonymized case studies, daily CC0 datasets, x402-native paid API, and MCP server.
 - [CoinGecko x402 Category](https://coingecko.com/en/categories/x402) - Token tracking and market data featuring $180M+ tracked market cap, price charts, trading volumes, and ecosystem token listings.
