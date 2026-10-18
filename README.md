@@ -442,6 +442,10 @@ Client libraries for making x402 payments.
 
 - [alloy](https://github.com/alloy-rs/alloy) - High-performance Ethereum library.
 
+### C#/.NET
+
+- [x402-mcp-dotnet](https://github.com/Egoushka/x402-mcp-dotnet) - x402 v2 MCP transport for the official C# MCP SDK: a `[PaidTool]` attribute makes agents pay per tool call in USDC, with a paying client for the agent side.
+
 ## 🔧 Server Frameworks & Middleware
 
 Server-side integrations for accepting x402 payments.
