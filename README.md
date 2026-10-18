@@ -1324,6 +1324,7 @@ Security resources and best practices for x402 implementations.
 - [Bug Bounty Intelligence](https://wazir-x402.duckdns.org) - AI-powered smart contract security scanner for AI agents. Trained on 27,681 real accepted findings from Sherlock and Code4rena audit competitions. Submit a public GitHub repo and receive a ranked vulnerability report within 24h. $5 USDC on Base via x402 autopay. Free tool: `list_vulnerability_patterns` returns acceptance rates per vulnerability pattern. ([MCP](https://github.com/holistis/bug-bounty-intelligence-mcp) | [OpenAPI](https://wazir-x402.duckdns.org/openapi.json) | [llms.txt](https://wazir-x402.duckdns.org/llms.txt) | [/.well-known/x402](https://wazir-x402.duckdns.org/.well-known/x402))
 - Coinbase x402 Security Audit - Official security audit of x402 protocol smart contracts.
 - [EIP-3009 Security Analysis](https://eips.ethereum.org/EIPS/eip-3009#security-considerations) - Security considerations for TransferWithAuthorization.
+- [VexQuill Contract Audit API](https://x402-audit-api.vexquill.deno.net) - Pay-per-call smart contract security scanner, $0.005 USDC per audit on Base. 14 static analysis checks.
 
 ### Security Best Practices
 
