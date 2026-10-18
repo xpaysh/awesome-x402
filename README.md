@@ -543,6 +543,8 @@ Full working examples and templates.
 - [Agent Arena](https://agentarena.site) - On-chain ERC-8004 agent registry with x402-gated search ($0.001 USDC/query) and registration ($0.05 USDC). Agents discover and hire each other autonomously on Base mainnet. No API keys required.
 - [CIPHER Premium](https://cipher-x402.vercel.app) - Next.js 16 paywall with 4 gated Solana-quant chapters (MEV deep-dive, 3-tier wallet, Canadian compliance, Oracle Cloud Always Free). $0.25 USDC/Base per fetch. Hand-rolled proxy.ts, no facilitator deps at advertise time.
 
+- [ARL Protocol](https://arlcoin.io) - Open-source settlement layer on Base: x402 "upto" per-use payments, ERC-8004 identity, ERC-8183 escrowed jobs. Live on Base Sepolia with a free testnet faucet at [arlcoin.io/app](https://arlcoin.io/app/). ([Code](https://github.com/armanalabsai/arlcoin.io))
+
 ### API Examples
 - [Remote Signal API](https://allan-great-skirt-average.trycloudflare.com/pricing) - Curated JSON feed: 50 RemoteOK dev/SaaS jobs + 20 HN Show HN posts for recruiting teams and indie builders. Free tier (10 req/day), $5/mo API key via USDC on Base, or $0.02 USDC/request via x402 for agents. ([API docs](https://gist.github.com/reckoning89/d87818b2020bbc27590df1fa0c42f175) | [.well-known/x402.json](https://allan-great-skirt-average.trycloudflare.com/.well-known/x402.json))
 - [tokenguard](https://eltociear-tokenguard.hf.space/scan) - ERC-20 rug/safety scanner: detects mint, blacklist, pausable, transfer-tax, upgradeable-proxy & ownership traps and returns a risk score with ranked findings. $0.005 USDC per call on Base. Part of an onchain-intelligence suite (also `/wallet`, `/price`, `/ens`, `/gas`). No signup — wallet is auth.
