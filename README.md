@@ -135,6 +135,8 @@ Official and community implementations of the x402 protocol.
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
+- [Tolca](https://tolca.tonbot.ca) - Know who you're paying before you pay: Québec contractor check (RBQ licence, RENA, environmental penalties, SEAO public contracts) and company verification from official registries, plus web search that reads the pages for you ($0.008). x402 pay-per-call on Base from $0.01, no keys, MCP server, zero results = HTTP 404 = not charged. ([Discovery](https://tolca.tonbot.ca/.well-known/x402) | [MCP](https://tolca.tonbot.ca/mcp) | [GitHub](https://github.com/yayabough/tolca))
+
 
 
 ### High-Volume Production Deployments
