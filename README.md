@@ -950,6 +950,10 @@ Tools and resources for testing x402 implementations
 - [Base Sepolia USDC Faucet](https://faucet.circle.com/) - Get test USDC.
 - [Base Sepolia Bridge](https://bridge.base.org/) - Bridge test ETH.
 
+### Conformance Testing
+
+- [x402-conformance](https://github.com/atsp-protocol/x402-conformance) - Experimental Apache-2.0 GitHub Action and CLI that checks x402 V2 facilitators and resource servers (Solana first) for double settlement, memo replay, credit on `settlement_pending` and credit on broken `/settle` answers; live mode is GET-only.
+
 
 ## 📚 Tutorials & Learning Resources
 
