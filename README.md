@@ -944,6 +944,10 @@ Development tools and utilities for x402.
 
 Tools and resources for testing x402 implementations
 
+### Unsigned Payment Quote Inspection
+
+- [x402 Quote Inspector](https://livastic-vm3-primary-tmp-260920.github.io/defi-payment-proof-qa/guides/x402-quote-safety.html) - Browser-local inspection of unsigned x402 v1/v2 HTTP 402 quotes, with Base USDC asset, atomic amount, pay-to and resource comparisons; does not sign or pay. ([Original source and offline tests](https://github.com/livastic-vm3-primary-tmp-260920/defi-payment-proof-qa))
+
 ### Testnets
 
 - [Base Sepolia Testnet](https://docs.base.org/docs/network-information) - Primary testnet.
