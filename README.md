@@ -865,6 +865,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [Vault-0](https://github.com/0-Vault/Vault-0) - Encrypted secret vault, agent monitor, and x402 wallet for OpenClaw. Handles 402 detection, EIP-3009 signing, and policy-gated auto-settlement.
 - [CardZero](https://cardzero.ai) - Payment wallet for AI agents on Base L2. Each agent gets an ERC-4337 smart contract wallet with owner-controlled spending rules (per-tx limits, daily caps, whitelist, freeze). x402 buyer support via `POST /v1/x402/pay`. [ClawHub](https://clawhub.ai/mrocker/cardzero) | [GitHub](https://github.com/mrocker/CardZero) | [API Docs](https://cardzero.ai/docs/api)
 - [Aeon](https://github.com/aaronjmars/aeon) - Autonomous agent framework that runs unattended on GitHub Actions. Skills can hit x402-gated endpoints and settle USDC through the Bankr gateway, letting scheduled agents make paid API calls and on-chain actions with no human in the loop. MIT. ([GitHub](https://github.com/aaronjmars/aeon))
+- [SCDO Agent Ledger (SCDO x402)](https://scdo.com.au/agent/?src=dir-awesomex402) - Multi-rail agent ledger + live HTTP 402 resource (`GET https://scdo.com.au/api/x402/ledger-stats`, ~0.01 USDC on Base). Rails: Base USDC, Solana USDC, TRON/BNB/TON USDT. Manifest: `/.well-known/x402.json`. Treasury: https://scdo.com.au/treasury/. Install: `uvx scdo-agent-mcp`. ([GitHub](https://github.com/SCDOLAB/scdo-agent-plugins))
 
 ### Asia Intelligence & Bilingual AI
 
