@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [Doomsday Network](https://doomsday.network) - Self-custodial agent-to-agent payment and Proof-of-Escrow verification protocol on Base Mainnet (`wDOOM` `0x623c84A5E04bF715018203334b0eFE41696eBC3E`) and Doomsday Layer-1 (`DOOM`). Ships a 12-tool zero-dependency MCP server (`doomsday_mcp.py`), `SKILL.md`, and 15+ framework adapters for client-side `secp256k1` signed transfers, replay-proof invoice memo generation & verification (`create_l1_invoice` / `verify_l1_payment`), and pre-flight GitHub bounty escrow verification (`SAFE_WITH_ESCROW` / `SAFE_NO_ESCROW` / `QUARANTINE`). ([GitHub](https://github.com/doomsday-network/doomsday)) | ([Bounty-Guard](https://github.com/doomsday-network/bounty-guard))
 
 
 ### Multi-Agent Orchestration
