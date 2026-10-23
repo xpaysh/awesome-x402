@@ -406,7 +406,8 @@ Major tech companies leveraging x402 in production include **Coinbase** (Native 
 - [b0x402](https://x402-cf-worker.mulberry-boar.workers.dev) - AI-powered crypto intelligence API: meme coin signals, DeFi sentiment, market equilibrium analysis, and wallet profiling on Base. Pay per call in USDC via x402. ($0.01-0.10 USDC/call)
 - [b0xM4](https://b0xm4-solana-pulse.mulberry-boar.workers.dev) - **Meridian-powered Solana DLMM screener.** Real-time TVL, volume, organic score, smart wallet tracking, token safety, fee/TVL yield ranking. 5 endpoints, $0.0001–0.0005 USDC/call. Payout 7P7w3M9yQs5P... on Solana.
 - [agentfeeds.jp](https://api.agentfeeds.jp) - Japan regulatory, sanctions & DEX market data for AI agents. 27 paid endpoints ($0.001-$0.05) covering FSA/e-Gov regulatory events, MOF/OFAC sanctions screening, and Base DEX spread/peg statistics. REST + MCP.
-
+- [Agent IA API](https://api.api-agent-ia.ch) - Pay-per-call x402 API on Base with 23 endpoints ($0.001-$0.01 USDC) for onchain data, ENS resolution, FX rates, OFAC address screening and IBAN validation. ([OpenAPI](https://api.api-agent-ia.ch/openapi.json) | [Discovery](https://api.api-agent-ia.ch/.well-known/x402))
+ 
 ## 🛠️ SDKs & Client Libraries
 
 Client libraries for making x402 payments.
