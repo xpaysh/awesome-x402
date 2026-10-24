@@ -696,6 +696,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [Antigravity x402 Oracle](https://inside-petite-legacy-reduces.trycloudflare.com) - Multi-feed pay-per-query data oracle for autonomous AI agents on Base L2 ($0.02 USDC per query, zero API keys required). Delivers live spot crypto market prices, perpetual funding rates, web search, HTML-to-Markdown extraction, and EU public procurement tenders. Native SDKs and manifests for [Coinbase AgentKit & ElizaOS](https://github.com/criptobot25/eu-procurement-radar-x402/tree/main/sdk). ([x402 Manifest](https://inside-petite-legacy-reduces.trycloudflare.com/.well-known/x402.json)) ([Agent Manifest](https://inside-petite-legacy-reduces.trycloudflare.com/.well-known/ai-agent.json))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
