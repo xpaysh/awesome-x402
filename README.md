@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`) and MCP server for verifying L1 `DOOM` and Base Mainnet `wDOOM` payments.
 
 
 ### Multi-Agent Orchestration
