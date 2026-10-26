@@ -776,6 +776,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [Cook County / Chicago Property Data MCP](https://github.com/hyperionxmota/cook-county-property-mcp) - Hosted remote MCP for Cook County / Chicago property records — parcels, recorded sales, building permits, tax assessments, and comparable sales by address or PIN. Pay-per-call via x402 (USDC on Base/Solana). Endpoint: api.ingest0r.com/mcp.
 - **[Vongstaad MCP](https://github.com/VGSTAAD/vongstaad-mcp)** - Quant signal infrastructure. Discovery: vongstaad.com/.well-known/x402.json
 
+- **[Sparks RE & Compliance API](https://sparks-re-api.sparksdigital-re.workers.dev)** - Production Cloudflare Workers x402 v2 & MCP server on Base Mainnet (`eip155:8453`, Builder Code `bc_b6z7ro4s`) providing 11 pay-per-call endpoints: RESO property data normalization, Fair Housing Act (FHA) 7-protected-class compliance auditing, rental underwriting (Cap Rate, DSCR, NOI), ADA Title II / WCAG 2.1 AA accessibility scanning, SEC EDGAR filings, URL-to-Markdown extraction, and Base L2 smart contract/gas auditing. ([GitHub](https://github.com/intellectuallyneutral/Real-estate-analysis-API-with-x402-micropayments-on-Base-L2))
 
 - Anthropic MCP Integration - Official Claude integration.
 - x402 MCP Server - Claude Desktop ready server.
