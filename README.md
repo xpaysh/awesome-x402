@@ -905,7 +905,7 @@ AI-powered research and translation services for the Asian market — no other x
 - [Assay](https://assay.nominal-labs.com) - Service-quality oracle for x402: pays real USDC to probe machine-payable services on a schedule and scores what actually comes back — payment settlement, schema conformance, ground-truth accuracy, LLM-judged quality (composite 0-100, tiers gold/ok/avoid). Every rating carries on-chain receipts; daily evidence digests are Bitcoin-anchored via OpenTimestamps so history can't be quietly rewritten. Free tier verdicts at `/tier/{url}`, paid full reports ($0.005 USDC on Base), listed in the CDP Bazaar. ([GitHub](https://github.com/JasonCZMeng/assay)) ([Leaderboard](https://assay.nominal-labs.com/leaderboard)) ([SKILL.md](https://assay.nominal-labs.com/SKILL.md))
 
 Development tools and utilities for x402.
-
+- [Kestrova Solidity Security Review](https://github.com/som2026-commits/kestrova-solidity-security) - An agent skill and remote MCP service for automated Solidity static analysis using Slither, with free previews and optional paid reports via x402 USDC payments on Solana.
 ### CLI Tools
 
 - [Foundry](https://getfoundry.sh/) - Smart contract development toolkit.
