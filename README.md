@@ -513,6 +513,7 @@ Payment verification and settlement services.
 - [Primer](https://x402.primer.systems) - Free x402 facilitator supporting Base and SKALE Base networks, with full ERC-20 support. v1 and v2 x402 both accepted. Batch settlement enabled. [Documentation](https://docs.primer.systems).
 - [Solvador](https://solvador.com) - Multi-network, multi-scheme x402 facilitator: 10 EVM chains (Base, Arbitrum, Optimism, Polygon, Avalanche, Celo, Linea, Unichain, World Chain, Monad) plus Solana and NEAR mainnet. Supports `exact`, `upto` (Permit2), and `batch-settlement` schemes. Settled-transaction dashboard with API keys. [Supported networks & schemes](https://api.solvador.com/supported) · [Blog](https://blog.solvador.com)
 - [NEAR x402 Facilitator](https://x402.mikedotexe.com/) - Open-source, API-key-gated facilitator for exact Circle USDC payments on NEAR and Base, with sponsored gas and durable settlement recovery.
+- [Roundhouse](https://roundhouseai.io/docs/guides/use-the-roundhouse-facilitator) - Public, keyless x402 facilitator on Base mainnet for `exact` USDC payments (EIP-3009), x402 v1 and v2, with facilitator-sponsored gas. [Supported](https://x402.roundhouseai.io/supported)
 
 ### Self-Hosted Facilitators
 
@@ -916,6 +917,7 @@ Development tools and utilities for x402.
 ### Monitoring & Analytics
 
 - Dune Analytics - On-chain metrics and visualizations.
+- [Roundhouse](https://roundhouseai.io/?utm_source=awesome-x402&utm_medium=mcp_directory) - Index of x402 settlements and ERC-8004 agent identity: payer/merchant lookups, facilitators, payment graphs, a catalog of x402 paid APIs with price comparison, and read-only SQL. Remote MCP server (17 tools, OAuth or API key) at `https://api.roundhouseai.io/v0/mcp`, plus the `rh-x402` CLI. ([MCP docs](https://roundhouseai.io/docs/api/mcp)) ([llms.txt](https://roundhouseai.io/llms.txt)) ([npm](https://www.npmjs.com/package/@roundhouseai/x402))
 - [Sentinel](https://sentinel.valeocash.com) - Enterprise audit & compliance layer for x402 payments. Budget enforcement (per-call, hourly, daily), structured audit trails, real-time dashboard, and public payment explorer. SDK: [`@x402sentinel/x402`](https://npmjs.com/package/@x402sentinel/x402). Built by [Valeo](https://valeocash.com)
 
 - [ScoutScore](https://scoutscore.ai) - Trust scoring infrastructure for x402 services. Monitors 1,700+ services with continuous health checks and fidelity probes using a 4-pillar model (Contract Clarity, Availability, Response Fidelity, Identity & Safety). [API Docs](https://scoutscore.ai/docs) · [npm SDK](https://www.npmjs.com/package/@scoutscore/sdk) · [MCP Server](https://www.npmjs.com/package/@scoutscore/mcp-server)
