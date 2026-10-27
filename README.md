@@ -1214,6 +1214,8 @@ Projects building with or extending x402.
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
 
+- [Cian Endpoint Audit](https://cian-x402.netlify.app/) - Pay-per-call HTTP endpoint health audit for one URL: final status and the full redirect chain, latency p50/p95 over three samples, TLS protocol, cipher, days to expiry and issuer, the response headers that matter after an incident, and machine-readable anomaly ids. 0.01 USDC per call via x402 v2 (scheme `exact`, Base mainnet), no account and no API key. ([Discovery](https://cian-x402.netlify.app/.well-known/x402) | [OpenAPI](https://cian-x402.netlify.app/openapi.json) | [GitHub](https://github.com/cian-spider/cian-endpoint-audit))
+
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
 
