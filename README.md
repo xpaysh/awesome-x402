@@ -63,6 +63,7 @@ Core resources from the x402 protocol maintainers.
 - [Protocol Specifications](https://github.com/coinbase/x402/tree/main/specs) - Detailed technical specifications.
   - [Payment Schemes](https://github.com/coinbase/x402/tree/main/specs/schemes) - Different payment flow types.
   - [EVM Implementation](https://github.com/coinbase/x402/blob/main/specs/schemes/exact/scheme_exact_evm.md) - Ethereum Virtual Machine specifics.
+- [MOSN Solana Token Safety API](https://mosn-api.mosn-3r41y.workers.dev) - Pay-per-call Solana rug/honeypot checks, real-wallet holder concentration, real-time new pools and screened alpha over x402 (USDC on Solana or Base). Also a remote MCP server.
 
 ## 📖 Protocol Documentation
 
