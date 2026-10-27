@@ -1276,6 +1276,7 @@ Live metrics and on-chain analytics for the x402 ecosystem.
 - [CoinGecko x402 Category](https://coingecko.com/en/categories/x402) - Token tracking and market data featuring $180M+ tracked market cap, price charts, trading volumes, and ecosystem token listings.
 - [Demand Intel](https://intel.agent402.app) - Demand-side analytics + cross-rail supply intelligence for the x402 ecosystem. Cross-source demand signal aggregation across 32+ community, builder, content, financial, and jobs sources, weighted by family-count agreement and filtered by query-intent classification. Builder Intel deduplicates builders across CDP Bazaar, Agentic Market, and MPP via `provider_key`. `unified_supply` SQL view spans facilitators. Pulse dashboard with KPI rail, Signal Pipeline visualizer, and AI Executive Summary. Free partner preview, no payment required during preview phase.
 - [SmartFlow Observatory](https://smartflowproai.com) - Public observatory for the x402 endpoint network on Base. Canary probes, settlement tracing, weekly Atlas drill-downs. 22,251 endpoints catalogued. Companion to the [Mapper API](https://api.smartflowproai.com) and [Weekly Intel](https://smartflowproai.substack.com).
+- [LupaRiel](https://lupariel.com/en/x402/) - Directory of 434 x402 sellers and APIs as of 2026-10-27 with linked public sources, status and review dates, part of a 771-entry map that also covers MPP, AP2 and ACP, with the full catalog in JSON.
 
 ### Growth Metrics
 
