@@ -1248,6 +1248,7 @@ Projects building with or extending x402.
 - **[DeFi Intelligence Engine](https://defi-yield-engine-production.up.railway.app/mcp)** — Complete DeFi intelligence across Yield, Liquid Staking, Restaking, RWA, Perpetuals, Gas Optimization and Smart Contract Security. Risk-adjusted single recommendations with reasoning — 97% fewer tokens than raw data. 18 tools including gas window prediction, GoPlus contract scoring, APY alerts, and A2A Agent Card. 0.05 USDC/call on Base · MCP streamable-http · x402 native
 - [YieldSignal](https://yieldsignal.vercel.app) - Real-time risk-weighted USDC lending APY across Aave, Compound, Morpho, Moonwell, Euler and Fluid on Base. Every reading tagged with its data source (onchain/api/defillama) — sources that fail are omitted, never estimated. $0.01 USDC per call via CDP Facilitator, Bazaar discoverable.
 - [Runbot Strategy Copilot](https://mcp.runbot.io/v1) — Build, backtest, optimize and export real crypto trading strategies from plain English on the Runbot engine (perp futures + Polymarket prediction markets), with real market data and verified backtest scores. Paid per call, x402 v2 dual-rail: USDT on X Layer (eip155:196) or USDC on Base (eip155:8453). $1.50 build · $0.25 backtest · $0.25/minute optimize · $0.35 export. Free machine-readable discovery at [/v1](https://mcp.runbot.io/v1); cataloged in PayAI's Bazaar; MCP endpoint at `/mcp`.
+- [Cleave gas top-up](https://cleave.fi/docs/agents/gas) - Native gas on 6 EVM chains, paid in USDC over x402.
 
 ### Developer Tools
 
