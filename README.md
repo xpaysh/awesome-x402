@@ -899,6 +899,14 @@ AI-powered research and translation services for the Asian market — no other x
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
 
 
+### Workflow Methodology & Architecture
+
+These adjacent resources cover general AI-assisted workflows and architecture; they do not implement x402 payments.
+
+- [Innovate](https://github.com/rtomboj/innovate-project-development-mode) - Portable methodology for exploring ideas with AI assistants and agents, comparing approaches, and assessing feasibility before planning a build.
+- [Tomboj VOC Signal-to-Change](https://github.com/rtomboj/tomboj-voc-signal-to-change) - AI-guided instructions and templates for customer-feedback benchmarking, permitted monitoring, owned follow-up, and verification of company improvements.
+- [Tomboj Studio Overview](https://github.com/rtomboj/tomboj-studio-overview) - Public product architecture notes for a private AI-assisted content operations system, covering approval workflows, revision history, and agent-visible records; application code is not included.
+
 ## 🔨 Tools & Utilities
 
 - [Cinderwright Discovery Hub](https://api.ideafactorylab.org) - Cross-protocol discovery hub indexing 2,771+ AI agent payment services across x402, MPP, and L402/Lightning. Free keyword search (`/discover?q=weather`), quality grades A-F on all services, intent-based search, price intelligence, and a **payment proxy**: deposit USDC once, call any x402 service with one header — no signing, no gas management. MCP server installable in Claude Desktop. ([Proxy Docs](https://api.ideafactorylab.org/proxy) | [MCP](https://api.ideafactorylab.org/.well-known/mcp.json) | [GitHub](https://github.com/cinderwright-ai/cinderwright-api))
@@ -939,6 +947,8 @@ Development tools and utilities for x402.
 - [chainfacts](https://chainfacts-x402.onrender.com) - Verifiable token risk / pre-trade rug screen for any Base ERC-20. Deterministic contract-security facts (upgradeable proxy / EIP-1967, ownership renounced, mint authority, paused) + holder concentration (Gini, HHI, Nakamoto, top-1/3/5/10 share) + a 0-100 risk score, each block-pinned with a reproducible sha256 attestation any agent can independently recompute. 3 pay-per-call routes, USDC on Base, no API key: `POST /token-risk-report` ($0.01), `POST /batch-token-risk-screen` (up to 25 tokens, $0.005), `POST /onchain-snapshot-analyze` ($0.003). ([Offerings](https://chainfacts-x402.onrender.com/offerings)) ([Health](https://chainfacts-x402.onrender.com/health))
 - [Sentinel Payment Preflights](https://github.com/TerminallyLazy/sentinel-recovery-support) - Free local MCP server that deterministically checks decoded x402 v2 PaymentRequired JSON against a scoped exact-EVM EIP-3009 safety profile; the preflight makes no network requests and performs no wallet access, signing, or settlement. ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.TerminallyLazy%2Fsentinel-recovery-services/versions/0.3.0))
 
+
+- [402 Sentinel](https://github.com/rtomboj/402-sentinel) - Concept for a self-serve scanner covering five x402 settlement failure patterns: duplicate webhook processing, unconfirmed transactions, over-broad allowances, stale indexer data, and unbounded retries. Demand validation only; no scanner implementation is available.
 
 ## 🧪 Testing & Development
 
