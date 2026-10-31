@@ -133,6 +133,7 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+- [PXBT Visa Check](https://x402.pxbt.app/visa/dtv-check) - Thailand DTV / METV visa document pre-check for agents: POST a passport, bank-balance and document set, get per-document ok/missing/fail, blockers, score 0-100, official fees and sources. 0.05 USDC on Base, no API key. ([Discovery](https://x402.pxbt.app/.well-known/x402) | [MCP](https://x402.pxbt.app/mcp))
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
