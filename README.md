@@ -513,6 +513,7 @@ Payment verification and settlement services.
 - [Primer](https://x402.primer.systems) - Free x402 facilitator supporting Base and SKALE Base networks, with full ERC-20 support. v1 and v2 x402 both accepted. Batch settlement enabled. [Documentation](https://docs.primer.systems).
 - [Solvador](https://solvador.com) - Multi-network, multi-scheme x402 facilitator: 10 EVM chains (Base, Arbitrum, Optimism, Polygon, Avalanche, Celo, Linea, Unichain, World Chain, Monad) plus Solana and NEAR mainnet. Supports `exact`, `upto` (Permit2), and `batch-settlement` schemes. Settled-transaction dashboard with API keys. [Supported networks & schemes](https://api.solvador.com/supported) · [Blog](https://blog.solvador.com)
 - [NEAR x402 Facilitator](https://x402.mikedotexe.com/) - Open-source, API-key-gated facilitator for exact Circle USDC payments on NEAR and Base, with sponsored gas and durable settlement recovery.
+- - [402Proof](https://four02proof.onrender.com) - Non-custodial, no-fee x402 facilitator for the XRP Ledger (XRPL) mainnet, with RLUSD and XRP support. Sellers settle direct: 402Proof issues the invoice/challenge and verifies the on-ledger Payment (tesSUCCESS, destination, issuer, amount, and memo match, single-use) — funds move payer → seller and never pass through 402Proof.
 
 ### Self-Hosted Facilitators
 
