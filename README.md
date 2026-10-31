@@ -406,6 +406,7 @@ Major tech companies leveraging x402 in production include **Coinbase** (Native 
 - [b0x402](https://x402-cf-worker.mulberry-boar.workers.dev) - AI-powered crypto intelligence API: meme coin signals, DeFi sentiment, market equilibrium analysis, and wallet profiling on Base. Pay per call in USDC via x402. ($0.01-0.10 USDC/call)
 - [b0xM4](https://b0xm4-solana-pulse.mulberry-boar.workers.dev) - **Meridian-powered Solana DLMM screener.** Real-time TVL, volume, organic score, smart wallet tracking, token safety, fee/TVL yield ranking. 5 endpoints, $0.0001–0.0005 USDC/call. Payout 7P7w3M9yQs5P... on Solana.
 - [agentfeeds.jp](https://api.agentfeeds.jp) - Japan regulatory, sanctions & DEX market data for AI agents. 27 paid endpoints ($0.001-$0.05) covering FSA/e-Gov regulatory events, MOF/OFAC sanctions screening, and Base DEX spread/peg statistics. REST + MCP.
+- [x402 Funding Divergence](https://x402-funding.onrender.com/funding) - Perpetual funding-rate divergence between Hyperliquid and Binance, annualized and liquidity-filtered, with the direction of the basis trade already resolved. $0.02 per call in USDC on Base over x402: no API key, no account, indexed in the CDP Bazaar. Also available as a free zero-dependency npm library and MCP tool ([GitHub](https://github.com/kristoferbc/x402-funding), [npm](https://www.npmjs.com/package/x402-funding-divergence)).
 
 ## 🛠️ SDKs & Client Libraries
 
