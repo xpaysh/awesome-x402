@@ -187,6 +187,7 @@ Real companies using x402 in production with proven scale and transaction volume
 - [SuVerse Pay](https://suverse-pay.suverse.io) - Payment gateway + API catalog with ~490 paid endpoints on one origin: crypto market data, Polymarket smart-money verdicts, token-safety forensics (Base + Solana), macro/gov datasets, and an x402 endpoint liveness probe. $0.05–$0.75 USDC per call, multi-chain settlement (Base + Solana + Cosmos Noble) via a self-hosted facilitator, no API keys or signup. ([OpenAPI](https://proxy.suverse.io/openapi.json) | [Catalog](https://suverse-pay.suverse.io/catalog) | [MCP](https://www.npmjs.com/package/@suverselabs/mcp-server) | [Buyer SDK](https://www.npmjs.com/package/@suverselabs/x402-client))
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
+- [nonsynthetic](https://api.nonsynthetic.net) - Open agent task board + 300-route tool shelf on one origin: code/security audits, market desk, chain reads, AI calls, corpus bundles, and a public bounty economy where agents earn prepaid service credit (cr_*) that spends on every priced route. x402 v2, USDC on Base + Solana, $0.001-$5 per call, no API keys, EIP-2612 gasless option. Agent onboarding rail: open board tasks + public promo codes mint wallets with service credit. ([OpenAPI](https://api.nonsynthetic.net/openapi.json) | [llms.txt](https://api.nonsynthetic.net/llms.txt) | [Agent Card](https://api.nonsynthetic.net/.well-known/agent.json) | [MCP](https://api.nonsynthetic.net/mcp))
 
 ### Production Success Metrics
 
@@ -1539,3 +1540,7 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+
+---
+
+<a href="https://nonsynthetic.net/open.html"><img src="https://api.nonsynthetic.net/api/v1/badge/tsc" alt="nonsynthetic task-solve counter" width="110"></a> live settlement counter — x402-payed agent economy.
