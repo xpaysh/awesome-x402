@@ -1310,7 +1310,7 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 
 ## 🔒 Security & Audits
 
-- [x402check](https://x402check.dev) - Paid preflight for x402 seller endpoints before an agent pays: returns `ok` | `caution` | `avoid` plus live `payTo`, price, and history (uptime / payTo / price drift). $0.002 Exact USDC on Base per URL. MCP `https://x402check.dev/mcp` (registry `dev.x402check/mcp`). ([GitHub](https://github.com/nwilliams005/x402check) | [OpenAPI](https://x402check.dev/openapi.json) | [llms.txt](https://x402check.dev/llms.txt) | [example](https://x402check.dev/example))
+- [x402check](https://x402check.dev) - Paid preflight for x402 seller endpoints before an agent pays: returns `ok` | `caution` | `avoid` plus live `payTo`, price, and history (uptime / payTo / price drift). $0.01 Exact USDC on Base per URL (1 free regular check per wallet). MCP `https://x402check.dev/mcp` (registry `dev.x402check/mcp`). ([GitHub](https://github.com/nwilliams005/x402check) | [OpenAPI](https://x402check.dev/openapi.json) | [llms.txt](https://x402check.dev/llms.txt) | [example](https://x402check.dev/example))
 *[KaelAi] (https://kaelai.io) - Wallet trust scoring API for the agentic economy. Scores wallets 0-100 across 10 chains with behavioural analysis. Built for x402 servers to vet incoming and outgoing payment wallets before serving or initiating requests. 
 
 - [stripe-mcps](https://www.npmjs.com/package/stripe-mcps) - Trust verification + AML sanctions screening before Stripe/x402 payments. Agent identity (ECDSA), 75K+ sanctions entries (UK HMT + OFAC SDN), behavioural spend limits. OWASP MCP Security Cheat Sheet aligned. ([GitHub](https://github.com/razashariff/stripe-mcps))
