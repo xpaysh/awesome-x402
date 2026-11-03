@@ -406,6 +406,8 @@ Major tech companies leveraging x402 in production include **Coinbase** (Native 
 - [b0x402](https://x402-cf-worker.mulberry-boar.workers.dev) - AI-powered crypto intelligence API: meme coin signals, DeFi sentiment, market equilibrium analysis, and wallet profiling on Base. Pay per call in USDC via x402. ($0.01-0.10 USDC/call)
 - [b0xM4](https://b0xm4-solana-pulse.mulberry-boar.workers.dev) - **Meridian-powered Solana DLMM screener.** Real-time TVL, volume, organic score, smart wallet tracking, token safety, fee/TVL yield ranking. 5 endpoints, $0.0001–0.0005 USDC/call. Payout 7P7w3M9yQs5P... on Solana.
 - [agentfeeds.jp](https://api.agentfeeds.jp) - Japan regulatory, sanctions & DEX market data for AI agents. 27 paid endpoints ($0.001-$0.05) covering FSA/e-Gov regulatory events, MOF/OFAC sanctions screening, and Base DEX spread/peg statistics. REST + MCP.
+- [Kenward Settlement Reality](https://pay.kenwardai.my.id/v1/settlement) - x402 endpoint that answers whether an address or service actually received USDC on Base: third-party total, distinct sender count, first and last seen, with its scope stated in every response. Transfers sent by the operator's own wallets are excluded from the headline figure, so internal test activity cannot read as demand. $0.01 per call, free shape-only sample at https://pay.kenwardai.my.id/v1/preview
+
 
 ## 🛠️ SDKs & Client Libraries
 
@@ -1213,6 +1215,8 @@ Projects building with or extending x402.
 
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
+
+- [Kenward Payable API](https://pay.kenwardai.my.id) - Pay-per-call market data for agents: is a marketplace or a buyer actually paying? Returns SETTLES/NEVER_SETTLED with coverage and as_of, or UNKNOWN when it cannot be measured. Free preview and llms.txt; paid verdict from $0.005 USDC on Base (x402, no API key, no account).
 
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
