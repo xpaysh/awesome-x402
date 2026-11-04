@@ -696,6 +696,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [x402 Scraper & Intelligence Suite](https://github.com/ami-guru/x402-scraper-engine) — Production HTTP 402 edge web scraper, recursive documentation crawler, and Model Context Protocol (MCP) server running on Base L2. Features instant 1-tap terminal reads (`/read/:url` @ 0.005 USDC, 2 free calls/IP), recursive documentation crawling (`/v1/crawl` @ 0.250 USDC), multi-page PDF stream parsing (`/v1/pdf` @ 0.050 USDC), and edge Llama 3 context synthesis without API keys or credit cards. ([GitHub](https://github.com/ami-guru/x402-scraper-engine)) ([Smithery](https://smithery.ai/server/x402-scraper-engine)) ([Glama](https://glama.ai/mcp/servers/ami-guru/x402-scraper-engine))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
