@@ -950,6 +950,10 @@ Tools and resources for testing x402 implementations
 - [Base Sepolia USDC Faucet](https://faucet.circle.com/) - Get test USDC.
 - [Base Sepolia Bridge](https://bridge.base.org/) - Bridge test ETH.
 
+### Agent Testing
+
+- [EmberTail Money Check](https://github.com/0xLittleDream/embertail) - Tests whether a paying AI agent keeps money correct after timeouts, 402 payment-invalid replies and spending-cap edge cases, on a simulated ledger with replayable evidence and a GitHub Action.
+
 
 ## 📚 Tutorials & Learning Resources
 
