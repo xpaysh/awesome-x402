@@ -437,6 +437,7 @@ Client libraries for making x402 payments.
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
 - [ethers.js](https://docs.ethers.org/) - Alternative Ethereum library.
 - [AgentLayer](https://github.com/lopushok9/Agent-Layer) - Open-source, local-first wallet for AI agents, with x402 payments and DeFi tools for Base, Solana, and Ethereum, including swaps, lending, and borrowing. Keys are stored in the macOS Keychain.
+- [Provian](https://provian.ai/agents) - Self-custodial agent wallet whose SDK pays 402s from the agent's own key on Base and Solana; the settlements Provian reads on Base join the agent's verifiable work record.
 
 ### Rust
 
