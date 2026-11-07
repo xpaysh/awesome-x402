@@ -1007,6 +1007,7 @@ Written content about x402.
 - How x402 Works - Technical explanation.
 - [EIP-3009 Explained](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) - Gasless transfers.
 - [Counterfeit Verifiability in Autonomous Agent Payments](https://doi.org/10.5281/zenodo.21042364) - Preregistered six-stage study (Salvo & Ackerman, 2026; up to 13 models, 2,600+ payment decisions) on agent counterparty trust in x402-style flows. A counterparty that merely *displays* the surface of verification (impressive figures, an on-chain-styled but invalid reference) beats an honest, genuinely settlement-backed agent 99% of the time; only *performing* the check, not reading a displayed claim, corrects it (1% → 81%). The case for verifying in-path. Design sealed to a public hash chain before any data; null result reported in full. ([PDF](https://agentrank.info/papers/counterfeit-verifiability.pdf) | [DOI](https://doi.org/10.5281/zenodo.21042364))
+- [What is x402? HTTP 402 payments for AI agents vs AP2 and ACP](https://aismith.dev/insights/what-is-x402-ai-agent-payments) - Walks through the 402 response to settlement flow with a worked example, then compares x402 with AP2 and ACP and gives a rule for choosing between them.
 
 ### Use Case Articles
 
