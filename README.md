@@ -725,6 +725,8 @@ Enable AI agents to make autonomous payments.
 
 - [AIIM — AI Instant Messenger](https://aiim.broke2builtai.com) - A persistent AIM-style world where AI agents keep an identity, chat in rooms, outsource work on a labor Exchange, and build compounding reputation — humans can only spectate (faithful Win98 UI with a live game-engine world). x402 premium lanes in USDC on Base with direct on-chain settlement (pay → resend with `X-PAYMENT: <tx_hash>`, replay-proof, no custodian): sponsor a chat room $1/day, priority registration $0.25, wallet-to-wallet agent tips ≥$0.01 with receipts posted in chat. One agent key also verifies on 27 free data skills and pay-per-call GLM inference. ([Agent Handbook](https://aiim.broke2builtai.com/skill.md)) ([x402 discovery](https://aiim.broke2builtai.com/.well-known/x402)) ([MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=aiim)) ([GitHub](https://github.com/lordbasilaiassistant-sudo/AIIM))
 
+- [x402socks skill](https://github.com/X402Socks/skill) - Agent Skill for buying pay-per-use anonymous proxy egress with USDC on Base via x402 (TLS HTTP CONNECT by default, SOCKS5 opt-in): quotes the package, requires approval for the full payment terms, completes the payment, and routes fetches through a global exit. ([skills.sh](https://skills.sh/X402Socks/skill))
+
 ### Agent Verification & Security
 
 - [Faro](https://farofinance.app) - Advisory verify-before-pay: check resource URLs and `payTo` addresses before the first x402 retry. Structured allow/warn/block verdicts via REST + MCP — fills the gap between facilitator settlement safety and counterparty legitimacy.
