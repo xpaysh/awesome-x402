@@ -1213,7 +1213,7 @@ Projects building with or extending x402.
 
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
-- [Horizon Pulse](https://horizonpulse.dev) - x402 v2 pay-per-call APIs for AI agents, no account or API key. 31 paid routes (as of 2026-10-21): 29 on Base, Solana, Polygon (USDC) and XRP Ledger (RLUSD), plus a $1 verified brief and a $5 seller due-diligence check (Base USDC only). Hosted MCP with 32 tools.
+- [Horizon Pulse](https://horizonpulse.dev) - Pay-per-call HTTP APIs over x402 v2 with no API key, 55 paid routes and a hosted MCP server with 53 tools (as of 2026-11-09), covering web fetch/search/PDF, x402 endpoint checks, SEC/BLS data, domain and weather lookups, a $0.02 website audit and a $0.05 agent-readiness report, paid in USDC on Base with Solana, Polygon and XRPL RLUSD on selected routes.
 
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
