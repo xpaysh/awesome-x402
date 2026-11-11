@@ -188,6 +188,8 @@ Real companies using x402 in production with proven scale and transaction volume
 
 - [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
 
+- [ioi](https://www.ioi.md) — OpenAI-compatible inference aggregator for open models. Pay per request with x402 (USDC on Base, `upto` or `exact`) or with an API key. ([skill.md](https://www.ioi.md/skill.md) | [x402scan](https://www.x402scan.com/server/www.ioi.md) | [Agentic.Market](https://agentic.market/services/www-ioi-md))
+
 ### Production Success Metrics
 
 **Key Performance Indicators:**
