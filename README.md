@@ -698,6 +698,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 ## 🤖 AI Agent Integration
 
 - [GrindFree Agent Security](https://github.com/ronin93/grindfree-agent-security) — MCP + x402 snippets for PromptShield, CrawlSafe, ToolGuard, CommandGuard, MemoryGuard, WireShield, DocShield (USDC on Base). Caller wallet pays; decisions are advisory — caller must enforce.
+- [grindfree-guard](https://github.com/ronin93/grindfree-guard) — Drop-in TypeScript (`@grindfree/guard`) and Python adapters that call those APIs before a tool or command runs and enforce allow/review/deny. Official x402 clients; caller wallet via `X402_PRIVATE_KEY`. LangChain, OpenAI Agents SDK, and MCP client examples.
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
