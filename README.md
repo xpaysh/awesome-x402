@@ -696,6 +696,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [AgentQubit (AQB)](https://yss787976-ai.github.io/agent-coin/) - Agent-only settlement token on Base, redeemable 1:1 for USDC from an on-chain vault (no oracle, post-quantum ML-DSA identities). Ships an MCP server and npm client so agents can pay each other for services without card rails. ([repo](https://github.com/yss787976-ai/agent-coin)) ([coin](https://basescan.org/token/0x2C54F202B565086B6d8D2226Edb67AC3E14C39d1))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
