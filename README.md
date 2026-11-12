@@ -694,6 +694,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 ### Production Patterns
 
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
+- [x402 Cold-Start Kit](https://bshelby88.github.io/raen-agent-directory/cold-start-kit.html) - Deploy-to-first-payer runbook for a new x402 API: daily self-ping drift-check GitHub Action (real YAML), the three-surface schema rule (x402.json + openapi.json + live 402 challenge), price-band table, and charge-and-rebate mechanics for free-first-call tiers. $5 USDC on Base, content on-page so fulfillment needs no manual step.
 
 ## 🤖 AI Agent Integration
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
