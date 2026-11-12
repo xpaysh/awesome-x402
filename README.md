@@ -419,7 +419,7 @@ Client libraries for making x402 payments.
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
 
 **AI Agent SDKs**
-- [@zeromodern/mcp-server-0mod](https://github.com/zeromodern/mcp-server-0mod) - MCP server wrapping the 0mod HTTP 402 API Gateway (stealth-dom, airgap-scrub, rag-shrink, RDAP domain check, DEX pricing, sentiment, OCR, embeddings, summarization) via x402 micropayments on Base USDC. ([npm](https://www.npmjs.com/package/@zeromodern/mcp-server-0mod))
+- [@zeromodern/mcp-server-0mod](https://github.com/zeromodern/mcp-server-0mod) - MCP server wrapping the 0mod HTTP 402 API Gateway (`api.0mod.com`: real-time CEX-DEX arbitrage dislocations, spread candles, arb leaderboard, L2 impact simulation, stealth-dom, airgap-scrub, RDAP domain check, DEX pricing, OCR) via x402 micropayments on Base USDC. ([npm](https://www.npmjs.com/package/@zeromodern/mcp-server-0mod))
 - [@zeromodern/eliza-plugin-0mod](https://github.com/zeromodern/eliza-plugin-0mod) - ElizaOS plugin for the 0mod HTTP 402 API Gateway using x402 micropayments on Base USDC. ([npm](https://www.npmjs.com/package/@zeromodern/eliza-plugin-0mod))
 - [@zeromodern/agentkit-provider-0mod](https://github.com/zeromodern/agentkit-provider-0mod) - Coinbase AgentKit action provider for 0mod HTTP 402 edge API utilities on Base USDC. ([npm](https://www.npmjs.com/package/@zeromodern/agentkit-provider-0mod))
 - [PayBot SDK](https://github.com/RBKunnela/paybot-sdk) - TypeScript SDK for integrating x402 payments into AI agents and bots. Supports automatic 402 detection, wallet management, and USDC payments on Base. ([npm](https://www.npmjs.com/package/paybot-sdk))
@@ -699,7 +699,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
-- [0mod HTTP 402 Gateway](https://0mod.com) - HTTP 402 API Gateway for AI agents using x402 micropayments on Base USDC for stealth web fetching, PII scrubbing, RAG compaction, domain checks, and market sentiment. ([MCP Server](https://github.com/zeromodern/mcp-server-0mod) | [ElizaOS Plugin](https://github.com/zeromodern/eliza-plugin-0mod) | [AgentKit Provider](https://github.com/zeromodern/agentkit-provider-0mod))
+- [0mod HTTP 402 Gateway](https://0mod.com) - HTTP 402 API Gateway (`api.0mod.com`, `/.well-known/x402`) for AI agents using x402 micropayments on Base USDC for real-time CEX-DEX crypto telemetry (dislocations, spread candles, arb leaderboard, L2 impact simulation) and edge utilities (stealth-dom, airgap-scrub, RDAP, OCR). ([MCP Server](https://github.com/zeromodern/mcp-server-0mod) | [ElizaOS Plugin](https://github.com/zeromodern/eliza-plugin-0mod) | [AgentKit Provider](https://github.com/zeromodern/agentkit-provider-0mod))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
