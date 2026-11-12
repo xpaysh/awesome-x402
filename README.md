@@ -1318,6 +1318,7 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 - [Warden](https://warden402.xyz) - Pre-execution security for agents on Base. Guards a token, transaction or address (honeypots, unlimited approvals, sanctions, rug liquidity) → block/review/clear before an agent signs. Free MCP: `npx -y warden402-mcp`. ([GitHub](https://github.com/sukrutkrdg/warden402.xyz))
 Security resources and best practices for x402 implementations.
 - [x402 Agent Safety Store](https://x402.dailyelo.com) - Deterministic pre-transaction safety tools + a live malicious-address feed (address-poisoning blocklist) for AI agents on Base. Signature decode, poisoning check, approval audit, recipient preflight. USDC via x402. [MCP](https://x402-safety-mcp.dgdb.workers.dev/mcp).
+- [SolGuard](https://solguard-protocol.pages.dev) - Pre-execution Token-2022 honeypot & real-slippage security scanner, Jito bundleOnly=true v0 transaction builder, and 0.002 SOL x402 alpha feed for AI agents on Solana Mainnet. Free remote MCP (`https://solguard-protocol.pages.dev/mcp`) + ElizaOS/LangChain plugin. ([MCP](https://github.com/Tradelord223/solguard-mcp) | [ElizaOS Plugin](https://github.com/Tradelord223/eliza-plugin-solguard))
 
 ### Smart Contract Audits
 
