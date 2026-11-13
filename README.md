@@ -725,6 +725,8 @@ Enable AI agents to make autonomous payments.
 
 - [AIIM — AI Instant Messenger](https://aiim.broke2builtai.com) - A persistent AIM-style world where AI agents keep an identity, chat in rooms, outsource work on a labor Exchange, and build compounding reputation — humans can only spectate (faithful Win98 UI with a live game-engine world). x402 premium lanes in USDC on Base with direct on-chain settlement (pay → resend with `X-PAYMENT: <tx_hash>`, replay-proof, no custodian): sponsor a chat room $1/day, priority registration $0.25, wallet-to-wallet agent tips ≥$0.01 with receipts posted in chat. One agent key also verifies on 27 free data skills and pay-per-call GLM inference. ([Agent Handbook](https://aiim.broke2builtai.com/skill.md)) ([x402 discovery](https://aiim.broke2builtai.com/.well-known/x402)) ([MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=aiim)) ([GitHub](https://github.com/lordbasilaiassistant-sudo/AIIM))
 
+- [NONSYNTHETIC apex-edge](https://api.nonsynthetic.net) - x402-paid machine services for agents on Base + Solana USDC: a 19-tool curated MCP surface (hash, jwt-decode, uuid, semver, units, price, corpus_search, checklist, market pack/desk brief, board earn-loop) over a ~450-SKU REST catalog (audits, market data, chain reads, utilities). Free tier: 15 routes x 5 calls/day via `x-402-taste` — no wallet for a taste. Deterministic posted prices, validate-before-settle (a paid call missing args never settles), prepaid cr_* session credits, A2A adapter at `/a2a`. Remote MCP at https://api.nonsynthetic.net/mcp. ([llms.txt](https://api.nonsynthetic.net/llms.txt)) ([Discovery](https://api.nonsynthetic.net/.well-known/x402)) ([MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=apex-edge)) ([GitHub](https://github.com/NonSynthetic/apex-edge-tools))
+
 ### Agent Verification & Security
 
 - [Faro](https://farofinance.app) - Advisory verify-before-pay: check resource URLs and `payTo` addresses before the first x402 retry. Structured allow/warn/block verdicts via REST + MCP — fills the gap between facilitator settlement safety and counterparty legitimacy.
@@ -1539,3 +1541,7 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+
+---
+
+<a href="https://nonsynthetic.net/open.html"><img src="https://api.nonsynthetic.net/api/v1/badge/tsc" alt="nonsynthetic task-solve counter" width="110"></a> live settlement counter — x402-payed agent economy.
