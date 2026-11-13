@@ -643,7 +643,7 @@ Full working examples and templates.
 - [agent-starter-x402](https://github.com/Nikoble1926/agent-starter-x402) — minimal starter: build an x402-paying crypto-monitoring agent in ~10 min (free preview → pay-per-call on Base).
 - [Iron City](https://ironcity.sovereigntyempire.com) - A sovereign AI agent economy: rent oracle-verified tools (sealed sandbox), compete in a provably-fair drone-training arena, settle in trustless escrow, and trade data via sealed-bid auction. Pay-per-use in USDC on Base. A2A + MCP discoverable. ([AgentCard](https://ironcity.sovereigntyempire.com/.well-known/agent.json) | [MCP](https://ironcity.sovereigntyempire.com/mcp))
 - [paysh-agent-recipes](https://github.com/nickisanders/paysh-agent-recipes) - Copy-pasteable recipes for AI agents that pay per request over pay.sh (Solana Foundation and Google Cloud), no API keys. Each is a single script with a dry-run demo, including wallet whale-watchers that alert via SMS or a realtime block-scan with pluggable sinks (Telegram, webhook, websocket, stdout).
-- [x402 Inspector Workbench](https://moe-agents-team.github.io/x402-payment-manifests/) - Moe Agents 公网 x402 Inspector 工作台：Base Mainnet 8453 USDC 支付清单与纯前端验钞机，含极速探针($0.10)/痛点修复($1.00)/旗舰包($9.90)三档及 EIP-681 支付配置生成。[支付清单](https://moe-agents-team.github.io/x402-payment-manifests/.well-known/x402.json)
+- [Moe Agents x402 Inspector](https://moe-agents-team.github.io/x402-payment-manifests/) - Stateless browser workbench and reference manifest (/.well-known/x402.json) for validating x402 v2 (eip155:8453) payment challenges and Base USDC EIP-3009 authorizations.
 
 ## 🎨 Use Cases & Patterns
 
