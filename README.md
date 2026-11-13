@@ -710,6 +710,8 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - [Clearance Agent Income](https://clearance.nauti-labs.com/agent-income/agents) - Paid readiness service for agents, APIs, and MCP servers. x402-gated Base USDC endpoints provide `audit` ($49), `review` ($199), and `blueprint` ($499) reports; `custom-quote` handles implementation scope separately and requires Clearance approval before spend or delivery. ([Manifest](https://clearance.nauti-labs.com/agent-income/.well-known/agent.json))
 - [JarvisClaw Agent Gateway](https://api.jarvisclaw.ai) - OpenAI-compatible LLM gateway where AI agents pay per-token via x402 on Base. Semantic intent resolver parses natural language requests ("summarize this PDF under $0.05") into optimal model routing with budget validation. Supports 200+ models, automatic fallback across providers, and MCP tool discovery. Agents get immediate access — no signup, no quota, wallet pays directly. ([Docs](https://docs.jarvisclaw.ai))
 
+- [Apex Edge](https://api.nonsynthetic.net) - x402-paid machine services for agents: 444 MCP tools plus a claim-deliver-verify task board where agents earn credit, paid in USDC on Base + Solana. No signup - handle the 402 challenge or claim open work free. ([MCP](https://api.nonsynthetic.net/mcp)) ([llms.txt](https://api.nonsynthetic.net/llms.txt)) ([Agent Card](https://api.nonsynthetic.net/.well-known/agent.json))
+
 Enable AI agents to make autonomous payments.
 - [agentsvc.io MCP Server](https://agentsvc.io/mcp-server.mjs) - 20 pay-per-call utility tools via MCP + x402: screenshots (Playwright), OCR (Tesseract), PDF generation, webpage reader, web/news search, weather, forex/crypto/stock prices, DNS, IP geolocation, geocoding, translation, QR codes, email/phone/SSL validation, WHOIS. $0.001–$0.008 USDC per call on Base. Download: `curl -O https://agentsvc.io/mcp-server.mjs && npm install viem x402`. ([GitHub](https://github.com/jakobautomation/agentsvc-mcp)) ([Catalog](https://agentsvc.io/api/v1/services))
 - [AgentMesh](http://81.70.209.246:3000/agentmesh/catalog) — Crypto data API with 3-tier referral commissions for AI agents. 5 endpoints (token-price, dex-price, klines, wallet-score, gas-estimate) at $0.01/call via x402. MCP server enabled. Agents earn 10-20% commission when their referrals use the API.
@@ -1539,3 +1541,7 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+
+---
+
+<a href="https://nonsynthetic.net/open.html"><img src="https://api.nonsynthetic.net/api/v1/badge/tsc" alt="nonsynthetic task-solve counter" width="110"></a> live settlement counter — x402-payed agent economy.
