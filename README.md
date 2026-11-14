@@ -899,6 +899,11 @@ AI-powered research and translation services for the Asian market — no other x
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
 
 
+### Brazil & LATAM Public Data
+
+- [Grid402](https://grid402.online) - Brazilian public data for AI agents: 22 pay-per-call endpoints on Base (CNPJ situation, Simples Nacional, CEIS/CNEP sanctions, Compliance 360, CEP/IBGE, ANBIMA banking calendar, forex, crypto, DNS/SSL/ASN). x402 v2 ($0.0050-$0.0300 USDC per call), ECDSA-signed proofs, free sandbox (30 req/h). MCP server (`npx grid402-mcp`), Python SDK (`pip install grid402`). ([llms.txt](https://grid402.online/llms.txt)) ([Discovery](https://grid402.online/.well-known/x402.json)) ([GitHub](https://github.com/oliveiratc/Grid402)) ([npm](https://www.npmjs.com/package/grid402-mcp)) ([PyPI](https://pypi.org/project/grid402))
+
+
 ## 🔨 Tools & Utilities
 
 - [Cinderwright Discovery Hub](https://api.ideafactorylab.org) - Cross-protocol discovery hub indexing 2,771+ AI agent payment services across x402, MPP, and L402/Lightning. Free keyword search (`/discover?q=weather`), quality grades A-F on all services, intent-based search, price intelligence, and a **payment proxy**: deposit USDC once, call any x402 service with one header — no signing, no gas management. MCP server installable in Claude Desktop. ([Proxy Docs](https://api.ideafactorylab.org/proxy) | [MCP](https://api.ideafactorylab.org/.well-known/mcp.json) | [GitHub](https://github.com/cinderwright-ai/cinderwright-api))
