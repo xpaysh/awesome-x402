@@ -1214,6 +1214,8 @@ Projects building with or extending x402.
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
 
+- [x402 Endpoint Directory + Probe API](https://earnordie-ernest.github.io/x402-seller-kit/directory/) - Free, static index of 9,000+ paid x402 endpoints with the live price each charges per call, built from the public Bazaar discovery feeds (PayAI + Coinbase CDP); usable by agents as raw JSON. Comes with the companion **x402-probe** API: keyless $0.001 USDC/call endpoints on Base to (a) decode any endpoint’s 402 price/network/asset/payTo before paying, (b) fetch any page as clean text+title+links, (c) Wikipedia summary, (d) ETH spot. Bazaar extension published; x402scan + 402index listed. ([OpenAPI](https://x402-probe.lucciocarmino.workers.dev/openapi.json) | [live API](https://x402-probe.lucciocarmino.workers.dev/) | [JSON index](https://earnordie-ernest.github.io/x402-seller-kit/directory/endpoints.json))
+
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
 
