@@ -480,6 +480,7 @@ Server-side integrations for accepting x402 payments.
 **FastAPI**
 - [FastAPI example](https://github.com/coinbase/x402/tree/main/examples/python) - Complete implementation.
 - [x402-agent-monetizer](https://github.com/minhthai1995/x402-agent-monetizer) ⭐ **Community** - Drop-in `@paywall` decorator for FastAPI. One decorator gates any endpoint behind USDC on Base. Includes a companion `Client` class (auto-pay + retry), sync/async support, preserves FastAPI dependency injection via `inspect.signature.replace()`. MIT, Python 3.10+, 3 passing tests.
+- [x402 Seller Kit](https://github.com/earnordie-ernest/x402-seller-kit) - Minimal FastAPI seller template wired for mainnet discovery: `/openapi.json` and `/.well-known/x402` (x402scan precedence), plus a tested free-facilitator config that settles USDC on Base mainnet (eip155:8453). Ships a live x402 Probe endpoint that decodes any 402 challenge's price, network, asset and payTo (v2 header and v1 body), an auto-pay client, and a launch checklist.
 
 **Client Libraries**
 - [x402 Payment Harness](https://github.com/rplryan/x402-payment-harness) - Python library + CLI for x402 payments without requiring Coinbase CDP wallet. Works with any Ethereum EOA. Full HTTP 402 -> EIP-712 sign -> X-PAYMENT header flow. `pip install x402-payment-harness`. ([PyPI](https://pypi.org/project/x402-payment-harness/))
