@@ -437,6 +437,7 @@ Client libraries for making x402 payments.
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
 - [ethers.js](https://docs.ethers.org/) - Alternative Ethereum library.
 - [AgentLayer](https://github.com/lopushok9/Agent-Layer) - Open-source, local-first wallet for AI agents, with x402 payments and DeFi tools for Base, Solana, and Ethereum, including swaps, lending, and borrowing. Keys are stored in the macOS Keychain.
+- [@ngtchain/client](https://www.npmjs.com/package/@ngtchain/client) - TypeScript client that pays x402 v2 `exact` (EIP-3009) sellers on Base in NGT or USDC, signing locally with per-asset spending caps.
 
 ### Rust
 
