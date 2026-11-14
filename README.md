@@ -1310,6 +1310,8 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 
 ## 🔒 Security & Audits
 
+- [PayStage](https://paystage.xyz) - Read-only preflight for x402 payments: returns `pay` / `review` / `do_not_pay` **before anything is signed**, with the rule that fired. Nine MCP tools over Streamable HTTP, and an `@x402/core` verifier hook so a seller can refuse a payment before verification instead of after settlement. Never signs, never holds a key. Free for the first 1,000 calls per IP per day; $0.002 USDC on Base after that. ([MCP](https://api.paystage.xyz/mcp) | [Discovery](https://api.paystage.xyz/.well-known/x402) | [GitHub](https://github.com/base-buzz/paystage) | [npm](https://www.npmjs.com/package/@paystage/mcp))
+
 *[KaelAi] (https://kaelai.io) - Wallet trust scoring API for the agentic economy. Scores wallets 0-100 across 10 chains with behavioural analysis. Built for x402 servers to vet incoming and outgoing payment wallets before serving or initiating requests. 
 
 - [stripe-mcps](https://www.npmjs.com/package/stripe-mcps) - Trust verification + AML sanctions screening before Stripe/x402 payments. Agent identity (ECDSA), 75K+ sanctions entries (UK HMT + OFAC SDN), behavioural spend limits. OWASP MCP Security Cheat Sheet aligned. ([GitHub](https://github.com/razashariff/stripe-mcps))
