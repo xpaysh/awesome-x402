@@ -1320,7 +1320,6 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 Security resources and best practices for x402 implementations.
 - [x402 Agent Safety Store](https://x402.dailyelo.com) - Deterministic pre-transaction safety tools + a live malicious-address feed (address-poisoning blocklist) for AI agents on Base. Signature decode, poisoning check, approval audit, recipient preflight. USDC via x402. [MCP](https://x402-safety-mcp.dgdb.workers.dev/mcp).
 - [RugShield 402](https://rugshield-402.onrender.com) - Pre-trade token honeypot detection, LP lock verification, and 7-vector institutional risk audit on Base Mainnet (`eip155:8453`) and Solana Mainnet for AI agents. Features Token God Mode (TGM) top-buyer/seller analysis, smart-money DEX trade tracking, and 50% free instant teaser preview. $0.010 USDC per call. Verified on-chain Base ERC-8004 identity (Agent ID #335687). ([Discovery](https://rugshield-402.onrender.com/.well-known/x402.json) | [GitHub](https://github.com/ak10082247-max/rugshield-402))
-- [@kurox_real/x402-sniper-bot](https://github.com/ak10082247-max/x402-solana-base-sniper-bot) - Read-only pre-trade honeypot simulation and DEX alpha oracle MCP server for Solana (Pump.fun/Raydium/Jupiter) and Base (Aerodrome/Uniswap V3) with dual-chain Solana & Base USDC x402 v2 auto-signing (`@x402/svm` & `@x402/evm`) and stdio JSON-RPC transport. ([npm](https://www.npmjs.com/package/@kurox_real/x402-sniper-bot))
 
 ### Smart Contract Audits
 
