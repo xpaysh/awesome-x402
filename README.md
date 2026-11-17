@@ -527,6 +527,8 @@ Payment verification and settlement services.
 
 
 - [AutoTasker Hub](https://violations-nhs-entering-math.trycloudflare.com) — Real-time Chinese social media trending data API (Weibo/Zhihu/Douban/Bilibili/Tieba hot lists). x402 v2, USDC on Base, $0.002–$0.50 per call. Facilitator: AgentPay. Free sample + MCP server available.
+
+- [AutoTasker Hub](https://violations-nhs-entering-math.trycloudflare.com) — Real-time Chinese social media trending data API (Weibo/Zhihu/Douban/Bilibili/Tieba hot lists). x402 v2, USDC on Base, $0.002–$0.50 per call. Facilitator: AgentPay. Free sample + MCP server.
 ## 💡 Example Applications
 
 Full working examples and templates.
