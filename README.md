@@ -525,6 +525,8 @@ Payment verification and settlement services.
 - [agenticpay facilitator](https://github.com/krystiangw/agenticpay/tree/main/packages/facilitator) ([npm](https://www.npmjs.com/package/@agenticpay/facilitator)) - Open-source TypeScript facilitator for Solana (devnet + mainnet). Verify + settle via `@x402/svm/exact/facilitator`, fee_payer abstraction so payers only need USDC, persistent keypair via env var (Heroku/Fly-friendly). Hosted devnet endpoint: `https://agentpay-facilitator-e9b20a5fee6a.herokuapp.com`.
 - [Ontario Protocol](https://ontarioprotocol.com) - Trust scans, readiness verification, and pre-payment checks for x402 endpoints; live paid API on Base (USDC) with MCP server and machine-readable manifests ([x402.json](https://ontarioprotocol.com/.well-known/x402.json)).
 
+
+- [AutoTasker Hub](https://violations-nhs-entering-math.trycloudflare.com) — Real-time Chinese social media trending data API (Weibo/Zhihu/Douban/Bilibili/Tieba hot lists). x402 v2, USDC on Base, $0.002–$0.50 per call. Facilitator: AgentPay. Free sample + MCP server available.
 ## 💡 Example Applications
 
 Full working examples and templates.
