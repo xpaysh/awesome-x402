@@ -417,6 +417,7 @@ Client libraries for making x402 payments.
 - [assay-x402-guard](https://www.npmjs.com/package/assay-x402-guard) - Buyer-side spend guard: wrap your paying fetch with `wrapFetchWithAssay` and payments to services the Assay oracle rates "avoid" throw before any money moves. Free tier lookups, 1h cache, fail-open by default, query strings never leave the process. ([GitHub](https://github.com/JasonCZMeng/assay))
 - [cipher-x402-client](https://github.com/cryptomotifs/cipher-x402-client) - Lightweight TS/JS x402 v2 client. Zero runtime deps, native fetch, ESM + CJS dual build. 34 tests, 89% coverage. Node 18+ / browsers. Optional `ethers` peer dep for signing.
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
+- [MoneyTools x402-guard](https://www.npmjs.com/package/@moneytools-dev/x402-guard) - Official-x402-client hook (`attachToX402Client`) that runs Pay Precheck, local per-payment and daily caps, optional Approval Relay, and a payment log before a payment is signed; it never loads a key or sends a payment. ([Docs](https://moneytools.dev/products/payment-safety/))
 
 **AI Agent SDKs**
 - [PayBot SDK](https://github.com/RBKunnela/paybot-sdk) - TypeScript SDK for integrating x402 payments into AI agents and bots. Supports automatic 402 detection, wallet management, and USDC payments on Base. ([npm](https://www.npmjs.com/package/paybot-sdk))
