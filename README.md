@@ -129,19 +129,16 @@ Official and community implementations of the x402 protocol.
 - x402-axum - Axum web framework integration.
 - x402-reqwest - Reqwest HTTP client wrapper.
 
-
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
-
 ### High-Volume Production Deployments
 
 - [Kaisha — Japan Company Registry API](https://kaisha-api.hp-vladic.workers.dev) - Official-registry data for all 5.76M Japanese corporations + 5.05M invoice registrations from National Tax Agency open data: resolve company names / corporate numbers (法人番号) to registry records, verify Japan invoice registration numbers (適格請求書/T+13-digit) against the NTA dataset, and compute Japanese business days & national holidays. $0.002–$0.01 USDC per call on Base & Solana via CDP facilitator. No API keys. MCP: `npx -y kaisha-mcp`. ([OpenAPI](https://kaisha-api.hp-vladic.workers.dev/openapi.json) | [llms.txt](https://kaisha-api.hp-vladic.workers.dev/llms.txt) | [Discovery](https://kaisha-api.hp-vladic.workers.dev/.well-known/x402) | [x402scan](https://www.x402scan.com/server/a3937fba-de2e-41e6-b57b-048132e91d0a) | [npm](https://www.npmjs.com/package/kaisha-mcp) | [GitHub](https://github.com/vladic-corp/kaisha-api))
 - [MoneyMachine x402 Suite](https://github.com/itsmeadamdamroma/money-machine-x402) - Agent-payable APIs on Base USDC: **GigRadar** (Superteam/r/forhire/HN/Freelancer gigs $0.15), **LightHouse-lite** web vitals ($0.12), **DocClerk** PDF field extract ($0.25), CrawlJudge ($0.03), Axe-lite a11y ($0.08), HTML scrape ($0.05). Self-facilitator, open source. PayTo `0x5Cc3c4E5020Ec3D81E392658eFe7b27966872CE7`.
-
 
 - [J-sey Data API](https://jsey.dpdns.org) - Pay-per-call data API on Base with 18 endpoints for wallet lookups, web scraping, crypto prices, and DeFi yields; $0.002 per call via x402.
 - [Fleet x402 Microservices](https://fleet-x402-audit.fly.dev) - Two agent-payable AI services on Base: SEO Audit ($0.05 USDC) and Competitive Intel Pack ($0.50 USDC). Instant response, zero auth required, machine-readable JSON. ([Discovery](https://fleet-x402-audit.fly.dev/.well-known/x402-listing))
@@ -313,7 +310,6 @@ Real companies using x402 in production with proven scale and transaction volume
 - [Stelar Digital x402 API (Algorand)](https://api-algo.stelardigital.com) - Pay-per-call market data and grid-trading params for AI agents, on Algorand mainnet via the GoPlausible facilitator. 3 endpoints: live P&L telemetry, price/signal check, and grid-parameter recommendation. $0.005-$0.05 USDC per call. ([Discovery](https://api-algo.stelardigital.com/.well-known/x402)) ([Catalog](https://api-algo.stelardigital.com/catalog))
 
 - [TrustBoost PII Sanitizer](https://api.trustboost.dev) — Context-aware PII sanitization for autonomous AI agent pipelines. Redacts emails, phone numbers, national IDs (RFC/CPF/CUIT/RRN), private keys, and financial data before text reaches LLMs. Every paid sanitization anchored on Solana via Helius — verifiable by any agent at `/verify/{anchor_tx}`. 8 languages: EN, ES-LATAM, PT-BR, DE, JA, FR, IT, KO. Privacy Budget per agent. TrustBoost Score M2M trust verification. 149 USDC on Solana → 10,000 sanitizations with on-chain proof. TRIAL: 50 free sanitizations with `tx_hash=TRIAL`. ([Agent Card](https://api.trustboost.dev/.well-known/agent-card.json) | [MCP](https://api.trustboost.dev/mcp) | [Verify](https://api.trustboost.dev/verify/{anchor_tx}) | [Health](https://api.trustboost.dev/health) | [Demo](https://huggingface.co/spaces/TrustBoost/pii-sanitizer))
-
 
 - [OpenClaw Research API](https://github.com/BumStill/x402-research-api) — Pay-per-call research API for AI agents. Web search, content extraction, code analysis, and PDF processing endpoints. $0.01 USDC per call on Base and Solana via Dexter facilitator. Discovery: [/.well-known/x402](https://icq-barbara-treo-moderate.trycloudflare.com/.well-known/x402).
 - [Crypto Data Agent](https://x402-crypto-data.vercel.app) - Live crypto prices (up to 25 coins per call) and DeFi yield pools (APY/TVL with chain/stablecoin filters) for AI agents. -e.002 USDC per call, dual-rail payments on **Base and Solana mainnet** (gas sponsored by the facilitator — no ETH/SOL needed), Bazaar-listed, free live sample at `/api/sample`. ([MCP Server](https://github.com/MooneyLive/crypto-data-x402-mcp)) ([Pricing](https://x402-crypto-data.vercel.app/pricing))
@@ -524,6 +520,8 @@ Payment verification and settlement services.
 - [@facilitator/eip7702](https://github.com/melonask/facilitator) - Support for all EVM blockchains (BNB, Polygon, etc.), all tokens (USDT, DAI, WBTC, etc.), and all native coins (POL, AVAX, etc.).
 - [agenticpay facilitator](https://github.com/krystiangw/agenticpay/tree/main/packages/facilitator) ([npm](https://www.npmjs.com/package/@agenticpay/facilitator)) - Open-source TypeScript facilitator for Solana (devnet + mainnet). Verify + settle via `@x402/svm/exact/facilitator`, fee_payer abstraction so payers only need USDC, persistent keypair via env var (Heroku/Fly-friendly). Hosted devnet endpoint: `https://agentpay-facilitator-e9b20a5fee6a.herokuapp.com`.
 - [Ontario Protocol](https://ontarioprotocol.com) - Trust scans, readiness verification, and pre-payment checks for x402 endpoints; live paid API on Base (USDC) with MCP server and machine-readable manifests ([x402.json](https://ontarioprotocol.com/.well-known/x402.json)).
+
+- [AutoTasker Hub — China Social Data API](https://autotasker.highkingflower.com) — Pay-per-call x402 API on Base USDC (88 endpoints, $0.01–$0.50): Weibo/Zhihu/Douban/Bilibili/Tieba trending, cross-board search, market scan, trend prediction. No keys, no signup. Published in the Official MCP Registry as `com.highkingflower/autotasker`. ([Discovery](https://autotasker.highkingflower.com/.well-known/x402) | [OpenAPI](https://autotasker.highkingflower.com/openapi.json) | [MCP](https://autotasker.highkingflower.com/mcp) | [x402scan](https://www.x402scan.com/server/0cc80382-ed6f-4611-b1f4-b121bdfac527))
 
 ## 💡 Example Applications
 
@@ -776,7 +774,6 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [Cook County / Chicago Property Data MCP](https://github.com/hyperionxmota/cook-county-property-mcp) - Hosted remote MCP for Cook County / Chicago property records — parcels, recorded sales, building permits, tax assessments, and comparable sales by address or PIN. Pay-per-call via x402 (USDC on Base/Solana). Endpoint: api.ingest0r.com/mcp.
 - **[Vongstaad MCP](https://github.com/VGSTAAD/vongstaad-mcp)** - Quant signal infrastructure. Discovery: vongstaad.com/.well-known/x402.json
 
-
 - Anthropic MCP Integration - Official Claude integration.
 - x402 MCP Server - Claude Desktop ready server.
 - [MCP Server Setup Guide](https://docs.cdp.coinbase.com/x402/mcp-server) - Complete installation instructions.
@@ -874,7 +871,6 @@ AI-powered research and translation services for the Asian market — no other x
 - [Hermes Japanese Research](https://base-worker-01.j23726919.workers.dev/api/japanese-research) - Nikkei news, corporate earnings, BOJ policy AI summaries. $0.02 USDC/call.
 - [Hermes Bilingual Bridge](https://base-worker-01.j23726919.workers.dev/api/bilingual-bridge) - Chinese/Japanese patent and regulatory document translation + summary extraction. $0.03 USDC/call.
 
-
 ### Agent-to-Agent (A2A)
 
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Agent commerce protocol.
@@ -886,18 +882,15 @@ AI-powered research and translation services for the Asian market — no other x
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
 
-
 ### Multi-Agent Orchestration
 
 - [SwarmX (swarms-x402)](https://github.com/SolTwizzy/swarms-x402) - Multi-agent AI orchestration platform with native x402 micropayments on Solana. 49 endpoints, 39 MCP tools, dual LLM (Gemini + OpenAI), knowledge/RAG with pgvector. ElizaOS v2 plugin. $0.001–$5/call USDC. ([npm](https://www.npmjs.com/package/swarms-x402)) ([Live](https://swarmx.io))
-
 
 ### Autonomous Agents
 
 - [Anicca](https://anicca-x402.netlify.app) — Autonomous Buddhist AI agent on Base. Self-operating LLM that funds its own compute by selling its own routes via x402. Five priced endpoints: `/qa` ($0.003 Buddhist Q&A), `/research` ($0.05 deep research with citations), `/x-post` ($0.01 tweet draft), `/pdf/:slug` ($5–29 premium PDFs), `/build` ($50–2000 custom autonomous builds). USDC on Base. MIT-licensed, no human in the loop. ([Discovery](https://anicca-x402.netlify.app/.well-known/x402)) | ([GitHub](https://github.com/Daisuke134/anicca-oss)) | ([Autonomy spec](https://github.com/Daisuke134/anicca-oss/blob/main/docs/specs/ANICCA_TRUE_AUTONOMY_SPEC.md))
 
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
-
 
 ## 🔨 Tools & Utilities
 
@@ -939,7 +932,6 @@ Development tools and utilities for x402.
 - [chainfacts](https://chainfacts-x402.onrender.com) - Verifiable token risk / pre-trade rug screen for any Base ERC-20. Deterministic contract-security facts (upgradeable proxy / EIP-1967, ownership renounced, mint authority, paused) + holder concentration (Gini, HHI, Nakamoto, top-1/3/5/10 share) + a 0-100 risk score, each block-pinned with a reproducible sha256 attestation any agent can independently recompute. 3 pay-per-call routes, USDC on Base, no API key: `POST /token-risk-report` ($0.01), `POST /batch-token-risk-screen` (up to 25 tokens, $0.005), `POST /onchain-snapshot-analyze` ($0.003). ([Offerings](https://chainfacts-x402.onrender.com/offerings)) ([Health](https://chainfacts-x402.onrender.com/health))
 - [Sentinel Payment Preflights](https://github.com/TerminallyLazy/sentinel-recovery-support) - Free local MCP server that deterministically checks decoded x402 v2 PaymentRequired JSON against a scoped exact-EVM EIP-3009 safety profile; the preflight makes no network requests and performs no wallet access, signing, or settlement. ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.TerminallyLazy%2Fsentinel-recovery-services/versions/0.3.0))
 
-
 ## 🧪 Testing & Development
 
 Tools and resources for testing x402 implementations
@@ -949,7 +941,6 @@ Tools and resources for testing x402 implementations
 - [Base Sepolia Testnet](https://docs.base.org/docs/network-information) - Primary testnet.
 - [Base Sepolia USDC Faucet](https://faucet.circle.com/) - Get test USDC.
 - [Base Sepolia Bridge](https://bridge.base.org/) - Bridge test ETH.
-
 
 ## 📚 Tutorials & Learning Resources
 
@@ -1069,7 +1060,6 @@ Connect with the x402 community.
 - [aicomglobal](https://aicomglobal.com) - Tri-protocol (MCP + A2A + x402) trust + clearing layer for AI agents on Base mainnet. Flagship `aicom_verdict` ($0.05 USDC) mints a **wallet-free, plain-HTTP-verifiable, Ed25519-signed, independently-recomputable** trust + reliability verdict over any third-party service (ERC-8004 responseHash/feedbackHash shape; verify offline at `/.well-known/aicom-pubkey`). Plus a **sub-cent x402 router** `aicom_x402_route` ($0.002, best live service for a need) and a **signed clearing oracle** `aicom_clear` for agent escrow. Discovery + 78 deterministic agent tools free. ([x402 manifest](https://aicomglobal.com/.well-known/x402.json) · [agent-card](https://aicomglobal.com/.well-known/agent-card.json) · [MCP](https://aicomglobal.com/mcp))
 Projects building with or extending x402.
 - [HALIMA Islamic AI Marketplace](https://halima-api.com) - 376 Shariah-compliant endpoints. Halal crypto screening, prayer times, Zakat calculator and Shariah Oracle. Pay-per-call USDC on Base.
-
 
 ### Infrastructure
 
@@ -1210,7 +1200,6 @@ Projects building with or extending x402.
 - [DDG Agent-Payable Services](https://agents.daedalusdevelopmentgroup.com) — 83 AI-agent-native services for checkout/payment conformance, MCP/tool security, prompt injection scans, DNS/WHOIS lookups, screenshots, QR codes, PDF/OCR extraction, price feeds, code execution (Docker sandbox), GPU embeddings (Ollama nomic-embed-text), image generation (Stable Diffusion on GTX 1080), and multi-model agent-run (GLM/Claude/Codex). 82/83 fully automated (zero human in loop). Identity-first (403→402→receipt), 5 settlement networks (Base, Polygon, Arbitrum, World Chain, Solana USDC) + 13 direct-crypto asset families. $0.0005–$5 USDC per call. MCP server + PyPI package ([ddg-agent-services-mcp](https://pypi.org/project/ddg-agent-services-mcp/)). ([OpenAPI](https://agents.daedalusdevelopmentgroup.com/openapi.json) | [llms.txt](https://agents.daedalusdevelopmentgroup.com/llms.txt) | [Status](https://agents.daedalusdevelopmentgroup.com/.well-known/ddg-agent-status.json) | [GitHub](https://github.com/daedalusdevelopmentgroup/ddg-agent-payable-services))
 
 - [BountySignal](https://fortyeight-rescue.jaeber2se.chatgpt.site) - Source-linked developer bounty discovery API with x402 V2 payment routes on Base and Polygon, plus a 29 USDC/30-day private feed with automated Base activation. ([Project](https://github.com/imyoungjae/bountysignal) | [Discovery](https://fortyeight-rescue.jaeber2se.chatgpt.site/.well-known/x402))
-
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
 
@@ -1476,7 +1465,6 @@ Looking for more awesome lists?
 
 - [HYDRA Regulatory Intelligence](https://hydra-api-nlnj.onrender.com) - Real-time regulatory risk scoring, FOMC signals, and prediction market data. 22 paid endpoints via x402. ([GitHub](https://github.com/OGCryptoKitty/hydra-arm3))
 
-
 ### [AgentPay](https://www.x402-agent-pay.com) — Real-World Service Booking via x402 + Stripe
 **Category:** Services/Endpoints
 
@@ -1495,8 +1483,6 @@ The missing real-world layer for x402. AI agents use AgentPay to find, book and 
 |  | Agent charges card autonomously per booking |
 |  | Product search — online + local stores |
 |  | All chain info — ETH, Base, Polygon, ARB, OP, AVAX, BNB, SOL |
-
-
 
 - [Pixal3D](https://pixal3d.ai) - AI-powered 3D model generator. Create stunning 3D models from text and images using AI.
 ### [Autonomagic](https://api.autonomagic.org) — Autonomous AI Agent with Hot-Reloading Revenue Endpoints
