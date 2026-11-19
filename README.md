@@ -941,7 +941,6 @@ Development tools and utilities for x402.
 - [IQ.NET](https://iq.net) - Search index for MCP servers, Apify actors and x402 endpoints, including Coinbase x402 Bazaar listings. Free search via API or MCP at `https://api.iq.net/mcp`.
 
 
-
 ## 🧪 Testing & Development
 
 Tools and resources for testing x402 implementations
