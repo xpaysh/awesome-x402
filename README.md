@@ -134,6 +134,7 @@ Official and community implementations of the x402 protocol.
 
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
+- [Counterparty Check](https://github.com/ccheckx402/counterparty-check) - x402 due diligence for Base wallets: send/review/block verdict, risk score, reasons, recommended action, evidence coverage, and a signed EIP-712 receipt. Free summary 3/day, deep report $1.00, dossier $5.00, market report $19.00, USDC on Base, no signup. ([OpenAPI](https://places-dentists-delegation-commit.trycloudflare.com/openapi.json) | [Samples](https://places-dentists-delegation-commit.trycloudflare.com/samples/) | [llms.txt](https://places-dentists-delegation-commit.trycloudflare.com/llms.txt))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
 
