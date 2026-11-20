@@ -760,6 +760,7 @@ Enable AI agents to make autonomous payments.
 
 x402-native GPU inference APIs that let agents pay autonomously for compute.
 
+- **[Imagio Labs — Quantum & GPU x402 Services](https://relay.imagiolabs.com)** — 21 quantum/GPU circuits (BlueQubit CPU + qBraid GH200 GPU, Shor/Grover/VQE/QAOA) plus 118 data/search/security agent services, all pay-per-call USDC on Base. Native MCP at relay.imagiolabs.com/mcp (139 tools), free discovery at /llms.txt. Verified on x402-trust (B/75.4).
 - [GPU-Bridge](https://gpubridge.xyz) - 30-service GPU inference API with native x402 payments (USDC on Base L2). LLM, image generation, embeddings, STT, TTS, PDF processing — all in one API. Agents pay per call with no human intervention. /usr/bin/bash.00002/embedding, /usr/bin/bash.001/LLM call. ([Docs](https://docs.gpubridge.xyz)) ([GitHub](https://github.com/fjnunezp75/gpu-bridge))
 - [Spraay Compute & Futures](https://github.com/plagtech/spraay-compute) - GPU compute and AI model inference (LLM, image, video, speech-to-text, text-to-speech, embeddings) over x402, plus prepaid compute-futures credits with tier discounts up to 15% — deposit USDC once and draw down per job. USDC on Base + Solana, no API keys. Installable as an OpenClaw/Claude Code skill via npx clawhub install spraay-compute. Part of the Spraay x402 gateway.
 
