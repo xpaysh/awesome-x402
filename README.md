@@ -1343,6 +1343,8 @@ Security resources and best practices for x402 implementations.
   - Key rotation strategies
   - Multi-signature setups for high-value
 
+- [x402-seller-selftest](https://github.com/zColdWater/x402-seller-selftest) - Zero-dependency CLI that tests your own x402 seller for fail-open settlement, missing signature checks, client-chosen payTo/amount, replay and route-matching bypasses.
+
 ### Known Vulnerabilities & Mitigations
 
 - [CVE Database](https://github.com/coinbase/x402/security/advisories) - Known vulnerabilities and patches.
