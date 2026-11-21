@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [Reciprocal Ruler](https://reciprocla-ruler-x402.onrender.com/v1/quote-lock) - Deterministic settlement oracle for agent-to-agent payments: locks a SHA-256 quote hash against a rule version before execution for $0.05 USDC on Base, and reconciles a settlement into matched, partial, unpaid or unmatched with idempotent replays and an audit trail for $0.25 USDC on Base. ([Manifest](https://reciprocla-ruler-x402.onrender.com/.well-known/x402))
 
 
 ### Multi-Agent Orchestration
