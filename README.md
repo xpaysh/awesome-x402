@@ -407,6 +407,7 @@ Major tech companies leveraging x402 in production include **Coinbase** (Native 
 - [b0xM4](https://b0xm4-solana-pulse.mulberry-boar.workers.dev) - **Meridian-powered Solana DLMM screener.** Real-time TVL, volume, organic score, smart wallet tracking, token safety, fee/TVL yield ranking. 5 endpoints, $0.0001–0.0005 USDC/call. Payout 7P7w3M9yQs5P... on Solana.
 - [agentfeeds.jp](https://api.agentfeeds.jp) - Japan regulatory, sanctions & DEX market data for AI agents. 27 paid endpoints ($0.001-$0.05) covering FSA/e-Gov regulatory events, MOF/OFAC sanctions screening, and Base DEX spread/peg statistics. REST + MCP.
 
+- [SAOS Sovereign Data](https://glowing-yodel-4qwp96x6pw57fqpp4-3000.app.github.dev) - Steem chain-data API for AI agents: account intelligence (balances, Steem Power, delegations in/out, vesting-withdrawal progress, RC), internal-market order book with real prices, HTX-anchored value line (STEEM/SBD/ETH/SOL, free). $0.50 USDC/call on Base via x402.org public facilitator (x402 v1+v2). No signup, no API keys, on-chain receipt per call. ([llms.txt](https://glowing-yodel-4qwp96x6pw57fqpp4-3000.app.github.dev/llms.txt) | [openapi.json](https://glowing-yodel-4qwp96x6pw57fqpp4-3000.app.github.dev/openapi.json) | [agent.json](https://glowing-yodel-4qwp96x6pw57fqpp4-3000.app.github.dev/.well-known/agent.json))
 ## 🛠️ SDKs & Client Libraries
 
 Client libraries for making x402 payments.
