@@ -898,6 +898,7 @@ AI-powered research and translation services for the Asian market — no other x
 
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
 
+- [Polypad](https://polypad.family/build) - Remote MCP server for Robinhood Chain with x402 pay-per-call reports paid in USDG or POLYDASH.
 
 ## 🔨 Tools & Utilities
 
