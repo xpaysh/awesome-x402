@@ -1343,6 +1343,8 @@ Security resources and best practices for x402 implementations.
   - Key rotation strategies
   - Multi-signature setups for high-value
 
+- [Payout Proof (`_x402-payto`)](https://github.com/benmcalillycreative/x402-trust-board/blob/main/docs/payout-proof-spec.md) - Open draft standard for sellers to prove which wallet a domain gets paid to, using a DNS TXT record signed by the payout wallet, so a hijacked server can't silently redirect payments. ([discussion #4320](https://github.com/x402-foundation/x402/issues/4320), [create one](https://settlewatch.com/verify.html))
+
 ### Known Vulnerabilities & Mitigations
 
 - [CVE Database](https://github.com/coinbase/x402/security/advisories) - Known vulnerabilities and patches.
