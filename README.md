@@ -1249,6 +1249,8 @@ Projects building with or extending x402.
 - [YieldSignal](https://yieldsignal.vercel.app) - Real-time risk-weighted USDC lending APY across Aave, Compound, Morpho, Moonwell, Euler and Fluid on Base. Every reading tagged with its data source (onchain/api/defillama) — sources that fail are omitted, never estimated. $0.01 USDC per call via CDP Facilitator, Bazaar discoverable.
 - [Runbot Strategy Copilot](https://mcp.runbot.io/v1) — Build, backtest, optimize and export real crypto trading strategies from plain English on the Runbot engine (perp futures + Polymarket prediction markets), with real market data and verified backtest scores. Paid per call, x402 v2 dual-rail: USDT on X Layer (eip155:196) or USDC on Base (eip155:8453). $1.50 build · $0.25 backtest · $0.25/minute optimize · $0.35 export. Free machine-readable discovery at [/v1](https://mcp.runbot.io/v1); cataloged in PayAI's Bazaar; MCP endpoint at `/mcp`.
 
+- [x402ti](https://x402ti.malwowar.workers.dev) — Deterministic x402 V2 trading, macro & prediction-market intelligence API on Base USDC (8 endpoints: Hyperliquid/dYdX/Kraken perps, Polymarket + Kalshi scanner, Deribit options IV surface & max pain, US Treasury & NY Fed macro liquidity, Solana RugCheck safety) + MCP wrapper. ([GitHub](https://github.com/malwowar-maker/x402ti))
+
 ### Developer Tools
 
 - NEAR AI - Cross-chain agent settlements.
