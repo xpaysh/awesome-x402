@@ -1318,6 +1318,7 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 - [Warden](https://warden402.xyz) - Pre-execution security for agents on Base. Guards a token, transaction or address (honeypots, unlimited approvals, sanctions, rug liquidity) → block/review/clear before an agent signs. Free MCP: `npx -y warden402-mcp`. ([GitHub](https://github.com/sukrutkrdg/warden402.xyz))
 Security resources and best practices for x402 implementations.
 - [x402 Agent Safety Store](https://x402.dailyelo.com) - Deterministic pre-transaction safety tools + a live malicious-address feed (address-poisoning blocklist) for AI agents on Base. Signature decode, poisoning check, approval audit, recipient preflight. USDC via x402. [MCP](https://x402-safety-mcp.dgdb.workers.dev/mcp).
+- [Younanix](https://www.younanix.com) - Adversarial reviews of x402 paywalls, MCP servers and agent payment flows: tests live 402 challenges against published catalogs and checks payment verification, retries and spend limits. Free architecture check; paid agent calls use standard x402 on Base.
 
 ### Smart Contract Audits
 
