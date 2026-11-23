@@ -1257,6 +1257,7 @@ Projects building with or extending x402.
 - [x402 Triage MCP](https://github.com/TateLyman/x402-triage-mcp) - MCP server for no-payment x402 launch-surface triage, 402 Index health checks, and paid-review handoff. Tools: `triage_x402_surface`, `watch_402_index`, and `x402_paid_paths`. ([npm](https://www.npmjs.com/package/x402-triage-mcp)) ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.TateLyman%2Fx402-triage-mcp))
 - [AI Code Review API](https://x402-code-review.x402-cr.workers.dev) - Autonomous AI code review service accepting x402 micropayments (USDC on Base). Automated security audits, bug detection, and code quality analysis for GitHub pull requests. ([Docs](https://x402-code-review.x402-cr.workers.dev/.well-known/x402.json))
 - [BountyVerdict](https://github.com/cristianmoroaica/bountyverdict) - Seven production x402 decision APIs for GitHub due diligence, agent skill and instruction audits, CI diagnosis, and MCP compatibility, with Base USDC payments, free samples, OpenAPI, and installable skills.
+- [DevOps Doctor](https://devops-doctor.ameeras-official.workers.dev) - Pay-per-call x402 tools for AI coding agents: live npm/PyPI package reality and vulnerability check (catches hallucinated packages), Kubernetes/Docker Compose/GitHub Actions/Dockerfile config linting, and DevOps error diagnosis. USDC on Base, 3 free calls/day, no charge on failure.
 
 ## 📊 Ecosystem Market Data
 
