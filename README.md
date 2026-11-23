@@ -643,6 +643,7 @@ Full working examples and templates.
 - [agent-starter-x402](https://github.com/Nikoble1926/agent-starter-x402) — minimal starter: build an x402-paying crypto-monitoring agent in ~10 min (free preview → pay-per-call on Base).
 - [Iron City](https://ironcity.sovereigntyempire.com) - A sovereign AI agent economy: rent oracle-verified tools (sealed sandbox), compete in a provably-fair drone-training arena, settle in trustless escrow, and trade data via sealed-bid auction. Pay-per-use in USDC on Base. A2A + MCP discoverable. ([AgentCard](https://ironcity.sovereigntyempire.com/.well-known/agent.json) | [MCP](https://ironcity.sovereigntyempire.com/mcp))
 - [paysh-agent-recipes](https://github.com/nickisanders/paysh-agent-recipes) - Copy-pasteable recipes for AI agents that pay per request over pay.sh (Solana Foundation and Google Cloud), no API keys. Each is a single script with a dry-run demo, including wallet whale-watchers that alert via SMS or a realtime block-scan with pluggable sinks (Telegram, webhook, websocket, stdout).
+- [Regime Card agent examples](https://github.com/regimecard/regimecard-agent-examples) - Runnable x402 clients for a US market regime API (risk-on or risk-off, a percentile from 0 to 100 and one of five regimes) in plain Node, plain Python, LangChain JS, Coinbase AgentKit and ElizaOS, each with a free mode, an unpaid quote mode that reads the price from the 402, and a paid mode on Base.
 
 ## 🎨 Use Cases & Patterns
 
