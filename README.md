@@ -885,6 +885,7 @@ AI-powered research and translation services for the Asian market — no other x
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
 - [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
+- [AgentKoin](https://agentcoinhq.com) - Escrow and delivery-verification router for agent-to-agent x402 payments (experimental, live on Base mainnet in a capped beta, unaudited; Base Sepolia testnet also available): funds are held until a staked evaluator rules on delivery, then go to the seller or back to the buyer as a refund; signed receipts; MCP + A2A tools and MIT-licensed framework plugins. ([Source](https://github.com/agentkoin/agentkoin) · [llms.txt](https://agentcoinhq.com/llms.txt))
 
 
 ### Multi-Agent Orchestration
