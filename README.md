@@ -912,6 +912,7 @@ Development tools and utilities for x402.
 - [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - `curl` for x402 paid APIs. Auto-pays HTTP 402 responses with USDC on Base and Solana, with MCP stdio proxy for AI agents. `npx x402-proxy`. ([npm](https://www.npmjs.com/package/x402-proxy))
 - [x402trace](https://github.com/fardinvahdat/x402trace) - Local CLI debugger for x402 on Base. Detects timeout-reconciliation gaps (the [#1062](https://github.com/coinbase/x402/issues/1062) settled-but-server-thinks-not pattern), validates `.well-known/x402` + Bazaar listings (the [#2207](https://github.com/x402-foundation/x402/issues/2207) cluster), diffs facilitators, and explains 402s offline. Read-only, no key handling. Sepolia + Base mainnet. `npx x402trace`. ([npm](https://www.npmjs.com/package/x402trace))
 - [x402check](https://github.com/SapienLearn/x402check) - Pre-pay recon for x402 endpoints: reads the `/.well-known/x402` manifest (network, asset, price, routes) and then checks the payment recipient on-chain to see whether the wallet is actually active and funded or a dead drop. Read-only, no keys, public block explorers only, pure Python stdlib.
+- [x402-ed25519-verifier](https://github.com/worknowsite/x402-ed25519-verifier) - Zero-dependency Node.js CLI for probing x402 V2 `PAYMENT-REQUIRED` headers, asserting canonical Base Mainnet USDC (`eip155:8453`) and local max caps, and verifying Ed25519 receipts offline (plus a reference `viem` EIP-3009 client). ([Guide](https://coffeeforai.com/journal/x402-usdc-base-merchant-for-ai-agents))
 
 ### Monitoring & Analytics
 
@@ -943,6 +944,8 @@ Development tools and utilities for x402.
 ## 🧪 Testing & Development
 
 Tools and resources for testing x402 implementations
+
+- [Coffee for AI](https://coffeeforai.com) - Zero-KYC, address-free $1/$2/$3 digital coffee counter for live multi-rail AI wallet smoke testing on Base Mainnet (`eip155:8453`): gasless x402 V2 via PayAI (`extensions.bazaar`), sender-bound direct Base USDC, Stripe Checkout, $0 pre-flight dry runs (`/api/preview`, `/api/receipt/test-vector`), and offline-verifiable Ed25519 receipts. ([OpenAPI](https://coffeeforai.com/openapi.json)) ([Discovery](https://coffeeforai.com/.well-known/x402)) ([llms.txt](https://coffeeforai.com/llms.txt))
 
 ### Testnets
 
