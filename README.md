@@ -1070,6 +1070,7 @@ Connect with the x402 community.
 Projects building with or extending x402.
 - [HALIMA Islamic AI Marketplace](https://halima-api.com) - 376 Shariah-compliant endpoints. Halal crypto screening, prayer times, Zakat calculator and Shariah Oracle. Pay-per-call USDC on Base.
 
+- [BRAINIAC.software](https://www.brainiac.software) - Pay-per-call HTTP APIs for software agents, settled with the x402 exact scheme in USDC on Base, with no account or API key. OpenAPI, catalog, and MCP documentation are published at the origin. ([OpenAPI](https://www.brainiac.software/openapi.json)) ([How it works](https://www.brainiac.software/how-it-works)) ([MCP](https://www.brainiac.software/mcp/about))
 
 ### Infrastructure
 
