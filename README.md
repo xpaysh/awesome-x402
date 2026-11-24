@@ -1214,6 +1214,8 @@ Projects building with or extending x402.
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
 
+- [FMF Control-plane](https://controlplane-x402.fmf-x402.workers.dev/docs?ref=awesome-x402) - Who-controls-this-contract snapshots at a pinned finalized block (Ethereum/Base), plus a 30-day change watch to Discord/HTTPS webhooks. x402 on Base USDC ($0.01 snapshot, $0.25 watch) and MPP on Tempo. [OpenAPI](https://controlplane-x402.fmf-x402.workers.dev/openapi.json) · [x402 manifest](https://controlplane-x402.fmf-x402.workers.dev/.well-known/x402.json) · [MCP](https://controlplane-x402.fmf-x402.workers.dev/mcp).
+
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
 
