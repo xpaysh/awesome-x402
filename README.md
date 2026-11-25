@@ -1318,6 +1318,7 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 - [Warden](https://warden402.xyz) - Pre-execution security for agents on Base. Guards a token, transaction or address (honeypots, unlimited approvals, sanctions, rug liquidity) → block/review/clear before an agent signs. Free MCP: `npx -y warden402-mcp`. ([GitHub](https://github.com/sukrutkrdg/warden402.xyz))
 Security resources and best practices for x402 implementations.
 - [x402 Agent Safety Store](https://x402.dailyelo.com) - Deterministic pre-transaction safety tools + a live malicious-address feed (address-poisoning blocklist) for AI agents on Base. Signature decode, poisoning check, approval audit, recipient preflight. USDC via x402. [MCP](https://x402-safety-mcp.dgdb.workers.dev/mcp).
+- [EveBrief Risk Oracle (ERO)](https://evebrief.org) - Pre-trade risk check for EVM and Solana tokens and wallets, built for AI agents. Reports rug pulls proven on-chain with the buyers' loss, rug-factory networks and linked wallets, copycats of known tokens (incl. look-alike characters) and live contract red flags; verdict none/low/high/critical, critical only with on-chain proof. $0.004 per single check, $0.017 full package, paid via x402 on Base (USDC), Solana (USDC) or XRPL (RLUSD); free preview. ([Discovery](https://oracle.evebrief.org/.well-known/x402) | [MCP](https://oracle.evebrief.org/mcp) | [OpenAPI](https://oracle.evebrief.org/openapi.json) | [Agent Card](https://oracle.evebrief.org/.well-known/agent-card.json))
 
 ### Smart Contract Audits
 
