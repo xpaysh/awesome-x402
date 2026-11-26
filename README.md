@@ -414,7 +414,7 @@ Client libraries for making x402 payments.
 ### JavaScript/TypeScript
 
 **HTTP Clients**
-- [PayGate USDT Python SDK & FastAPI/MCP Paywall](https://github.com/EzeLich/paygate-usdt) - Open-source (MIT) Python SDK providing `@require_usdt_payment` (FastAPI HTTP 402 `x402 v2` route decorator), `@mcp_tool_paywall` (1-line non-custodial monetization for Python MCP tools), multi-chain hosted invoices, recurring subscriptions, and an 8-tool Streamable-HTTP MCP server.
+- [PayGate USDT Python SDK & FastAPI/MCP Paywall](https://github.com/EzequielLech/paygate-usdt) - Open-source (MIT) Python SDK providing `@require_usdt_payment` (FastAPI HTTP 402 `x402 v2` route decorator), `@mcp_tool_paywall` (1-line non-custodial monetization for Python MCP tools), multi-chain hosted invoices, recurring subscriptions, and an 8-tool Streamable-HTTP MCP server.
 - [assay-x402-guard](https://www.npmjs.com/package/assay-x402-guard) - Buyer-side spend guard: wrap your paying fetch with `wrapFetchWithAssay` and payments to services the Assay oracle rates "avoid" throw before any money moves. Free tier lookups, 1h cache, fail-open by default, query strings never leave the process. ([GitHub](https://github.com/JasonCZMeng/assay))
 - [cipher-x402-client](https://github.com/cryptomotifs/cipher-x402-client) - Lightweight TS/JS x402 v2 client. Zero runtime deps, native fetch, ESM + CJS dual build. 34 tests, 89% coverage. Node 18+ / browsers. Optional `ethers` peer dep for signing.
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
@@ -697,7 +697,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
-- [ChainGuard Web3 Security & DeFi x402 API + MCP](https://github.com/EzeLich/chainguard-mcp) - 18 production x402 v2 pay-per-call security & DeFi endpoints ($0.01–$0.05 USDC on Base, Arbitrum, Polygon, Solana) + 15-tool Grade-A MCP server for EIP-7702 hijack detection, Solana Token-2022 auditing, EVM tx firewall, and multi-chain dust consolidation. ([llms.txt](https://chainguard-studio-production.up.railway.app/llms.txt)) ([Discovery](https://chainguard-studio-production.up.railway.app/.well-known/x402.json))
+- [ChainGuard Web3 Security & DeFi x402 API + MCP](https://github.com/EzequielLech/chainguard-mcp) - 18 production x402 v2 pay-per-call security & DeFi endpoints ($0.01–$0.05 USDC on Base, Arbitrum, Polygon, Solana) + 15-tool Grade-A MCP server for EIP-7702 hijack detection, Solana Token-2022 auditing, EVM tx firewall, and multi-chain dust consolidation. ([llms.txt](https://chainguard-studio-production.up.railway.app/llms.txt)) ([Discovery](https://chainguard-studio-production.up.railway.app/.well-known/x402.json))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
