@@ -513,6 +513,7 @@ Payment verification and settlement services.
 - [Primer](https://x402.primer.systems) - Free x402 facilitator supporting Base and SKALE Base networks, with full ERC-20 support. v1 and v2 x402 both accepted. Batch settlement enabled. [Documentation](https://docs.primer.systems).
 - [Solvador](https://solvador.com) - Multi-network, multi-scheme x402 facilitator: 10 EVM chains (Base, Arbitrum, Optimism, Polygon, Avalanche, Celo, Linea, Unichain, World Chain, Monad) plus Solana and NEAR mainnet. Supports `exact`, `upto` (Permit2), and `batch-settlement` schemes. Settled-transaction dashboard with API keys. [Supported networks & schemes](https://api.solvador.com/supported) · [Blog](https://blog.solvador.com)
 - [NEAR x402 Facilitator](https://x402.mikedotexe.com/) - Open-source, API-key-gated facilitator for exact Circle USDC payments on NEAR and Base, with sponsored gas and durable settlement recovery.
+- [M2MCent](https://m2mcent.com) - Non-custodial x402 V2 facilitator (`https://api.m2mcent.com`) and 1,062-node MCP gateway on Base Mainnet (`eip155:8453`). Settles EIP-3009 USDC atomically via verified Smart Escrow V2 ([`0x5d47…4efa`](https://basescan.org/address/0x5d47070A36A37DAf417e64FF27a1e5B3F1c84efa)), exposing `/supported`, `/verify`, `/settle`, `/discovery/resources`, [OpenAPI 3.1](https://api.m2mcent.com/openapi.json), and [`x402.json`](https://api.m2mcent.com/.well-known/x402.json).
 
 ### Self-Hosted Facilitators
 
