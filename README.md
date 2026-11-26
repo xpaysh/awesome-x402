@@ -1055,6 +1055,8 @@ Connect with the x402 community.
 
 ## 🌟 Ecosystem Projects
 
+- [HTS Lookup API](https://hts.epi.me) - USITC HTS search plus paid exact rate, duty, and landed-cost endpoints for import software and AI agents. Free candidate search; $0.01 test USDC per paid call on Base Sepolia. ([OpenAPI](https://hts.epi.me/openapi.json) | [MCP](https://hts.epi.me/mcp) | [llms.txt](https://hts.epi.me/llms.txt))
+
 - [Registry & Sanctions Data](https://data.japanagent.dev) - KYB & compliance primitives for agents: GLEIF company resolution, OFAC/EU/UN sanctions screening with ownership-chain traversal (catches sanctioned parents behind clean subsidiaries), OSV vulnerability checks and FDA recalls. HTTP + paid MCP server, pay-per-call USDC on Base. No API keys.
 
 - [RobinX](https://robinx.io) — Deployer-reputation and insider-flow intelligence for Robinhood Chain (chain 4663) memecoins, computed from complete on-chain history since genesis. Paid x402 endpoints on Base USDC (no API key): `GET /verdict/{token}` ($0.02) composite buy-risk verdict, `GET /deployer/{address}` ($0.01) reputation rap sheet, `GET /feed/new` ($0.01) pollable scored launch feed. Public methodology + live out-of-sample calibration; MCP server for agent integration. ([Methodology](https://robinx.io/methodology)) | ([Discovery](https://api.robinx.io/.well-known/x402)) | ([MCP](https://www.npmjs.com/package/robinx-mcp))
