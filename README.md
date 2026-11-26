@@ -1249,6 +1249,8 @@ Projects building with or extending x402.
 - [YieldSignal](https://yieldsignal.vercel.app) - Real-time risk-weighted USDC lending APY across Aave, Compound, Morpho, Moonwell, Euler and Fluid on Base. Every reading tagged with its data source (onchain/api/defillama) — sources that fail are omitted, never estimated. $0.01 USDC per call via CDP Facilitator, Bazaar discoverable.
 - [Runbot Strategy Copilot](https://mcp.runbot.io/v1) — Build, backtest, optimize and export real crypto trading strategies from plain English on the Runbot engine (perp futures + Polymarket prediction markets), with real market data and verified backtest scores. Paid per call, x402 v2 dual-rail: USDT on X Layer (eip155:196) or USDC on Base (eip155:8453). $1.50 build · $0.25 backtest · $0.25/minute optimize · $0.35 export. Free machine-readable discovery at [/v1](https://mcp.runbot.io/v1); cataloged in PayAI's Bazaar; MCP endpoint at `/mcp`.
 
+- [TaxRail](https://taxrail.online) - Autonomous US (IRS 1099-DA, Form 8949, HIFO/SpecID, TLH, Aave v3 borrow-vs-sell) and Brazil (Lei 14.754, R$35k rule, Lucro Real 34%, IBS/CBS) crypto & corporate tax-optimization rail for AI agents. Free previews (`/api/v1/check-tax-impact`), 1-step $0.10 USDC (`/api/v1/x402/optimize`), and dynamic 10% verified-savings unlock (`/api/v1/unlock-plan`) on Base (`eip155:8453`), PayAI Bazaar discoverable, 20% developer affiliate revshare (`referrerWallet`). Discovery: [/.well-known/x402](https://api.taxrail.online/.well-known/x402) | [llms.txt](https://api.taxrail.online/llms.txt) | [MCP](https://api.taxrail.online/mcp) ([GitHub](https://github.com/SamuelAguiar12/taxrail) | [npm](https://www.npmjs.com/package/taxrail-mcp))
+
 ### Developer Tools
 
 - NEAR AI - Cross-chain agent settlements.
