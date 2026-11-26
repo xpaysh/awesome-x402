@@ -696,6 +696,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [AlphaPulse-402](https://github.com/meer9374-a11y/alphapulse-402) - Ultra-low-cost ($0.004-$0.005 USDC) Remote MCP & x402 quantitative alpha node on Base L2 for DEX wash-trade detection, smart-money inflow velocity, and LP impermanent loss protection ([Live Endpoint](https://alphapulse-402.vercel.app)).
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
