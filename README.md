@@ -1539,3 +1539,8 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+
+- [Solana Secure Paywall](https://solana-secure-paywall.vercel.app) - Pay-per-call Solana RPC, GPU compute rates, and sniper execution tools payable in Solana Mainnet USDC or SOL via x402 v2. ([Discovery](https://solana-secure-paywall.vercel.app/.well-known/x402.json))
+- [Solana SmartMoney Paywall](https://solana-smartmoney-paywall.vercel.app) - Real-time Solana alpha feeds for early buyers, wallet overlap, and smart-money tracking gated with x402 v2 Solana USDC/SOL micropayments. ([Discovery](https://solana-smartmoney-paywall.vercel.app/.well-known/x402.json))
+- [Solana MEV RPC Paywall](https://solana-mev-rpc-paywall.vercel.app) - Low-latency Solana RPC relay, Jito tip feeds, block preparation, and arbitrage telemetry payable per call in USDC or SOL via x402 v2. ([Discovery](https://solana-mev-rpc-paywall.vercel.app/.well-known/x402.json))
+- [Solana PumpFun Paywall](https://solana-pumpfun-paywall.vercel.app) - Bonding curve analytics, King of the Hill scans, quote pricing, and rug-check endpoints gated with x402 v2 Solana USDC/SOL payments. ([Discovery](https://solana-pumpfun-paywall.vercel.app/.well-known/x402.json))
