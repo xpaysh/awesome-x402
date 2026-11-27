@@ -1539,3 +1539,5 @@ A composable trio of x402-payable APIs designed to be chained by autonomous agen
 
 **Recommended autonomous pipeline:** `TrustBoost /sanitize` → `Intelica /intel` → `VeraData /sanctions|/entity`. All three share the same account-free, subscription-free, wallet-only x402 model on Base + Solana.
 - [Obolpay x402 Gateway](https://x402.obolpay.xyz/) - Pay-per-call premium data on Base (USDC). Free preview embedded in the 402 challenge (evaluate before paying) + self-served reference client at /client.py. Machine-readable discovery at /.well-known/x402.
+
+- [SolEdge Compute](https://soledge-compute.vercel.app) - Pay-per-call AI inference, multi-chain RPC (Solana, Ethereum, Base, Arbitrum, Polygon), web search, and real-time market feeds payable in Solana Mainnet USDC via x402 v2 ($0.002-$0.030 per call, gasless via PayAI facilitator, plus free health and Pyth/spot price feeds). ([OpenAPI](https://soledge-compute.vercel.app/openapi.json) | [Discovery](https://soledge-compute.vercel.app/.well-known/x402))
