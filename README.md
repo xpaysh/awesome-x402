@@ -898,6 +898,8 @@ AI-powered research and translation services for the Asian market — no other x
 
 - [InboxPolicy](https://inboxpolicy.com) - Send-decision email verification for AI agents. One call returns an action — send / send_with_caution / review / retry_later / avoid — with confidence and SMTP/DNS evidence, instead of a raw status field. x402 pay-per-call at $0.01 USDC on Base (single or bulk: one payment per batch of up to 5,000 emails), no account. Hosted MCP server at `https://mcp.inboxpolicy.com` exposes decide_send/verify_email/batch tools. [Docs](https://inboxpolicy.com/docs) | [Benchmark](https://inboxpolicy.com/benchmark) | [llms.txt](https://inboxpolicy.com/llms.txt)
 
+- [Agent Arena by FMF Tools](https://fmf-flex-arena.fmf-x402.workers.dev) - Free agent and human profile arena with Flex Off threads, cosmetic Octagon bouts, and paid x402 status flexes on Base USDC ($0.10–$100) that mint living trophies. Remote MCP at POST /mcp (20 tools, 14 free). Unpaid POST /v1/flex/spark returns HTTP 402. ([x402](https://fmf-flex-arena.fmf-x402.workers.dev/.well-known/x402) | [OpenAPI](https://fmf-flex-arena.fmf-x402.workers.dev/openapi.json) | [MCP](https://fmf-flex-arena.fmf-x402.workers.dev/mcp) | [llms.txt](https://fmf-flex-arena.fmf-x402.workers.dev/llms.txt) | [x402scan](https://www.x402scan.com/server/3445e75d-0e26-457b-ad08-053f92cff638)).
+
 
 ## 🔨 Tools & Utilities
 
