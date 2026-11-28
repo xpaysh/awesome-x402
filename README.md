@@ -1387,6 +1387,8 @@ Adjacent protocols and standards.
 - [Stellar](https://www.stellar.org) - Cross-border payments.
 - [Request Network](https://request.network/) - Payment request protocol.
 
+- [PACT](https://github.com/Balanov/pact) - Verifiable trail format for agent-initiated payments: quote, consent, commit and receipt chained by digests, verifiable offline without a shared service.
+
 ### Web Standards
 
 - [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) - Complete reference.
