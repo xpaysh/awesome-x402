@@ -696,6 +696,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+- [Guave](https://guave.trade) — Flat-fee DEX aggregator with an x402 premium quote endpoint (`GET https://guave.trade/api/x402/quote`, $0.001 USDC on Base, EIP-3009) plus a free streamable-HTTP MCP server (`https://guave.trade/mcp`) exposing `swap_quote` / `swap_build` / `list_chains` / `fee_tiers` / `list_stock_tokens` across Base, Ethereum, Arbitrum, Optimism and Polygon — including Coinbase B20 tokenized stock tokens (non-US only). No API keys; unsigned swap transactions returned for agent signing. ([Discovery](https://guave.trade/.well-known/x402)) ([GitHub](https://github.com/Guave-Trade/guave))
 - [σ-gate Coherence Scorer](https://sigmagate.ambitiousdesert-2c4075a0.northeurope.azurecontainerapps.io) — x402-payable endpoint that scores LLM output for coherence/hallucination. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC; non-custodial (pays straight to a Solana wallet).
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
