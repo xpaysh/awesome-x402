@@ -931,6 +931,8 @@ Development tools and utilities for x402.
 
 ### Security & Analysis
 
+- [x402-receipt](https://www.npmjs.com/package/x402-receipt) - Verify x402 payment artifacts: payment-required headers, EIP-3009 authorization fields, and settlement sanity checks before trusting a receipt. TypeScript, zero runtime deps, ESM + CJS. ([GitHub](https://github.com/Kopachelli/x402-receipt))
+
 - [Base Token Safety Scanner](https://base-token-scanner.onrender.com) - Free API that analyzes Base chain ERC-20 tokens for rug pull risks, honeypots, ownership issues, and security flags. Returns risk score with detailed flag breakdown. Built for AI agents and DeFi traders. ([GitHub](https://github.com/0xVarius/base-token-scanner)) ([Guide](https://base-token-scanner.onrender.com/guide))
 - [TokenGuard](https://eltociear-tokenguard.hf.space) - Heuristic ERC-20 rug/safety scanner over public RPC on 6 chains (Base, Ethereum, Arbitrum, Optimism, Polygon, BSC): infinite-mint, blacklist/freeze, pausable transfers, mutable sell-tax, upgradeable proxy, and non-renounced ownership. Also wallet intel, token price, ENS, gas, DeFi yields/TVL, and crypto news endpoints. $0.005-$0.01 USDC per call on Base.
 - [Tate Programs x402 Surface Checks](https://the402.tateprograms.com) - Paid public-surface readiness checks for x402, MPP, Pay.sh, A2A, and agent-skill launches. Four Base mainnet USDC endpoints for x402 launch triage, 402 Index watch, agent-skill trust checks, and A2A payment-surface triage. ([Discovery](https://the402.tateprograms.com/.well-known/x402)) ([Agent Card](https://the402.tateprograms.com/.well-known/agent.json)) ([OpenAPI](https://the402.tateprograms.com/openapi.json)) ([Docs](https://tateprograms.com/x402-surface-check.html))
