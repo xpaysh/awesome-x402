@@ -514,6 +514,7 @@ Payment verification and settlement services.
 - [Solvador](https://solvador.com) - Multi-network, multi-scheme x402 facilitator: 10 EVM chains (Base, Arbitrum, Optimism, Polygon, Avalanche, Celo, Linea, Unichain, World Chain, Monad) plus Solana and NEAR mainnet. Supports `exact`, `upto` (Permit2), and `batch-settlement` schemes. Settled-transaction dashboard with API keys. [Supported networks & schemes](https://api.solvador.com/supported) · [Blog](https://blog.solvador.com)
 - [NEAR x402 Facilitator](https://x402.mikedotexe.com/) - Open-source, API-key-gated facilitator for exact Circle USDC payments on NEAR and Base, with sponsored gas and durable settlement recovery.
 
+- [ReaperFacilitator](https://reaper-facilitator-production.up.railway.app) - x402 facilitator for Base USDC (exact, v1+v2). Verify free; seller-side settlement fee 0.01 USDC flat at $0.50+, 2% (min 0.001) below.
 ### Self-Hosted Facilitators
 
 - x402-rs Facilitator - Production-grade Rust facilitator.
@@ -1214,6 +1215,7 @@ Projects building with or extending x402.
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
 
+- [Reaper Claim Verify](https://x402-report-production.up.railway.app) - Pay-per-call claim-verification briefs for AI agents: on-chain + cited-source checks with measured-vs-asserted verdicts. 0.01–1.00 USDC/call on Base via x402, no API key.
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
 
