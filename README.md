@@ -133,6 +133,8 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+
+- [x402-Services](https://github.com/mnhmpnsw-ui/x402-services) - Two live pay-per-call agent APIs on Solana mainnet ($0.01/call, USDC, x402 exact scheme, CDP-validated): a skill/scene security inspector and a Steem-Hive market desk, plus $0.005–$0.05 skill micro-endpoints. Includes llms.txt, .well-known/x402.json discovery, and a first-paid-call recipe for the solana-foundation pay CLI and the CDP SDK. ([Discovery](https://three.ws/.well-known/x402) | [First call](https://github.com/mnhmpnsw-ui/x402-services/blob/main/FIRST-CALL.md))
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
 - [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
 
